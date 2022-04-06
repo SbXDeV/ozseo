@@ -13,3 +13,17 @@ class Work(models.Model):
 
     def __str__(self):
         return 'Работа: {}'.format(self.title)
+
+
+class ModelBackForm(models.Model):
+    form_text_5 = models.CharField(verbose_name='Имя клиента', max_length=300)
+    form_text_18 = models.CharField(verbose_name='Почта клиента', max_length=300)
+    form_text_6 = models.CharField(verbose_name='Телефон клиента', max_length=300)
+    form_text_7 = models.TextField(verbose_name='Сообщение от клиента')
+
+    class Meta:
+        verbose_name = 'Форму обратной связи'
+        verbose_name_plural = 'Форма обратной связи'
+
+    def __str__(self):
+        return 'Заказ от клиента: ' + self.form_text_5

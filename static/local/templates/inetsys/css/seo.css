@@ -1,0 +1,188 @@
+.seo-page .main-banner .text {
+    max-width: 260px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+}
+.seo-page .main-banner .heading-1 {
+    position: relative;
+    z-index: 1;
+}
+.seo-page .banner-float-support {
+    margin-left: -13px;
+    margin-top: -3px;
+}
+.seo-page .about-block .row .icoblock-single {
+    padding-left:0;
+}
+.seo-page .about-block .button-outline {
+    margin-top: 25px;
+    max-width: 410px;
+    text-align: center;
+    width: auto;
+}
+.seo-page .about-block .image-block-before img {
+    max-width: 773px;
+}
+.seo-page .about-block .icoblock-single-ico {
+    margin-top: 0;
+}
+.seo-page .banner-image {
+    background-image: url(../img/bitrix24-banner-full.png);
+    height: 306px;
+}
+.seo-page .image-block-before:before {
+    display: none;
+}
+.seo-page .about-block .text-col {
+    position: relative;
+    z-index: 1;
+}
+.seo-page .seo-block-text {
+    align-self: center;
+}
+.seo-page .about-block .image-block-before {
+    align-items: flex-start;
+}
+.seo-page .store-block .row img {
+    margin-bottom: 30px;
+}
+@media (min-width: 320px) {
+    .seo-page .store-block-seo .image-block-before {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 560px) {
+
+}
+@media (min-width: 768px) {
+    .seo-page .float-circles:before {
+        top:94%;
+    }
+    .float-circles {
+        width: 470px;
+        height: 250px;
+    }
+    .seo-page .image-block-before {
+        min-height: 400px;
+    }
+}
+@media (min-width: 1200px) {
+    .seo-page .float-circles:before {
+        top: 88%;
+    }
+    .float-circles {
+        width: 470px;
+        height: 360px;
+    }
+}
+.seo-page .store-block-seo {
+    overflow: visible;
+}
+.seo-page .store-block-seo .float-circles {
+    transform: rotateY(180deg);
+}
+
+@media (min-width: 768px) {
+    .seo-page .main-banner .heading-1 {
+        max-width: 500px;
+        margin-bottom: 12px;
+    }
+
+    .seo-page .main-banner .text {
+        font-size: 24px;
+        max-width: 340px;
+        line-height: 36px;
+        margin-bottom: 32px;
+    }
+
+    .seo-page .banner-float-support {
+        margin-left: -40px;
+    }
+
+    .seo-page .banner-image {
+        background-image: url(../img/bitrix24-banner-full-768.png);
+        height: 466px;
+    }
+
+
+    .seo-page *:not(.icoblock-single) + .icoblock-single {
+        padding-top: 35px;
+    }
+
+    .seo-page .icoblock-single + .icoblock-single {
+        padding-top: 15px;
+    }
+    .seo-page .about-block .heading-2+.text+.icoblock-single, .about-block .icoblock-single {
+        margin-top: 30px;
+        white-space: nowrap;
+    }
+    .seo-page .price-columns .list-check {
+        min-height: 281px;
+    }
+
+    .seo-page .price-columns.slick-slider {
+        padding-bottom: 35px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .seo-page .banner-float-support {
+        top: -85px;
+        right: -23%;
+    }
+
+    .seo-page .banner-image {
+        background-image: url(../img/bitrix24-banner-full-1024.png);
+        height: 531px;
+    }
+
+    .seo-page .main-banner ul.list-dotted {
+        max-width: 480px;
+        position: relative;
+        z-index: 1;
+        padding-top: 12px
+    }
+
+    .seo-page .icoblock-single+.icoblock-single+.icoblock-single {
+        padding-top: 0;
+        margin-top:0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .seo-page .main-banner .heading-1 {
+        margin-bottom: 37px;
+    }
+
+    .seo-page .main-banner .text {
+        margin-bottom: 50px;
+    }
+
+    .seo-page .main-banner .button-blue {
+        margin-top: 72px;
+    }
+
+    .seo-page .banner-image {
+        background-image: url(../img/bitrix24-banner-full-1920.png);
+        height: 881px;
+        background-position-x: 80%;
+    }
+
+    .seo-page .banner-float-support {
+        right: -21.6%;
+    }
+    .seo-page .icoblock-single+.icoblock-single+.icoblock-single {
+        padding-top: 0;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .seo-page .icoblock-single .heading-3 {
+        font-size: 20px;
+    }
+}

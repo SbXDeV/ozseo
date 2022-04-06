@@ -1,0 +1,321 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preload" as="image" href="{% static 'local/templates/inetsys/img/header-image-mb.png' %}">
+    <link rel="preload" as="image" href="{% static 'local/templates/inetsys/img/header-image.png' %}">
+
+    <link rel="preload" as="image" href="{% static 'local/templates/inetsys/img/logo.png' %}">
+    <link rel="preload" as="style" href="{% static 'local/templates/inetsys/fonts/fonts.css' %}" onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" href="{% static 'local/templates/inetsys/fonts/inetsys-ico.css' %}" onload="this.rel='stylesheet'">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Разработка уникальных сайтов на заказ, сопровождение и создание веб-систем любой сложности под ключ от web-студии «Интернет Системы» в Москве⭐ Качественные решения по доступным ценам" />
+    <link href="{% static 'bitrix/js/main/core/css/core.css' %}" type="text/css" rel="stylesheet" />
+
+    <link href="{% static '/local/templates/inetsys/components/bitrix/form/acceleration/bitrix/form.result.new/.default/style.css' %}" type="text/css"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/components/bitrix/news.list/main_contacts/style.css' %}" type="text/css"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/bootstrap-grid.min.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/slick.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/slick-theme.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/jquery.mCustomScrollbar.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/style.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/base.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/components/bitrix/menu/.default/style.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/components/bitrix/menu/footer_menu/style.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/components/bitrix/form/have-project/bitrix/form.result.new/.default/style.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/template_styles.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/about.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/contacts.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/review.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/create.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/store.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/complex.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/mobile.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/nice-select.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/support.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/support-bittrix.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/bitrix24.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/seo.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="{% static '/local/templates/inetsys/css/branding.css' %}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="{% static '/favicon.ico' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{% static '/ico/apple-touch-icon-57x57.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static '/ico/apple-touch-icon-114x114.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static '/ico/apple-touch-icon-72x72.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% static '/ico/apple-touch-icon-144x144.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{% static '/ico/apple-touch-icon-60x60.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{% static '/ico/apple-touch-icon-120x120.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{% static '/ico/apple-touch-icon-76x76.png' %}" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{% static '/ico/apple-touch-icon-152x152.png' %}" />
+    <link rel="icon" type="image/png" href="{% static '/ico/favicon-196x196.png' %}" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{% static '/ico/favicon-96x96.png' %}" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{% static '/ico/favicon-32x32.png' %}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{% static '/ico/favicon-16x16.png' %}" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{% static '/ico/favicon-128.png' %}" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="{% static '/ico/mstile-144x144.png' %}" />
+    <meta name="msapplication-square70x70logo" content="{% static '/ico/mstile-70x70.pn' %}g" />
+    <meta name="msapplication-square150x150logo" content="{% static '/ico/mstile-150x150.png' %}" />
+    <meta name="msapplication-wide310x150logo" content="{% static '/ico/mstile-310x150.png' %}" />
+    <meta name="msapplication-square310x310logo" content="{% static '/ico/mstile-310x310.png' %}" />
+
+
+
+    <title>
+        Создание и поддержка сайтов в Москве - Веб-студия «Интернет Системы»</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--section css-->
+    <!--section js-->
+    <!-- section favicon-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+<body class="{% block name-page %}{% endblock %}">
+<header class="header-color-js hc_js_1">
+    <div class="header-wrap wrap">
+        <a href="{% url 'Index:index' %}" class="header-logo-block"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logo.png' %}"></a>
+        <nav class="header-nav">
+            <span class="menu-title">Меню</span>
+            <span class="menu-title2">Меню</span>
+            <ul class="nav-menu">
+                <li class="menu-item menu_dropdown"><a href="#" class=" menu-item-link"><span>Компания</span></a>
+                    <ul class="submenu">
+                        <li class=""><a href="{% url 'Index:company-about' %}">О нас</a></li>
+                        <li class=""><a href="{% url 'Index:company-clients' %}">Клиенты</a></li>
+                        <li class=""><a href="{% url 'Index:company-work' %}">Вакансии</a></li>
+                        <li class=""><a href="{% url 'Index:company-review' %}">Отзывы</a></li>
+                    </ul></li>
+
+                <li class="menu-item menu_dropdown"><a href="{% url 'Index:index' %}" class=" menu-item-link"><span>Услуги</span></a>
+                    <ul class="submenu">
+                        <li class=""><a href="{% url 'Index:service-development' %}">Разработка сайтов</a></li>
+                        <li class=""><a href="{% url 'Index:service-shop' %}">Интернет магазины</a></li>
+                        <li class=""><a href="{% url 'Index:service-complex' %}">Сложные проекты</a></li>
+                        <li class=""><a href="{% url 'Index:service-mobile' %}">Мобильная разработка</a></li>
+                        <li class=""><a href="{% url 'Index:service-support' %}">Поддержка 24/7</a></li>
+                        <li class=""><a href="{% url 'Index:service-support-1c-bitrix24' %}">Поддержка на 1С-Bitrix</a></li>
+                        <li class=""><a href="{% url 'Index:service-bitrix24' %}">Интеграция с Bitrix24</a></li>
+                        <li class=""><a href="{% url 'Index:service-seo' %}">Продвижение сайтов</a></li>
+                        <li class=""><a href="{% url 'Index:service-branding' %}">Брендинг и айдентика</a></li>
+                    </ul></li>
+                <li class="menu-item"><a href="{% url 'Index:project' %}" class="">Проекты</a></li>
+                <li class="menu-item"><a href="{% url 'Index:contact' %}" class="">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-bottom">
+                <!--'start_frame_cache_city-switcher-mob'-->
+                <div id="city-switcher-mob" class="city-switcher">
+                            <span class="menu-item menu-item-tel menu_dropdown">
+                                  <span class="menu-item-link">Москва</span>
+                              <ul class="submenu">
+                                <li data-tel="(495) 724-90-65" data-tel_link="tel:+74957249065" data-city="moscow">Москва</li>
+                                <li data-tel="(4822) 34-55-73" data-tel_link="tel:+74822345573" data-city="tver">Тверь</li>
+                              </ul>
+                            </span>
+                    <a class="tel_number" href="tel:+74957249065">(495) 724-90-65</a>
+                </div>
+                <!--'end_frame_cache_city-switcher-mob'-->
+                <a class="menu-mail" href="mailto:info@inetsys.ru">info@inetsys.ru</a>
+                <a class="button-blue header-button header-colback-btn js-form-have-project" href="#">Задать вопрос</a>
+                <div class="mobile-social-links">
+                    <a href="#">In</a>
+                    <a href="#">Fb</a>
+                    <a href="#">Vk</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="header-nav-contact">
+            <!--'start_frame_cache_city-switcher'-->
+            <div id="city-switcher" class="city-switcher">
+                        <span class="menu-item menu-item-tel menu_dropdown">
+                                  <span class="menu-item-link">Москва</span>
+                              <ul class="submenu">
+                                <li data-tel="(495) 724-90-65" data-tel_link="tel:+74957249065" data-city="moscow">Москва</li>
+                                <li data-tel="(4822) 34-55-73" data-tel_link="tel:+74822345573" data-city="tver">Тверь</li>
+                              </ul>
+                            </span>
+                <a class="tel_number" href="tel:+74957249065">(495) 724-90-65</a>
+            </div>
+            <!--'end_frame_cache_city-switcher'-->
+            <a class="button-blue header-button js-form-have-project" href="#">Задать вопрос</a>
+            <div class="mobile-menu">
+                <span>Меню</span>
+                <div class="mobile-menu-hamburger">
+                    <div class="h-top"></div>
+                    <div class="h-middle"></div>
+                    <div class="h-bottom"></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+{% block content %}
+
+{% endblock %}
+<footer class="footer-main">
+    <div class="wrap">
+        <div class="row">
+            <div class="col">
+                <div class="footer-logo-block">
+                    <img alt="" width="" height="" src="{% static '/local/templates/inetsys/img/logo-footer_white.svg' %}">
+                    <p class="footer-logo-text">Разработка и поддержка сайтов</p>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-menu-main">
+                        <li><a href="{% url 'Index:company-about' %}"><span>Компания</span></a></li>
+                        <li><a href="{% url 'Index:project' %}"><span>Проекты</span></a></li>
+                        <li><a href="{% url 'Index:contact' %}"><span>Контакты</span></a></li>
+                        <li><a href="#"><span>Статьи</span></a></li>
+                    </ul><ul class="footer-menu-service">
+                    <li><a href="{% url 'Index:service-development' %}">
+                        <span>Разработка сайтов</span></a></li>
+                    <li><a href="{% url 'Index:service-shop' %}"><span>Интернет магазины</span></a></li>
+                    <li><a href="{% url 'Index:service-complex' %}"><span>Сложные проекты</span></a></li>
+                    <li><a href="{% url 'Index:service-mobile' %}"><span>Мобильная разработка</span></a></li>
+                    <li><a href="{% url 'Index:service-support' %}"><span>Поддержка 24/7</span></a></li>
+                    <li><a href="{% url 'Index:service-support-1c-bitrix24' %}"><span>Поддержка на 1С-Bitrix</span></a></li>
+                    <li><a href="{% url 'Index:service-bitrix24' %}/"><span>Интеграция с Bitrix24</span></a></li>
+                    <li><a href="{% url 'Index:service-seo' %}"><span>Продвижение сайтов</span></a></li>
+                    <li><a href="{% url 'Index:service-branding' %}"><span>Брендинг и айдентика</span></a></li>
+                </ul>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contact-moscow"><span>Москва:</span>
+                        <a href="tel:(495) 724-90-65">(495) 724-90-65</a>
+                    </div>
+                    <div class="footer-contact-tver"><span>Тверь:</span>
+                        <a href="tel:(4822) 34-55-73">(4822) 34-55-73 </a>
+                    </div>
+                    <div class="footer-contact-email"><a href="mailto:info@inetsys.ru">info@inetsys.ru</a></div>
+                    <div class="footer-contact-social"><span>Соцсети:</span>
+                        <a href="https://vk.com/inetsys" target="_blank">Vk</a><a href="https://www.behance.net/inetsys" target="_blank">Be</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-second">
+        <div class="wrap">
+            <div class="row">
+                <div class="col">
+                    <p class="footer-copyright">© 1999 – 2022</p>
+                    <p class="footer-label-name"><a href="/">Интернет Cистемы</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="nav-bg"></div>
+<form id= "form" class="form form-have-project contact-form" name="SIMPLE_FORM_2" action="/form-get/" method="POST" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <input type="hidden" name="g_recaptcha_response" value="">
+    <input type="hidden" name="form_hidden_21" id="form_hidden_21" value="https://www.inetsys.ru/">
+    <input type="hidden" name="WEB_FORM_ID" value="2" >
+    <input type="hidden" name="sessid" id="sessid_3" value="d7b6a3d32c2e1ae2303a22f7c328ad9c" />
+    <i class="form-close "> × </i>
+
+
+    <div class="form-have-project_inner">
+        <img alt="" width="" height="" class="form-img" id="form-have-project-img" src="{% static '/local/templates/inetsys/img/have-project.png' %}">
+        <p class="form-title">Есть проект? <br>
+            Напишите нам</p>
+
+        <!--	--><!--    <div class="input-wrap">-->
+        <!--				--><!----><!----><!----><!--				--><!--			--><!--        --><!--            <span class="input-alert" title="--><!--"></span>-->
+        <!--        --><!--    </div>-->
+        <!--	-->        <div class="input-wrap">
+        <input type="text" name="form_text_2" id="form_text_2" class="input-text "  placeholder="Ваше имя ">
+        <label for="form_text_2">Ваше имя <span class="red-star">*</span></label>
+        <span class="input-alert">Укажите ваше имя</span>
+    </div>
+        <div class="input-wrap">
+            <input type="text" name="form_text_3" id="form_text_3" class="input-text phone-validate " placeholder="Телефон">
+            <label for="form_text_3">Телефон <span class="red-star">*</span></label>
+            <span class="input-alert">Укажите телефон</span>
+        </div>
+        <div class="input-wrap">
+            <input type="text" name="form_text_17" id="form_text_17" class="input-text" placeholder="Email">
+            <label for="form_text_17">Email</label>
+            <span class="input-alert">Укажите ваш Email</span>
+        </div>
+        <div class="input-wrap">
+            <input type="text" name="form_text_4" id="form_text_4" class="input-text " placeholder="Сообщение">
+            <label for="form_text_4">Сообщение <span class="red-star">*</span></label>
+            <span class="input-alert">Напишите сообщение</span>
+        </div>
+        <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch0" id="ch0">
+            <label for="ch0"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+            <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+        </p>
+
+        <div class="input-wrap">
+            <button  type="submit" name="web_form_submit" value="Отправить" class="simple-btn form-have-project-submit"/>Отправить</button>
+
+            <!--    <input   type="submit" name="web_form_submit" value="--><!--" />-->
+            &nbsp;
+        </div>
+        <p>
+            <font color='red'><span class='form-required starrequired'>*</span></font> - обязательные поля</p>
+
+    </div>
+</form>
+<form class="form form-saccess">
+    <i class="form-close "> × </i>
+    <img alt="" width="" height="" class="form-img" src="{% static '/local/templates/inetsys/img/form-saccess.png' %}">
+    <p class="form-title">Ваше сообщение<br> успешно отправлено! <br></p>
+    <p class="form-text">Наш менеджер в ближайшее время свяжется с вами </br>
+        по указанному номеру телефона для уточнения проекта.</p>
+    <button type="submit" class="simple-btn js-form-close">Хорошо</button>
+
+</form>
+<form class="form form-error">
+    <i class="form-close "> × </i>
+    <img alt="" width="" height="" class="form-img" src="{% static '/local/templates/inetsys/img/form-error.png' %}" alt="">
+    <p class="form-title">Что то пошло не так :( <br></p>
+    <p class="form-text">
+        Ваше сообщение не было отправлено, попробуйте </br>
+        отправить его еще раз позже. </br></br>
+        Вы можете связаться с нами по телефону
+        <a href="tel:+74822345573" class="form-tel">(4822) 34-55-73</a>
+        </br>
+        или написать письмо по адресу
+        <a href="mail:+74822345573" class="form-mail">sales@inetsys.ru</a>
+    </p>
+    <button type="submit" class="simple-btn js-form-close">Хорошо</button>
+
+</form>
+<div class="form-bg"></div>
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.js?1631183094549323"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1649192741','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'d7b6a3d32c2e1ae2303a22f7c328ad9c'});</script><script type="text/javascript" src="/bitrix/js/main/core/core_fx.js?163118309416888"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/jquery-3.3.1.min.js' %}?163118306086927"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/slick.js' %}?163118306091966"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/scripts.js' %}?163119444022364"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/jquery.mCustomScrollbar.js' %}?163118306095406"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/phone-validate.js' %}?16311830607096"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/main.js' %}?164059630314954"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/jquery.nice-select.js' %}?16311830605825"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/jquery.validate.js' %}?163118306048710"></script>
+<script type="text/javascript" src="{% static 'local/templates/inetsys/js/jquery.lazyload.min.js?' %}16311830603382"></script>
+<script type="text/javascript" src="{% static '/local/templates/inetsys/js/contacts.js' %}?16322361533469"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "5f41093d1bc2dc66623b47463d945c46"]); _ba.push(["host", "www.inetsys.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(14563039, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ecommerce:"dataLayer" }); </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19962603-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-19962603-3');
+</script>
+<!--Требуется замена апи ключа карт яндекса-->
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=6831b68e-3aae-4e45-bb59-08548ddcc80b" type="text/javascript"></script>
+</body>
+
+</html>

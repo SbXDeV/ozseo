@@ -1,0 +1,246 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}project-page{% endblock %}
+{% block content %}
+
+
+<section class="heading">
+    <div class="wrap">
+        <ul class="breadcrumbs" itemprop="https://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                    <span itemprop="name">Главная</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name">Проекты</span>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ul>
+        <h1 class="heading-1 transform-y-55 anim_jump-title-in an_dl_02">Проекты</h1>
+    </div>
+</section>
+
+
+<section class="animate-block-first project-block project-block-left-img project-block-vbrr-site panel_js"
+         data-color="color-vbrr-site" id="bx_3218110189_2">
+    <div class="wrap">
+        <div class="row">
+            <a href="/projects/vbrr/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/a85/a85b7e876037fc071ec9419a3fe723c6.png' %}">
+            </a>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/vbrr/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">ВБРР</a>
+                <p class="sub-heading w-100">Сайт федерального банка</p>
+                <p class="text text-lh-30 w-100">Всероссийский банк развития регионов &#40;ВБРР&#41; входит в ТОП 15 крупнейших российских банков России, владеет суммой активов свыше 869 млн. рублей. Открыто более 140 офисов обслуживания по всей России. Клиентам предлагаются новейшие банковские продукты на основе передовых инновационных технологий.</p>
+                <a href="/projects/vbrr/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-right-img project-block-kalibr-site panel_js"
+         data-color="color-kalibr-site" id="bx_3218110189_3">
+    <div class="wrap">
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/kalibr/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">Калибр</a>
+                <p class="sub-heading w-100">Корпоративный сайт</p>
+                <p class="text text-lh-30 w-100">Многофункциональный деловой центр «Калибр» - это пространство для бизнеса и инновационного развития. На одной территории расположены бизнес-центр, технопарк и коворкинг, где создана максимально комфортная средства для высокотехнологичных компаний. </p>
+                <a href="/projects/kalibr/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+            <a href="/projects/kalibr/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/2eb/2ebc67688d8d3a14d511136d37fcfae3.png' %}">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-left-img project-block-met panel_js"
+         data-color="color-met" id="bx_3218110189_4">
+    <div class="wrap">
+        <div class="row">
+            <a href="/projects/met/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/d50/d50ad393120cf97f56c59c0665688783.png' %}">
+            </a>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/met/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">МЕТ</a>
+                <p class="sub-heading w-100">Сайт-каталог</p>
+                <p class="text text-lh-30 w-100">Компания «МЕТ» занимается разработкой и производством медицинских кроватей, шкафов и лабораторной мебели с 2009 года. Через ее интернет-магазин можно заказать уникальные товары для людей с ограниченной мобильностью или особыми потребностями в уходе.</p>
+                <a href="/projects/met/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-right-img project-block-moskonditer panel_js"
+         data-color="color-moskonditer" id="bx_3218110189_1">
+    <div class="wrap">
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/moskonditer/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">Москондитер</a>
+                <p class="sub-heading w-100">Корпоративный сайт</p>
+                <p class="text text-lh-30 w-100">Компания «Москондитер» предлагает сладкие новогодние подарки, составленные из кондитерской продукции популярных фабрик: «РотФронт», «Красный Октябрь», «Бабаевский», «Славянка», «Яшкино». Развитая сеть логистики позволяет доставлять сладкие наборы по всей стране. </p>
+                <a href="/projects/moskonditer/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+            <a href="/projects/moskonditer/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/769/76933cb348740f1babde5f697a605d0c.png' %}">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-left-img project-block-stena panel_js"
+         data-color="color-stena" id="bx_3218110189_6">
+    <div class="wrap">
+        <div class="row">
+            <a href="/projects/stena/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/899/899349f6518c3e25ef4f08b1fd722357.png' %}">
+            </a>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/stena/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">Stena</a>
+                <p class="sub-heading w-100">Сайт-каталог</p>
+                <p class="text text-lh-30 w-100">Компания Stena является поставщиком профессиональных декоративных покрытий, в каталоге которой представлено более 1000 наименований штукатурок и красок. Клиентам предлагаются уникальные инструменты – визуализатор текстур, сметный калькулятор расхода, дилерский кабинет. </p>
+                <a href="/projects/stena/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-right-img project-block-vkrai panel_js"
+         data-color="color-vkrai" id="bx_3218110189_75">
+    <div class="wrap">
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/vkrai/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">ВКРАЙ</a>
+                <p class="sub-heading w-100">Интернет-магазин</p>
+                <p class="text text-lh-30 w-100">Агромаркет «ВКрай.ру» предлагает большой выбор садового инвентаря и рыболовных снастей. Продажа товаров ведется онлайн с возможностью бесплатной доставки в большинство регионов России. Поставки продукции организуются прямо с заводов и фирм-производителей. </p>
+                <a href="/projects/vkrai/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+            <a href="/projects/vkrai/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/7a8/7a86092d0feb25c051d955267e75291c.png' %}">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-left-img project-block-ruspetrol panel_js"
+         data-color="color-ruspetrol" id="bx_3218110189_76">
+    <div class="wrap">
+        <div class="row">
+            <a href="/projects/ruspetrol/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/64c/64c3b0c608be593f40ce1126d312dfad.png' %}">
+            </a>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/ruspetrol/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">Руспетрол</a>
+                <p class="sub-heading w-100">Корпоративный сайт</p>
+                <p class="text text-lh-30 w-100">Компания «РусПетрол» является официальным дистрибьютером топливных карт «Роснефть» в России и занимается продажей и доставкой светлых нефтепродуктов по выгодным оптовым ценам. Контролировать целевое использование горючего можно с помощью мониторинга топлива. </p>
+                <a href="/projects/ruspetrol/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-right-img project-block-prigorod panel_js"
+         data-color="color-prigorod" id="bx_3218110189_5">
+    <div class="wrap">
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/prigorod/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">Пригород</a>
+                <p class="sub-heading w-100">Интернет-магазин</p>
+                <p class="text text-lh-30 w-100">Магазин строительных материалов «Пригород» специализируется на продаже строительных и отделочных материалов. Калькулятор на сайте позволяет рассчитать стоимость доставки в конкретный населенный пункт. Постоянным клиентам предлагается программа лояльности. </p>
+                <a href="/projects/prigorod/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+            <a href="/projects/prigorod/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/234/2346a5c3cfcc8a5ae074fcf7e1b626a9.png' %}">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="animate-block project-block project-block-left-img project-block-showbeep panel_js"
+         data-color="color-showbeep" id="bx_3218110189_77">
+    <div class="wrap">
+        <div class="row">
+            <a href="/projects/show-beep/" class="col-12 col-md-5 col-lg-6 project-block-img">
+                <div class="project-block-img-background"></div>
+                <img alt="" width="" height=""  src="{% static '/upload/iblock/d69/d69ea0e4f2a7bfdfcbadd60dea2e0b5d.png' %}">
+            </a>
+            <div class="col-12 col-md-7 col-lg-6 col-xl-5 project-block-text">
+                <a href="/projects/show-beep/" class="w-100 heading-2 heading-underline section-title-js js-hover-background">Show Beep</a>
+                <p class="sub-heading w-100">Корпоративный сайт</p>
+                <p class="text text-lh-30 w-100">Сервис развлечений Show Beep помогает оптимизировать бизнес-процессы event-агентств, позволяя компаниям управлять своими мероприятиями и продажами билетов. Через современный инструмент легко найти билет в кино, театр или на концерт, оплатить и получить его онлайн. </p>
+                <a href="/projects/show-beep/" class="arrow-button">
+                    Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="animate-block footer-form">
+    <div class="wrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img">
+                <img alt="" width="" height="" src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+            </div>
+            <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Есть проект?<br>Напишите нам</h3>
+
+
+
+                <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/projects/">
+                    <input type="hidden" name="g_recaptcha_response" value="">
+                    <input type="hidden" name="WEB_FORM_ID" value="3">
+                    <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                    <div class="input-wrap">
+                        <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                        <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите ваше имя</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                        <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите телефон</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                        <label for="form_text_18">Email</label>
+                        <span class="input-alert">Укажите Email</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                        <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                        <span class="input-alert">Напишите сообщение</span>
+                    </div>
+                    <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                        <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                        <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                    </p>
+                    <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                </form>            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

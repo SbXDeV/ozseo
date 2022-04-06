@@ -1,0 +1,522 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}about-page{% endblock %}
+
+{% block content %}
+    <section class="animate-block-first main-banner header-color-js hc_js_2">
+        <div class="widewrap">
+            <ul class="breadcrumbs" itemprop="http://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="{% url 'Index:company-about' %}" title="Компания" itemprop="item">
+                        <span itemprop="name">Компания</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">О нас</span>
+                    <meta itemprop="position" content="3" />
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="heading-1 tn_dl_02">О нас</h1>
+                    <p class="text text-fs-18 tn_dl_06">Компания «Интернет Системы» входит в ТОП-100 ведущих веб-студий в Москве по версии портала «CMS Magazine».</p>
+                    <div class="banner-float-about">
+                        <span class="banner-image"></span>
+                    </div>
+                    <div class="button-case tn_dl_08 tn_dr_05"><a href="#" class="button-blue js-form-have-project">Связаться с нами</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block header-color-js about-block-name">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12 col-lg-6 image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/inetsys-boxes.png' %}">
+                    <div class="float-circles"></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="heading-2 heading-underline section-title-js">Интернет системы</h2>
+                    <p class="text text-lh-30 tn_dl_02">Веб-студия «Интернет Системы» работает на рынке веб-разработки с
+                        1999 года. За это время специалистами компании было реализовано более 250 проектов различной
+                        сложности. Мы создаем сайты, начиная от типовых и заканчивая индивидуальными
+                        высокотехнологичными интернет-проектами (порталы, интранет-системы, веб-приложения).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block about-block-story">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-2 heading-underline section-title-js">История компании
+                    </h2>
+                    <div class="timeline row">
+                        <div class="col-12 col-xl-2">
+                            <div class="timeline-picker transform-y-55 tn_dl_04 tn_dr_05">
+                                <span class="timeline-picker-button active" data-timeline_block_btn="y1999">1999<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2000">2000<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2002">2002<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2005">2005<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2008">2008<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2009">2009<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2010">2010<span class="arrow"></span></span>
+                                <span class="timeline-picker-button" data-timeline_block_btn="y2021">2021<span class="arrow"></span></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-xl-4">
+                            <div class="timeline-content timeline-content-mobile-slider transform-y-55 tn_dl_06 tn_dr_05">
+                                <div class="timeline-block-content active" data-timeline_block="y1999">
+                                    <span class="heading-5">1999 год</span>
+                                    <p>Создание веб-студии. Увлечение дизайном и программированием переросло в
+                                        создание
+                                        веб-сайтов.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">2 сотрудника</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">3 выполненных проекта</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content" data-timeline_block="y2000">
+                                    <span class="heading-5">2000 год</span>
+                                    <p>Начинаем наращивать обороты, создан первый региональный информационный портал
+                                        по Твери.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">3 сотрудника</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">5 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content" data-timeline_block="y2002">
+                                    <span class="heading-5">2002 год</span>
+                                    <p>Постепенно растем как в количественном выражении так и в качественном.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">5 сотрудников</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">17 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content" data-timeline_block="y2005">
+                                    <span class="heading-5">2005 год</span>
+                                    <p>Начали оказывать услуги по поисковому продвижению сайтов.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">7 сотрудников</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">26 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content" data-timeline_block="y2008">
+                                    <span class="heading-5">2008 год</span>
+                                    <p>Увеличился спрос на создание сайтов — увеличиваем штат сотрудников.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">11 сотрудников</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">75 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content" data-timeline_block="y2009">
+                                    <span class="heading-5">2009 год</span>
+                                    <p>Мы начали оказывать профессиональную поддержку и развитие проектов.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">14 сотрудников</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">110 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content" data-timeline_block="y2010">
+                                    <span class="heading-5">2010 год</span>
+                                    <p>Созданные нами сайты стабильно работают и приносят владельцам постоянную
+                                        прибыль.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">17 сотрудников</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">190 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-block-content timeline-block-content-last"
+                                     data-timeline_block="y2021">
+                                    <span class="heading-5">2021 год</span>
+                                    <p>Взят курс на разработку крупных высокотехнологичных интернет-проектов.</p>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-user"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">20 сотрудников</p>
+                                        </div>
+                                    </div>
+                                    <div class="icoblock-single">
+                                        <div class="icoblock-single-ico">
+                                            <span class="ico-portfolio"></span>
+                                        </div>
+                                        <div class="icoblock-single-text">
+                                            <p class="heading-3">255 выполненных проектов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 image-block-before">
+                            <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/aboutus.png' %}">
+                            <div class="float-circles"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="animate-block about-block-service">
+        <div class="wrap">
+            <div class="row block-image-right">
+                <div class="col-12">
+                    <h2 class="heading-2 heading-underline section-title-js">Основные направления нашей деятельности:
+                    </h2>
+                    <p class="text text-lh-30 tn_dl_02">Предлагаем полный спектр услуг, связанных с созданием и продвижением сайтов. Реализуем проекты любой сложности, решая самые нестандартные задачи.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 about-block-service-develop transform-y-55 tn_dl_04 tn_dr_05">
+                    <div class="about-block-img-block"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/monitor-graph.png' %}"></div>
+                    <div class="about-block-content-block">
+
+                        <a href="/development/" class="heading-4">Разработка сайтов</a>
+
+                        <p class="text">Корпоративные сайты, интернет-магазины,<br> интернет-каталоги, сайты-визитки,
+                            информационные порталы</p>
+                        <a class="arrow-button" href="/development/">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 about-block-service-marketing transform-y-55 tn_dl_06 tn_dr_05">
+                    <div class="about-block-img-block"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/desk-chart.png' %}"></div>
+                    <div class="about-block-content-block">
+
+                        <a href="/seo/" class="heading-4">Маркетинг и&nbsp;продвижение</a>
+
+                        <p class="text">Проведение рекламных кампаний, привлечение целевой аудитории, анализ
+                            конкурентных ресурсов.</p>
+                        <a class="arrow-button" href="/seo/">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 about-block-service-web transform-y-55 tn_dl_08 tn_dr_05">
+                    <div class="about-block-img-block"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/tab-mobile.png' %}"></div>
+                    <div class="about-block-content-block">
+                        <a href="/complex/" class="heading-4">Программирование <nobr>веб-систем</nobr></a>
+                        <p class="text">CRM, ERP, торговые площадки, создание индивидуальных модулей для различных CMS.
+                        </p>
+                        <a class="arrow-button" href="/complex/">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 about-block-service-support transform-y-55 tn_dl_10 tn_dr_05">
+                    <div class="about-block-img-block"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/monitor-support.png' %}"></div>
+                    <div class="about-block-content-block">
+
+                        <a href="/support/" class="heading-4">Поддержка сайтов</a>
+
+                        <p class="text">Комплексное сопровождение проектов (техническое, информационное, дизайнерское,
+                            круглосуточное обслуживание).</p>
+                        <a class="arrow-button" href="/support/">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block about-block-clients background-purple">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-2 heading-underline section-title-js">Более 200 довольных клиентов</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">За 20 лет мы реализовали более 500 проектов разной
+                        степени сложности</p>
+                </div>
+                <div class="col-12 col-xl-3 about-block-clients-icoblock">
+                    <div class="icoblock-single tn_dl_04">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-portfolio"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">500+</p>
+                            <p class="text">реализованных проектов</p>
+                        </div>
+                    </div>
+                    <div class="icoblock-single tn_dl_06">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-smile"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">350+</p>
+                            <p class="text">довольных клиентов</p>
+                        </div>
+                    </div>
+                    <div class="icoblock-single tn_dl_08">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-gramophone"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">100+</p>
+                            <p class="text">проектов на поддержке и развитии</p>
+                        </div>
+                    </div>
+                    <div class="icoblock-single tn_dl_10">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-rock"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">10 000</p>
+                            <p class="text">часов разработки</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/office2.png' %}">
+                </div>
+                <div class="col-12 col-xl-3 about-block-clients-icoblock">
+                    <div class="icoblock-single tn_dl_04">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-user"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">20</p>
+                            <p class="text">сотрудников в штате</p>
+                        </div>
+                    </div>
+                    <div class="icoblock-single tn_dl_06">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-coffe"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">20 000</p>
+                            <p class="text">чашек кофе выпито</p>
+                        </div>
+                    </div>
+                    <div class="icoblock-single tn_dl_08">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-energy"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">12 000+</p>
+                            <p class="text">кВатт электроэнергии израсходовано</p>
+                        </div>
+                    </div>
+                    <div class="icoblock-single tn_dl_10">
+                        <div class="icoblock-single-ico">
+                            <span class="ico-star"></span>
+                        </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">28 лет</p>
+                            <p class="text">средний возраст сотрудников</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block about-block-top">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12 col-lg-6 image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/top-100.png' %}">
+                    <div class="float-circles"></div>
+                </div>
+                <div class="col-12 col-lg-6 subpadding">
+                    <h2 class="heading-2 heading-underline section-title-js">Мы в&nbsp;<nobr>ТОП-100</nobr> <nobr>веб-студий&nbsp;</nobr>России</h2>
+                    <p class="text text-lh-30 tn_dl_02">Компания «Интернет Системы» входит в ТОП-100 ведущих веб-студий русскоязычной части Интернета по версии аналитического портала рынка веб-разработок и интернет-маркетинга «CMS Magazine». Рейтинг отражает картину популярности созданных сайтов и общий опыт работы компании-разработчика на рынке.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block our-projects-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <h2 class="heading-2 heading-underline section-title-js">Наши клиенты</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">
+                        Мы работаем с крупнейшими российскими и международными компаниями: страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и другими.</p>
+                </div>
+                <div class="col-12 col-lg-7 row our-projects-slider transform-y-55 tn_dl_05 tn_dr_05">
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-vbrr">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr.svg' %}">
+                            </div>
+                            <div class="our-project-logo-moskonditer">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}">
+                            </div>
+                            <div class="our-project-logo-gchpinfo">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/gchpinfo.svg' %}">
+                            </div>
+                            <div class="our-project-logo-vseinstrumenti">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vseinstrumenti.svg' %}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-ruspetrol">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/ruspetrol.svg' %}">
+                            </div>
+                            <div class="our-project-logo-osram">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/osram.svg' %}">
+                            </div>
+                            <div class="our-project-logo-kalibr">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/kalibr.svg' %}">
+                            </div>
+                            <div class="our-project-logo-peresvet">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/peresvet.svg' %}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-clavel">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/clavel.svg' %}">
+                            </div>
+                            <div class="our-project-logo-met">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}">
+                            </div>
+                            <div class="our-project-logo-mirdetstva">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdetstva.svg' %}">
+                            </div>
+                            <div class="our-project-logo-mirdereva">
+                                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdereva.svg' %}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 button-case tn_dl_04 tn_dr_05">
+                    <a class="button-blue button-small js-form-have-project" href="">Стать клиентом</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block footer-form">
+        <div class="wrap">
+            <div class="row align-items-start">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img"><img alt="" width="" height="" src="{% static 'local/templates/inetsys/img/footer-form-mail.png' %}">
+                </div>
+                <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                    <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Напишите нам</h3>
+
+
+
+                    <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/company/about/">
+                        <input type="hidden" name="g_recaptcha_response" value="">
+                        <input type="hidden" name="WEB_FORM_ID" value="3">
+                        <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                        <div class="input-wrap">
+                            <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                            <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите ваше имя</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                            <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите телефон</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                            <label for="form_text_18">Email</label>
+                            <span class="input-alert">Укажите Email</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                            <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                            <span class="input-alert">Напишите сообщение</span>
+                        </div>
+                        <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                            <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                            <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                        </p>
+                        <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,772 @@
+/*------ store-page start ------*/
+
+.store-page .banner-image {
+    background-image: url(../img/store-banner-full.png);
+    height: 274px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.store-page .banner-float-store {
+    margin-left: -17px;
+}
+
+.store-block-stages .block-image-right .image-block-before {
+    margin-top: 73px;
+    margin-bottom: 30px;
+}
+
+.store-block-stages .subblock:nth-child(2) .block-image-right img {
+    margin-top: -23px;
+    width: 240px;
+}
+
+.store-block-stages .subblock:nth-child(2) .block-image-right .float-circles:before {
+    top: calc(100% - 30px);
+    left: calc(34% - 30px);
+    height: 50px;
+    width: 50px;
+}
+
+.store-block-stages .subblock:nth-child(2) .block-image-right .float-circles:after {
+    top: calc(7% - 20px);
+    left: calc(74% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.store-block-stages .subblock:nth-child(4) .block-image-right img {
+    width: 233px;
+}
+
+.store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before .float-circles:after {
+    top: calc(98% - 20px);
+    left: calc(35% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before .float-circles:before {
+    top: calc(16% - 20px);
+    left: calc(87% - 30px);
+    width: 45px;
+    height: 45px;
+}
+
+[class*="popup-img-"] {
+    width: 100%;
+    height: 30px;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+}
+
+.popup-block .popup-img-stages1 {
+    background-image: url(../img/store/project-stages-375.svg);
+    background-position: 50% 0;
+    height: 1007px;
+    margin-top: 50px;
+    margin-bottom: 17px;
+}
+
+.popup-block .popup-img-stages2 {
+    background-image: url(../img/store/project-stages2-375.svg);
+    background-position: 50% 0;
+    height: 830px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.popup-block .popup-img-support {
+    background-image: url(../img/store/project-support-375.svg);
+    background-position: 50% 0;
+    height: 1147px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.store-block-map .image-block-before {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.store-block-map .image-block-before .float-circles:before {
+    top: calc(93% - 30px);
+    left: calc(79% - 30px);
+    width: 45px;
+    height: 45px;
+}
+
+.store-block-map .image-block-before .float-circles:after {
+    top: calc(12% - 20px);
+    left: calc(26% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.store-block-map .image-block-before img {
+    width: 306px;
+}
+
+.popup-block .popup-img-map {
+    background-image: url(../img/store/store-map-375.svg);
+    background-position: 50% 0;
+    height: 1213px;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    margin-left: -20px;
+    margin-right: -15px;
+    width: calc(100% + 35px);
+}
+
+.store-block-bitrix .image-block-before {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.store-block-bitrix .image-block-before .float-circles:before {
+    top: calc(83% - 30px);
+    left: calc(87% - 30px);
+}
+
+.store-block-bitrix .image-block-before .float-circles:after {
+    top: calc(63% - 20px);
+    left: calc(-3% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.store-block-bitrix .image-block-before img {
+    width: 345px;
+    margin-top: -18px;
+    margin-left: -28px;
+}
+
+.store-block-bitrix_crm .block-image-right .image-block-before {
+    margin-top: 22px;
+    margin-bottom: 53px;
+}
+
+.store-block-bitrix_crm .image-block-before img {
+    width: 326px;
+    margin-left: -67px;
+    margin-top: -31px;
+}
+
+.store-block-bitrix_crm .image-block-before .float-circles:before {
+    top: calc(93% - 30px);
+    left: calc(82% - 30px);
+    z-index: 1;
+}
+
+.store-block-bitrix_crm .image-block-before .float-circles:after {
+    top: calc(6% - 20px);
+    left: calc(11% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.store-block-seo .image-block-before {
+    margin-top: 23px;
+    margin-bottom: 49px;
+}
+
+.store-block-seo .image-block-before .float-circles:before {
+    top: calc(96% - 40px);
+    left: calc(71% - 40px);
+    width: 80px;
+    height: 80px;
+}
+
+.store-block-seo .image-block-before .float-circles:after {
+    top: calc(6% - 20px);
+    left: calc(28% - 20px);
+}
+
+.store-block-seo .image-block-before img {
+    width: 330px;
+    margin-top: -24px;
+}
+
+.store-block-perfomance .block-image-right .image-block-before {
+    margin-top: 17px;
+    margin-bottom: 31px;
+}
+
+.store-block-perfomance .image-block-before {
+    margin-top: 23px;
+    margin-bottom: 49px;
+}
+
+.store-block-perfomance .image-block-before .float-circles:before {
+    top: calc(98% - 30px);
+    left: calc(74% - 30px);
+    width: 50px;
+    height: 50px;
+}
+
+.store-block-perfomance .image-block-before .float-circles:after {
+    top: calc(10% - 20px);
+    left: calc(28% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.store-block-perfomance .image-block-before img {
+    width: 308px;
+    margin-top: -34px;
+}
+
+@media (min-width:768px) {
+    .store-page .banner-float-store {
+        margin-left: -40px;
+    }
+    .store-page .banner-image {
+        background-image: url(../img/store-banner-full-768.png);
+        height: 488px;
+        margin-top: -38px;
+        margin-bottom: -23px;
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right .float-circles:before {
+        top: calc(97% - 40px);
+        left: calc(32% - 40px);
+        height: 80px;
+        width: 80px;
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right .float-circles:after {
+        top: calc(9% - 20px);
+        left: calc(79% - 20px);
+        width: 50px;
+        height: 50px;
+    }
+    .store-block-stages .block-image-right .image-block-before {
+        margin-top: 53px;
+        margin-bottom: 47px;
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right img {
+        margin-top: -30px;
+        margin-left: -30px;
+        width: 336px;
+    }
+    .popup-block .popup-img-stages1 {
+        background-image: url(../img/store/project-stages-768.svg);
+        background-position: 50% 0;
+        height: 452px;
+        margin-top: 31px;
+        margin-bottom: 26px;
+    }
+    .popup-block .popup-img-stages2 {
+        background-image: url(../img/store/project-stages2-768.svg);
+        background-position: 50% 0;
+        height: 419px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before .float-circles:after {
+        top: calc(95% - 20px);
+        left: calc(33% - 20px);
+        width: 40px;
+        height: 40px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before .float-circles:before {
+        top: calc(15% - 35px);
+        left: calc(85% - 35px);
+        width: 70px;
+        height: 70px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before {
+        margin-top: 155px;
+        margin-bottom: 46px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right img {
+        width: 331px;
+    }
+    .popup-block .popup-img-support {
+        background-image: url(../img/store/project-support-768.svg);
+        background-position: 50% 0;
+        height: 102px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .store-block-map .image-block-before img {
+        width: 472px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .store-block-map .image-block-before {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .store-block-map .image-block-before .float-circles:before {
+        top: calc(93% - 40px);
+        left: calc(67% - 40px);
+        width: 80px;
+        height: 80px;
+    }
+    .store-block-map .image-block-before .float-circles:after {
+        top: calc(3% - 20px);
+        left: calc(26% - 20px);
+        width: 50px;
+        height: 50px;
+    }
+    .popup-block .popup-img-map {
+        background-image: url(../img/store/store-map-768.svg);
+        background-position: 50% 0;
+        height: 654px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-right: -20px;
+    }
+    .store-block-bitrix .image-block-before img {
+        width: 494px;
+        margin-top: -8px;
+    }
+    .store-block-bitrix .image-block-before .float-circles:before {
+        top: calc(81% - 30px);
+        width: 80px;
+        height: 80px;
+    }
+    .store-block-bitrix .image-block-before .float-circles:after {
+        top: calc(59% - 20px);
+        left: calc(-3% - 20px);
+        width: 50px;
+        height: 50px;
+    }
+    .store-block-bitrix .subpadding, .store-block-seo .subpadding {
+        padding-left: 10px;
+    }
+    .store-block-bitrix_crm .image-block-before img {
+        width: 412px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .store-block-bitrix_crm .image-block-before .float-circles:before {
+        top: calc(14% - 30px);
+        left: calc(19% - 30px);
+        width: 70px;
+        height: 70px;
+    }
+    .store-block-bitrix_crm .image-block-before .float-circles:after {
+        top: calc(64% - 20px);
+        left: calc(96% - 20px);
+        width: 50px;
+        height: 50px;
+    }
+    .store-block-seo .image-block-before {
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    .store-block-seo .image-block-before img {
+        width: 452px;
+        margin-top: -50px;
+        max-width: 452px;
+    }
+    .store-block-seo .image-block-before .float-circles:before {
+        top: calc(91% - 40px);
+        left: calc(69% - 40px);
+        width: 99px;
+        height: 99px;
+    }
+    .store-block-perfomance .block-image-right .image-block-before {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    .store-block-perfomance .image-block-before img {
+        width: 412px;
+        margin-top: -60px;
+        max-width: 412px;
+    }
+    .store-block-perfomance .image-block-before .float-circles:before {
+        top: calc(92% - 50px);
+        left: calc(34% - 50px);
+        width: 90px;
+        height: 90px;
+    }
+    .store-block-perfomance .image-block-before .float-circles:after {
+        top: calc(-1% - 20px);
+        left: calc(53% - 20px);
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width:992px) {
+    .store-page .banner-float-store {
+        right: -41.6%;
+        top: 119px;
+    }
+    .store-page .banner-image {
+        opacity: 0;
+        background-image: url(../img/store-banner-full-1024.png);
+        height: 472px;
+    }
+    .store-block-bitrix .subpadding, .store-block-seo .subpadding {
+        padding-left: 60px;
+    }
+    .store-block-stages .block-image-right .image-block-before {
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right img {
+        margin-top: -30px;
+        margin-left: -9%;
+    }
+    .store-block-stages .row .subblock:nth-child(4) .heading-3 {
+        width: 150%;
+    }
+    .popup-block [class*="popup-img-"] {
+        background-size: contain;
+    }
+    .popup-block .popup-img-stages1 {
+        background-image: url(../img/store/project-stages-1024.svg);
+        background-position: 50% 0;
+        height: 288px;
+        margin-top: 51px;
+        margin-bottom: 23px;
+    }
+    .popup-block .popup-img-stages2 {
+        background-image: url(../img/store/project-stages2-1024.svg);
+        height: 515px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right img {
+        margin-left: -15px;
+    }
+    .popup-block .popup-img-support {
+        background-image: url(../img/store/project-support-1024.svg);
+        background-position: 50% 0;
+        height: 135px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .store-block-map .heading-2 {
+        padding-top: 28px
+    }
+    .popup-block .popup-img-map {
+        background-image: url(../img/store/store-map-1024.svg);
+        background-position: 50% 0;
+        height: 927px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-right: -40px;
+        margin-left: -40px;
+        width: calc(100% + 80px);
+    }
+    .store-block-bitrix .image-block-before {
+        margin-top: 0px;
+        margin-bottom: 55px;
+    }
+    .store-block-bitrix .image-block-before img {
+        width: 482px;
+        margin-top: -18px;
+        max-width: 482px;
+    }
+    .store-block-bitrix .image-block-before .float-circles:before {
+        width: 60px;
+        height: 60px;
+        top: calc(80% - 45px);
+        left: calc(88% - 45px);
+    }
+    .store-block-bitrix .image-block-before .float-circles:after {
+        top: calc(53% - 20px);
+        left: calc(1% - 20px);
+        width: 30px;
+        height: 30px;
+    }
+    .store-block-bitrix_crm .heading-2 {
+        width: 120%
+    }
+    .store-block-bitrix_crm .image-block-before img {
+        width: 430px;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+    .store-block-bitrix_crm .image-block-before .float-circles:before {
+        top: calc(12% - 30px);
+        left: calc(17% - 30px);
+        width: 70px;
+        height: 70px;
+    }
+    .store-block-bitrix_crm .image-block-before .float-circles:after {
+        top: calc(98% - 20px);
+        left: calc(85% - 20px);
+        width: 50px;
+        height: 50px;
+    }
+    .store-page section+.store-block-seo {
+        margin-top: 35px;
+    }
+    .store-page section+.store-block-perfomance {
+        margin-top: 15px;
+        padding-bottom: 30px;
+        margin-bottom: -30px;
+    }
+    .store-block-perfomance .block-image-right .image-block-before {
+        margin-top: 20px;
+        margin-left: -10px
+    }
+    .store-block-perfomance .image-block-before img {
+        margin-top: -48px;
+        margin-left: -30px;
+    }
+    .store-block-perfomance .image-block-before .float-circles:before {
+        top: calc(96% - 50px);
+        left: calc(70% - 50px);
+        width: 99px;
+        height: 99px;
+    }
+    .store-block-perfomance .image-block-before .float-circles:after {
+        top: calc(3% - 30px);
+        left: calc(52% - 30px);
+        width: 50px;
+        height: 50px;
+    }
+    .store-block-perfomance .text {
+        padding-right: 20px;
+    }
+    .store-block-map .image-block-before {
+        margin-top: 40px;
+    }
+    .store-block-map .image-block-before img {
+        max-width: 452px;
+    }
+    .store-block-map .image-block-before .float-circles:before {
+        top: calc(93% - 50px);
+        left: calc(67% - 50px);
+        width: 99px;
+        height: 99px;
+    }
+    .store-block-map .image-block-before .float-circles:after {
+        left: calc(26% - 30px);
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width:1260px) {
+    .store-block-perfomance .text {
+        padding-right: 70px
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right img {
+        margin-top: -65px;
+        margin-left: -1%;
+        width: 417px;
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right .float-circles:before {
+        top: calc(93% - 50px);
+        left: calc(28% - 50px);
+        height: 99px;
+        width: 99px;
+    }
+    .store-block-stages .subblock:nth-child(2) .block-image-right .float-circles:after {
+        top: calc(14% - 20px);
+        left: calc(86% - 20px);
+        width: 60px;
+        height: 60px;
+    }
+    .popup-block .popup-img-stages1 {
+        background-image: url(../img/store/project-stages-1920.svg);
+        height: 367px;
+        margin-top: 87px;
+        margin-bottom: 46px;
+    }
+    .popup-block .popup-img-stages2 {
+        background-image: url(../img/store/project-stages2-1920.svg);
+        height: 594px;
+        margin-top: 50px;
+    }
+    .popup-block .popup-img-support {
+        background-image: url(../img/store/project-support-1920.svg);
+        height: 153px;
+        margin-top: 76px;
+    }
+    .popup-block .popup-img-map {
+        background-image: url(../img/store/store-map-1920.svg);
+    }
+    .store-block-stages .subblock:nth-child(4) {
+        margin-top: 117px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right img {
+        max-width: 406px;
+        width: 406px;
+        margin-top: -15px;
+        margin-left: 50px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before .float-circles:after {
+        top: calc(95% - 30px);
+        left: calc(35% - 30px);
+        width: 60px;
+        height: 60px;
+    }
+    .store-block-stages .subblock:nth-child(4) .block-image-right .image-block-before .float-circles:before {
+        top: calc(17% - 50px);
+        left: calc(91% - 50px);
+        width: 99px;
+        height: 99px;
+    }
+    .store-block-map {
+        margin-top: 100px;
+    }
+    .store-block-map .image-block-before img {
+        width: 605px;
+        margin-top: -23px;
+        margin-left: 5px;
+        max-width: 605px;
+    }
+    .store-block-map .image-block-before .float-circles:after {
+        left: calc(29% - 30px);
+        width: 60px;
+        height: 60px;
+    }
+    .store-block-map .subpadding {
+        padding-left: 105px;
+    }
+    .store-block-map .image-block-before {
+        transform: translateX(55px);
+        margin-top: -13px;
+    }
+    .store-block-icoblock .heading-2 {
+        max-width: 880px
+    }
+    .store-block-bitrix {
+        margin-top: 90px
+    }
+    .store-block-bitrix .image-block-before {
+        transform: translateX(45px);
+        margin-top: 15px;
+    }
+    .store-block-bitrix .image-block-before img {
+        width: 677px;
+        margin-top: -35px;
+        margin-left: -56px;
+        max-width: 677px;
+    }
+    .store-block-bitrix .image-block-before .float-circles:before {
+        width: 90px;
+        height: 90px;
+    }
+    .store-block-bitrix .image-block-before .float-circles:after {
+        top: calc(54% - 30px);
+        left: calc(-1% - 30px);
+        width: 60px;
+        height: 60px;
+    }
+    .store-block-bitrix_crm .wrap {
+        margin-top: 70px;
+        padding-left: 90px;
+    }
+    .store-block-bitrix_crm .heading-2 {
+        max-width: 700px
+    }
+    .store-block-bitrix_crm .heading-2+.text {
+        max-width: 600px
+    }
+    .store-block-bitrix_crm .block-image-right .image-block-before {
+        margin-left: 35px;
+        margin-right: -50px;
+        margin-top: 25px;
+    }
+    .store-block-bitrix_crm .image-block-before img {
+        width: 575px;
+        max-width: 575px;
+        margin-left: -80px;
+        margin-top: -54px;
+    }
+    .store-block-bitrix_crm .image-block-before .float-circles:before {
+        top: calc(-4% - 30px);
+        left: calc(60% - 30px);
+        width: 70px;
+        height: 70px;
+    }
+    .store-block-bitrix_crm .image-block-before .float-circles:after {
+        top: calc(89% - 20px);
+        left: calc(93% - 20px);
+    }
+    .store-block-bitrix .subpadding {
+        padding-left: 70px;
+    }
+    .store-page section+.store-block-seo {
+        margin-top: 157px;
+    }
+    .store-block-seo .subpadding {
+        padding-left: 105px;
+    }
+    .store-block-seo .image-block-before {
+        margin-top: -25px;
+        transform: translateX(13px);
+    }
+    .store-block-seo .image-block-before img {
+        width: 584px;
+        max-width: 584px;
+        margin-top: -71px;
+        margin-left: -10px;
+    }
+    .store-block-perfomance .wrap {
+        margin-top: -62px;
+        padding-left: 90px;
+    }
+    .store-block-perfomance .block-image-right .image-block-before {
+        transform: translateX(-60px);
+        margin-left: -16px;
+        margin-top: 10px;
+    }
+    .store-block-perfomance .image-block-before .float-circles:before {
+        top: calc(7% - 50px);
+        left: calc(29% - 50px);
+        width: 80px;
+        height: 80px;
+    }
+    .store-block-perfomance .image-block-before .float-circles:after {
+        top: calc(91% - 30px);
+        left: calc(79% - 30px);
+    }
+    .store-block-perfomance .image-block-before img {
+        margin-top: -53px;
+        margin-left: 0px;
+        max-width: 516px;
+        width: 516px;
+    }
+}
+
+@media (min-width:1450px) {
+    .store-page .banner-float-store {
+        right: -39%;
+        top: -71px;
+    }
+    .store-page .banner-image {
+        background-image: url(../img/store-banner-full-1920.png);
+        width: 1330px;
+        height: 748px;
+    }
+
+    .store-block-perfomance .heading-2{
+        padding-right:40px
+    }
+}
+
+/*------ store-page end ------*/
+
+@media (max-width:340px) {
+    .store-block-perfomance .heading-underline {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 359px) {
+    .store-block-stages .heading-3_5 {
+        font-size:30px
+    }
+
+    .store-block-bitrix .heading-2 {
+        font-size: 30px;
+    }
+
+    .store-block-bitrix_crm .heading-2 {
+        font-size: 30px;
+    }
+}

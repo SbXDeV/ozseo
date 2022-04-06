@@ -1,0 +1,631 @@
+.create-page .banner-image {
+    background-image: url(../img/create-banner-full.png);
+    height: 271px;
+    margin-bottom: 10px;
+}
+
+.create-page .banner-float-create {
+    margin-left: -12px;
+    margin-bottom: 28px;
+}
+
+.create-block-difficulty .block-image-right .image-block-before {
+    order: 0;
+}
+
+.create-block-difficulty .row .row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.create-block-difficulty .row .row [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.create-block-difficulty .block-image-right .image-block-before {
+    margin-top: 42px;
+    margin-bottom: 30px;
+}
+
+.create-block-difficulty .block-image-right .image-block-before img {
+    width: 272px;
+}
+
+.create-block-difficulty .image-block-before .float-circles:before {
+    top: calc(100% - 30px);
+    left: calc(52% - 30px);
+}
+
+.create-block-difficulty .image-block-before .float-circles:after {
+    top: calc(11% - 20px);
+    left: calc(13% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.create-block-crm .image-block-before {
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.create-block-crm .image-block-before img {
+    width: 291px;
+    margin-top: -20px;
+}
+
+.create-block-crm .image-block-before .float-circles:before {
+    top: calc(91% - 30px);
+    left: calc(63% - 30px);
+    height: 80px;
+    width: 80px;
+}
+
+.create-block-crm .image-block-before .float-circles:after {
+    top: calc(10% - 20px);
+    left: calc(22% - 20px);
+}
+
+.create-block-icoblock {
+    margin-top: 20px
+}
+
+.create-page .create-stages-img {
+    background-image: url(../img/create/create-stages.svg);
+    width: auto;
+    height: 916px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.create-block-prototiping .image-block-before {
+    margin-top: 46px;
+    margin-bottom: 44px;
+}
+
+.create-block-prototiping .image-block-before img {
+    margin-left: -2px;
+    width: 318px;
+    margin-top: -28px;
+}
+
+.create-block-prototiping .image-block-before .float-circles:before {
+    top: calc(4% - 30px);
+    left: calc(33% - 30px);
+}
+
+.create-block-prototiping .image-block-before .float-circles:after {
+    top: calc(98% - 20px);
+    left: calc(71% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.create-block-layers .image-block-before {
+    margin-top: 9px;
+    margin-bottom: 44px;
+}
+
+.create-block-layers .image-block-before img {
+    margin-top: 10px;
+    width: 329px;
+}
+
+.create-block-layers .image-block-before .float-circles:before {
+    top: calc(97% - 30px);
+    left: calc(63% - 30px);
+    width: 80px;
+    height: 80px;
+}
+
+.create-block-layers .image-block-before .float-circles:after {
+    top: calc(7% - 20px);
+    left: calc(75% - 20px);
+}
+
+.create-block-realization .image-block-before {
+    margin-top: 36px;
+    margin-bottom: 47px;
+}
+
+.create-block-realization .image-block-before img {
+    margin-top: -5px;
+    width: 299px;
+}
+
+.create-block-realization .image-block-before .float-circles:before {
+    top: calc(100% - 30px);
+    left: calc(35% - 30px);
+}
+
+.create-block-realization .image-block-before .float-circles:after {
+    top: calc(9% - 20px);
+    left: calc(72% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.create-block-support .image-block-before {
+    margin-top: 36px;
+    margin-bottom: 47px;
+}
+
+.create-block-support .image-block-before img {
+    width: 297px;
+}
+
+.create-block-support .image-block-before .float-circles:before {
+    top: calc(4% - 30px);
+    left: calc(65% - 30px);
+    width: 50px;
+    height: 50px;
+}
+
+.create-block-support .image-block-before .float-circles:after {
+    top: calc(99% - 20px);
+    left: calc(58% - 20px);
+    width: 35px;
+    height: 35px;
+}
+
+@media (min-width: 768px) {
+    .create-page .banner-image {
+        background-image: url(../img/create-banner-full-768.png);
+        height: 463px;
+        margin-top: -22px;
+        margin-bottom: -30px;
+        margin-left: -41px;
+    }
+    .create-page .banner-float-create {
+        margin-left: 0;
+    }
+    .create-block-difficulty {
+        padding-bottom: 40px;
+        margin-bottom: -40px;
+    }
+    .create-block-difficulty .block-image-right .image-block-before {
+        margin-top: 27px;
+        margin-bottom: 0;
+    }
+    .create-block-difficulty .block-image-right .image-block-before img {
+        width: 416px;
+        margin-top: 11px;
+    }
+    .create-block-difficulty .image-block-before .float-circles:before {
+        top: calc(94% - 30px);
+        left: calc(46% - 30px);
+    }
+    .create-block-difficulty .image-block-before .float-circles:after {
+        top: calc(6% - 20px);
+        left: calc(7% - 20px);
+    }
+    .create-block-tasks .thickwrap {
+        padding-left: 100px;
+    }
+    .create-block-crm .subpadding {
+        padding-left: 70px;
+    }
+    .create-block-crm .image-block-before {
+        margin-top: 50px;
+        margin-bottom: 65px;
+    }
+    .create-block-crm .image-block-before img {
+        width: 417px;
+        max-width: 417px;
+        margin-top: -30px;
+    }
+    .create-block-crm .image-block-before .float-circles:before {
+        top: calc(94% - 45px);
+        left: calc(72% - 45px);
+        width: 90px;
+        height: 90px;
+    }
+    .create-block-crm .image-block-before .float-circles:after {
+        top: calc(3% - 20px);
+        left: calc(36% - 20px);
+    }
+    .create-page .create-stages-img {
+        background-image: url(../img/create/create-stages-768.svg);
+        height: 382px;
+        margin-top: 35px;
+    }
+    .create-block-prototiping .image-block-before {
+        margin-top: 32px;
+        margin-bottom: 45px;
+    }
+    .create-block-prototiping .image-block-before img {
+        width: 456px;
+        margin-top: -30px;
+    }
+    .create-block-prototiping .image-block-before .float-circles:before {
+        top: calc(0% - 30px);
+        left: calc(30% - 30px);
+    }
+    .create-block-prototiping .image-block-before .float-circles:after {
+        top: calc(98% - 20px);
+        left: calc(59% - 20px);
+        width: 45px;
+        height: 45px;
+    }
+    .create-block-prototiping .subpadding, .create-block-layers .subpadding, .create-block-realization .subpadding, .create-block-support .subpadding {
+        padding-left: 70px;
+    }
+    .create-block-layers .image-block-before {
+        margin-top: 25px;
+        margin-bottom: 47px;
+    }
+    .create-block-layers .image-block-before img {
+        width: 443px;
+        margin-left: -5px;
+    }
+    .create-block-layers .image-block-before .float-circles:before {
+        top: calc(99% - 45px);
+        left: calc(44% - 45px);
+        width: 90px;
+        height: 90px;
+    }
+    .create-block-layers .image-block-before .float-circles:after {
+        top: calc(4% - 20px);
+        left: calc(65% - 20px);
+    }
+    .create-block-realization .image-block-before {
+        margin-top: 26px;
+    }
+    .create-block-realization .image-block-before img {
+        width: 406px;
+    }
+    .create-block-realization .image-block-before .float-circles:before {
+        top: calc(92% - 30px);
+        left: calc(29% - 30px);
+        width: 99px;
+        height: 99px;
+    }
+    .create-block-realization .image-block-before .float-circles:after {
+        top: calc(3% - 20px);
+        left: calc(65% - 20px);
+        width: 45px;
+        height: 45px;
+    }
+    .create-block-support .image-block-before {
+        margin-top: 28px;
+    }
+    .create-block-support .image-block-before img {
+        width: 435px;
+    }
+    .create-block-support .image-block-before .float-circles:before {
+        top: calc(-1% - 30px);
+        left: calc(57% - 30px);
+        width: 65px;
+        height: 65px;
+    }
+    .create-block-support .image-block-before .float-circles:after {
+        top: calc(98% - 20px);
+        left: calc(57% - 20px);
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .create-page .main-banner h1 {
+        max-width: 420px;
+    }
+    .create-page .banner-image {
+        opacity: 0;
+        background-image: url(../img/create-banner-full-1024.png);
+        height: 501px;
+        background-position: 100%;
+    }
+    .create-page .banner-float-create {
+        right: -44.1%;
+        top: -37px;
+    }
+    .create-page .main-banner ul.list-dotted {
+        max-width: 600px;
+        margin-top: -16px;
+    }
+    .create-page .main-banner .button-blue {
+        margin-left: 0;
+        margin-top: 42px;
+        margin-bottom: 50px;
+    }
+    .create-page .heading-2 {
+        font-size: 52px;
+    }
+    .create-block-difficulty {
+        margin-top: 45px
+    }
+    .create-block-difficulty ul.list-check.list-col-2 {
+        width: 115%;
+    }
+    .create-block-difficulty ul.list-check.list-col-2 li {
+        width: 50%;
+    }
+    .create-block-difficulty .heading-2, .create-block-difficulty .text {
+        padding-right: 110px;
+    }
+    .create-block-difficulty .block-image-right .image-block-before {
+        margin-top: 7px;
+        margin-left: -24px;
+    }
+    .create-block-difficulty .block-image-right .image-block-before img {
+        margin-top: 11px;
+        max-width: 416px;
+    }
+    .create-block-tasks {
+        margin-top: 11px;
+    }
+    .create-block-crm .image-block-before {
+        margin-top: 10px;
+    }
+    .create-block-crm .image-block-before img {
+        max-width: 417px;
+    }
+    .create-block-crm+.advantages-block {
+        margin-top: 125px;
+    }
+    .create-block-icoblock {
+        margin-top: 40px
+    }
+    .create-page .create-stages-img {
+        background-image: url(../img/create/create-stages-1024.svg);
+        height: 193px;
+        background-size: contain;
+        margin-top: 70px;
+        margin-bottom: 105px;
+    }
+    .create-block-prototiping .image-block-before {
+        margin-top: -42px;
+        margin-bottom: 36px;
+    }
+    .create-block-prototiping .image-block-before img {
+        max-width: 456px;
+    }
+    .create-block-layers .subpadding, .create-block-support .subpadding {
+        padding-left: 10px;
+    }
+    .create-block-layers .image-block-before {
+        margin-top: 0px;
+        margin-bottom: 55px;
+    }
+    .create-block-layers .image-block-before img {
+        max-width: 443px;
+        margin-left: 28px;
+        margin-top: -7px;
+    }
+    .create-block-realization .image-block-before {
+        margin-top: 0;
+    }
+    .create-block-realization .image-block-before img {
+        max-width: 406px;
+    }
+    .create-block-support .image-block-before {
+        margin-top: 70px;
+    }
+    .create-block-support .image-block-before img {
+        max-width: 435px;
+        margin-left: 15px
+    }
+}
+
+@media (min-width:1200px) {
+    .create-page .banner-float-create {
+        right: -35.1%;
+    }
+}
+
+@media (min-width: 1450px) {
+    .create-page .banner-image {
+        background-image: url(../img/create-banner-full-1920.png);
+        height: 699px;
+    }
+    .create-page .banner-float-create {
+        right: -49.5%;
+        top: -49px;
+    }
+    .create-page .main-banner h1 {
+        max-width: 650px;
+        margin-bottom: 45px;
+    }
+    .create-page .main-banner ul.list-dotted {
+        margin-top: 30px;
+    }
+    .create-page .main-banner .button-blue {
+        margin-top: 88px;
+    }
+    .create-block-difficulty {
+        margin-top: 0;
+    }
+    .create-block-difficulty .block-image-right .image-block-before {
+        margin-top: -20px;
+        margin-left: -55px;
+    }
+    .create-block-difficulty .block-image-right .image-block-before img {
+        max-width: 574px;
+        width: 574px;
+    }
+    .create-block-difficulty .image-block-before .float-circles:before {
+        top: calc(94% - 30px);
+        left: calc(40% - 30px);
+    }
+    .create-block-difficulty .image-block-before .float-circles:after {
+        top: calc(12% - 20px);
+        left: calc(6% - 20px);
+    }
+    .create-block-difficulty ul.list-check.list-col-2 {
+        width: 620px;
+    }
+    .create-block-tasks {
+        margin-top: 70px;
+    }
+    .create-block-tasks .thickwrap {
+        padding-left: 125px;
+    }
+    .create-block-tasks .heading-2 {
+        max-width: 700px
+    }
+    .create-block-tasks .text {
+        max-width: 850px
+    }
+    .create-block-crm .image-block-before img {
+        max-width: 587px;
+        width: 587px;
+    }
+    .create-block-crm .image-block-before .float-circles:before {
+        top: calc(93% - 45px);
+        left: calc(77% - 45px);
+        width: 99px;
+        height: 99px;
+    }
+    .create-block-crm .image-block-before .float-circles:after {
+        top: calc(3% - 20px);
+        left: calc(36% - 20px);
+        width: 65px;
+        height: 65px;
+    }
+    .create-block-crm .thickwrap {
+        padding-left: 40px;
+    }
+    .create-block-crm .subpadding {
+        padding-left: 90px;
+    }
+    .create-block-crm+.advantages-block {
+        margin-top: 145px;
+    }
+    .create-block-icoblock {
+        margin-top: 105px;
+    }
+    .create-block-stages {
+        margin-top: 65px;
+    }
+    .create-block-stages .widewrap {
+        padding-left: 100px;
+    }
+    .create-block-layers .image-block-before {
+        margin-top: -50px;
+        margin-bottom: 5px;
+        margin-right: -1px;
+    }
+    .create-block-layers {
+        padding-bottom: 40px;
+        margin-bottom: -40px;
+    }
+    .create-block-layers .image-block-before img {
+        max-width: 542px;
+        width: 542px;
+        margin-left: 15px;
+        margin-top: -25px;
+    }
+    .create-block-layers .image-block-before .float-circles:before {
+        top: calc(96% - 45px);
+        left: calc(40% - 45px);
+        width: 90px;
+        height: 90px;
+    }
+    .create-block-layers .image-block-before .float-circles:after {
+        top: calc(1% - 20px);
+        left: calc(67% - 20px);
+    }
+    .create-block-realization .image-block-before {
+        margin-left: -40px;
+        margin-right: 40px;
+        margin-top: -10px
+    }
+    .create-block-realization .image-block-before img {
+        max-width: 522px;
+        width: 522px;
+        margin-top: -25px;
+        margin-left: 10px
+    }
+    .create-block-realization .heading-2 {
+        max-width: 400px
+    }
+    .create-block-realization .text {
+        max-width: 580px;
+    }
+    .create-block-support {
+        margin-top: -25px
+    }
+    .create-block-support .image-block-before {
+        margin-top: -20px;
+        margin-left: -20px
+    }
+    .create-block-support .image-block-before img {
+        max-width: 580px;
+        width: 580px;
+        margin-left: 0
+    }
+    .create-block-support .image-block-before .float-circles:before {
+        top: calc(-7% - 30px);
+        left: calc(51% - 30px);
+        width: 90px;
+        height: 90px;
+    }
+    .create-block-support .image-block-before .float-circles:after {
+        top: calc(98% - 20px);
+        left: calc(57% - 20px);
+        width: 45px;
+        height: 45px;
+    }
+    .create-page .create-stages-img {
+        background-image: url(../img/create/create-stages-1920.svg);
+        height: 250px;
+        margin-top: 70px;
+        margin-bottom: 105px;
+        background-position: 0%;
+    }
+    .create-block-stages .heading-2, .create-block-stages .text {
+        max-width: 800px;
+    }
+    .create-block-prototiping {
+        margin-top: 75px
+    }
+    .create-block-prototiping .image-block-before {
+        margin-top: -50px;
+        margin-left: -20px;
+        margin-bottom: 36px;
+        margin-right: 20px;
+    }
+    .create-block-prototiping .image-block-before img {
+        max-width: 559px;
+        width: 559px;
+        margin-top: -40px
+    }
+    .create-block-prototiping .image-block-before .float-circles:before {
+        top: calc(0% - 30px);
+        left: calc(20% - 30px);
+    }
+    .create-block-prototiping .image-block-before .float-circles:after {
+        top: calc(73% - 20px);
+        left: calc(90% - 20px);
+        width: 45px;
+        height: 45px;
+    }
+    .create-block-prototiping .text {
+        max-width: 500px
+    }
+}
+
+@media (max-width:360px) {
+    .create-block-specialization .heading-underline, .create-block-prototiping .heading-underline {
+        font-size: 31px;
+    }
+}
+.create-block-difficulty {
+    margin-top: 0;
+}
+
+@media (min-width:1200px){
+.create-page .main-banner {
+    min-height: 660px;
+}
+.create-page  .about-block {
+    margin-top: 140px;
+}
+.create-page .our-projects-block {
+    padding-top: 148px;
+}
+}

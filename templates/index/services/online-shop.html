@@ -1,0 +1,498 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}store-page{% endblock %}
+
+{% block content %}
+    <section class="animate-block-first main-banner header-color-js hc_js_2">
+    <div class="widewrap">
+        <ul class="breadcrumbs" itemprop="https://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+					<span itemprop="name">Главная</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<span itemprop="name">Интернет-магазины</span>
+				<meta itemprop="position" content="2" />
+			</li></ul>      <div class="row">
+        <div class="col-12 col-lg-9">
+          <h1 class="heading-1 tn_dl_02">
+            Разработка интернет-магазинов          </h1>
+            <p class="subheading-price tn_dl_04">от&nbsp;500&nbsp;000 &#8381;</p>
+<ul class="list-dotted tn_dl_06">
+    <li>Грамотные юзабилити и&nbsp;дизайн</li>
+    <li>Настройка под психологию вашего клиента</li>
+    <li>Высокая конверсия обращений</li>
+</ul>
+<div class="banner-float-store"> <span class="banner-image"></span> </div>
+<div class="button-case tn_dl_08 tn_dr_05"><a href="#" class="button-blue js-form-have-project">Расcчитать стоимость проекта</a>
+</div>        </div>
+      </div>
+    </div>
+  </section>
+    <section class="store-block store-block-stages header-color-js">
+    <div class="widewrap">
+        <div class="row">
+            <div class="animate-block col-12 col-lg-10 col-xl-7">
+                <h2 class="heading-2 heading-underline section-title-js">Оптимальная схема сотрудничества</h2>
+                <p class="text text-lh-30 tn_dl_02">Мы&nbsp;предлагаем вам удобную и&nbsp;продуктивную схему взаимодействия,
+                    которая позволит избежать лишних трат и&nbsp;быстрее получить результат.</p>
+            </div>
+            <div class="animate-block col-12 subblock">
+                <div class="row block-image-right">
+                    <div class="col-12 col-lg-7 subpadding">
+                        <h3 class="fw-500 heading-3 heading-3_5 section-title-js">Итерационный подход в&nbsp;создании <nobr>
+                                интернет-магазина</nobr>
+                        </h3>
+                        <p class="text text-lh-30 tn_dl_02">Многие требования к&nbsp;разработке интернет-магазина меняются
+                            в&nbsp;процессе работы. Поэтапная разработка поможет гибче и&nbsp;быстрее реализовать проект.
+                            Мы&nbsp;досконально просчитываем ближайший этап: по&nbsp;срокам, трудоемкости, стоимости. Прорабатывая
+                            его, понимаем спектр задач, которые обязательно надо решить дальше, и&nbsp;формируем адекватные ситуации
+                            требования к&nbsp;следующему этапу. </p>
+                        <p class="heading-4 tn_dl_04">Преимущества</p>
+                        <ul class="list-check tn_dl_06">
+                            <li>Понятный и&nbsp;предсказуемый результат по&nbsp;каждому этапу</li>
+                            <li>Больший контроль над работой</li>
+                            <li>Короткий цикл разработки на&nbsp;итерацию</li>
+                        </ul>
+                        <div class="button-case tn_dl_08 tn_dr_05"> <span class="popup-button"
+                                                                          data-popup_toggle="project-stages"><span class="button-circle ico-plus"></span><span
+                                        class="button-text" data-base_text="Подробнее">Подробнее</span></span> </div>
+                    </div>
+                    <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/testirovanie.png' %}">
+                        <div class="float-circles"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 popup-block" data-popup_block="project-stages">
+                <div class="subwrap background-purple scroll-here">
+                    <div class="popup_header">
+                        <p class="heading-3">Разбиваем проект на&nbsp;этапы</p> <span class="popup-close"><span
+                                    class="button-text">Закрыть</span><span class="button-circle ico-plus"></span></span>
+                    </div>
+                    <div class="popup_scroll">
+                        <p class="text text-lh-30">Есть стратегическое понимание, чем закончится проект. Заключаем договор
+                            и&nbsp;определяем цену за&nbsp;этап.</p> <span class="popup-img-stages1"></span>
+                        <p class="text text-lh-30">Согласовываем конкретные требования к&nbsp;этапу, определяем его точную
+                            стоимость и&nbsp;сроки. По&nbsp;мере выполнения работ формируем требования к&nbsp;новым этапам
+                            и&nbsp;уточняем их&nbsp;стоимость.</p><span class="popup-img-stages2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="animate-block col-12 subblock">
+                <div class="row block-image-right">
+                    <div class="col-12 col-lg-7 subpadding">
+                        <h3 class="fw-500 heading-3 heading-3_5 section-title-js">Дальнейшее развитие и&nbsp;поддержка</h3>
+                        <p class="text text-lh-30 tn_dl_02">Что будет после создания интернет магазина? Масштабный <nobr>веб-ресурс</nobr>, который призван
+                            находиться в&nbsp;динамике, в&nbsp;активном взаимодействии с&nbsp;целевой аудиторией, потребует
+                            планового развития и&nbsp;поддержки. Проще переложить это на&nbsp;разработчиков, которые чувствуют
+                            систему лучше других и&nbsp;создавали ее, опираясь на&nbsp;понимание вашей ниши и&nbsp;потребительской
+                            психологии. Мы&nbsp;не&nbsp;оставим вас со&nbsp;сложным программным продуктом один на&nbsp;один. </p>
+                        <p class="heading-4 tn_dl_04">Преимущества</p>
+                        <ul class="list-check tn_dl_06">
+                            <li>Поддерживаем сайт в&nbsp;актуальном состоянии, соответствующем трендам сегодняшнего дня.</li>
+                            <li>Тюнингуем сайт по&nbsp;результатам ежемесячной аналитики поведения пользователей для увеличения
+                                конверсии.</li>
+                            <li>Обеспечиваем безопасность сайта, повысив защиту от&nbsp;взлома и&nbsp;утечки данных.</li>
+                            <li>Мониторим работоспособность сайта 24/7, оперативно устраняя любые возникшие сбои.</li>
+                        </ul>
+                        <div class="button-case tn_dl_08 tn_dr_05"><span class="popup-button"
+                                                                         data-popup_toggle="project-support"><span class="button-circle ico-plus"></span><span
+                                        class="button-text" data-base_text="Подробнее">Подробнее</span></span></div>
+                    </div>
+                    <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/razvitie.png' %}">
+                        <div class="float-circles"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 popup-block" data-popup_block="project-support">
+                <div class="subwrap background-purple scroll-here">
+                    <div class="popup_header">
+                        <p class="heading-3">Поддержка проекта</p> <span class="popup-close"><span
+                                    class="button-text">Закрыть</span><span class="button-circle ico-plus"></span></span>
+                    </div>
+                    <div class="popup_scroll">
+                        <p class="text text-lh-30">Получаем заявки от&nbsp;клиента в&nbsp;течении месяца, по&nbsp;факту
+                            выпорлнения работ предоставляем отчет.</p> <span class="popup-img-support"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block advantages-block background-blue text-white">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 heading-underline text-white section-title-js">Преимущества нашей команды</h2>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_02">
+                <div class="icoblock-single-ico"> <span class="ico-graph-outline"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3 tn">Современное решение</p>
+                    <p class="text text-lh-30">Мы&nbsp;занимаемся разработкой <nobr>интернет-магазинов</nobr> с&nbsp;2011 года,
+                        постоянно отслеживаем прогресс в&nbsp;этой области и&nbsp;предлагаем вам всё самое актуальное.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_02">
+                <div class="icoblock-single-ico"> <span class="ico-message"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Полная прозрачность</p>
+                    <p class="text text-lh-30">Говорим на&nbsp;понятном языке, строим работу так, чтобы вы&nbsp;в&nbsp;любой
+                        момент имели полное представление о&nbsp;статусе проекта и&nbsp;необходимых на&nbsp;данный момент
+                        действиях.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                <div class="icoblock-single-ico"> <span class="ico-like"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Индивидуальный подход</p>
+                    <p class="text text-lh-30">Предлагаем гибкость и&nbsp;оперативность изменений в&nbsp;проектной
+                        и&nbsp;организационной деятельности.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                <div class="icoblock-single-ico"> <span class="ico-shield"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Сильные компетенции</p>
+                    <p class="text text-lh-30">За&nbsp;счет сильных компетенций тимлидов и&nbsp;разработчиков решаем любые
+                        сложные задачи, создавая рабочий инструмент для продаж.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block store-block store-block-map">
+    <div class="widewrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/customermap.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Customer Journey Map</h2>
+                <p class="text text-lh-30 tn_dl_02">&laquo;Карта путешествия клиента&raquo; по&nbsp;сайту выявляет решения,
+                    помогающие повысить продажи. Вместе с&nbsp;вами мы&nbsp;проанализируем ключевые портреты клиентов, поймем,
+                    какие области сайта являются проблемными с&nbsp;точки зрения восприятия аудиторией, сделаем путь клиента
+                    к&nbsp;продукту быстрее и&nbsp;комфортнее. </p>
+                <p class="heading-4 tn_dl_04">Помогает решить задачи</p>
+                <ul class="list-check tn_dl_06">
+                    <li>Управляйте вниманием целевой аудитории</li>
+                    <li>Повышайте лояльность клиентов</li>
+                    <li>Сделайте продажи управляемыми и&nbsp;эффективными</li>
+                </ul>
+                <div class="button-case tn_dl_08 tn_dr_05"><span class="popup-button" data-popup_toggle="project-map"><span
+                                class="button-circle ico-plus"></span><span class="button-text"
+                                                                            data-base_text="Схема">Схема</span></span></div>
+            </div>
+            <div class="col-12 popup-block" data-popup_block="project-map">
+                <div class="subwrap background-purple">
+                    <div class="popup_header">
+                        <p class="heading-3">Примерная схема <nobr>интернет-магазина</nobr>
+                        </p> <span class="popup-close"><span class="button-text">Закрыть</span><span
+                                    class="button-circle ico-plus"></span></span>
+                    </div>
+                    <div class="popup_scroll">
+                        <p class="text-lh-30">Проектирование Customer Journey Map&nbsp;&mdash; командный труд, процесс которого
+                            больше напоминает мозговой штурм. Поэтому постарайтесь перед началом работы над картой собрать как можно
+                            больше лиц, которые так или иначе влияют на&nbsp;путешествие вашего потребителя.</p> <span
+                                class="popup-img-map"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block store-block block-icoblock store-block-icoblock">
+    <div class="thickwrap">
+        <div class="row">
+            <div class="col-12 block-icoblock-text">
+                <h2 class="heading-2 heading-underline section-title-js">Прозрачная разработка без подводных камней </h2>
+                <p class="w-100 text text-lh-30 tn_dl_02">Теперь у&nbsp;вас есть наш <nobr>10-летний</nobr> опыт
+                    в&nbsp;создании <nobr>интернет-магазинов</nobr>, и&nbsp;вы&nbsp;можете сразу заложить в&nbsp;проект
+                    оптимальную функциональность. Мы&nbsp;видим ваш проект наперед: напомним об&nbsp;обязательном, предостережем
+                    от&nbsp;ошибок, лишних действий и&nbsp;лишних трат, подскажем и&nbsp;доходчиво объясним, почему для вашей
+                    ниши подойдут те&nbsp;или иные решения. </p>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                <div class="icoblock-single-ico"> <span class="ico-schedule"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Целевая аналитика</p>
+                    <p class="text">Грамотно настроим <nobr>интернет-магазин</nobr>, создадим условия для того, чтобы трафик
+                        конверсии учитывался корректно в&nbsp;согласии с&nbsp;поставленными вами целями.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                <div class="icoblock-single-ico"> <span class="ico-pouche"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Отлаженная касса</p>
+                    <p class="text">Обеспечим полное соответствие <nobr>интернет-магазина</nobr> букве Федерального закона,
+                        поможем избежать штрафов <nobr>из-за</nobr> недочетов по&nbsp;подключению <nobr>онлайн-кассы</nobr>. </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-ico"> <span class="ico-box"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Понятная доставка</p>
+                    <p class="text">Создадим калькулятор, который максимально точно рассчитает стоимость и&nbsp;сроки доставки,
+                        что повысит конверсию и&nbsp;уровень лояльности покупателей.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-ico"> <span class="ico-crm"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Специализированная CRM </p>
+                    <p class="text">Порекомендуем CRM Bitrix 24, которая создана специально для электронной коммерции и заточена под ваши потребности, позволяя вести клиентскую историю.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                <div class="icoblock-single-ico"> <span class="ico-graph-smoth"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Удобная статистика продаж</p>
+                    <p class="text">Предложим решения по&nbsp;&laquo;выгрузке&raquo; информации о&nbsp;продажах в&nbsp;понятном
+                        и&nbsp;удобном виде, отражающем нужные вам показатели, например, KPI каждого менеджера.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                <div class="icoblock-single-ico"> <span class="ico-tehnology"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Интеграция с&nbsp;учетной системой</p>
+                    <p class="text">Обеспечим обмен информацией с 1С или другой системой учета, оперативное управление остатками и заказами, движением товара по складу. </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_10">
+                <div class="icoblock-single-ico"> <span class="ico-gramophone"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Готовность к&nbsp;SEO и&nbsp;рекламе</p>
+                    <p class="text">Уже на&nbsp;начальном этапе продумаем навигацию и&nbsp;струтуру страниц с&nbsp;учетом дальнейшей рекламной активности и&nbsp;поискового продвижения.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_10">
+                <div class="icoblock-single-text">
+                    <p class="text blue-bold">А&nbsp;также учтем еще десятки мелочей, которые сэкономят ваше время, деньги
+                        и&nbsp;нервы, сделают <nobr>интернет-магазин</nobr> более эффективным в&nbsp;продажах. </p> <a href="#"
+                                                                                                                       class="button-blue button-small js-form-have-project">Задать вопрос</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block store-block store-block-bitrix">
+    <div class="widewrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/bitrix-store.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">
+                    <nobr>1С-Битрикс</nobr>: <nobr>Интернет-магазин</nobr>
+                </h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Используя платформу &laquo;<nobr>1С-Битрикс</nobr>: Управление
+                    сайтом&raquo;, вы&nbsp;сможете создать <nobr>интернет-магазин</nobr>, который способен достичь любого
+                    масштаба. Не&nbsp;случайно 30% <nobr>интернет-магазинов</nobr> в&nbsp;России выбирают именно это решение.
+                </p>
+                <p class="heading-4 tn_dl_04">Преимущества</p>
+                <ul class="list-check tn_dl_06">
+                    <li>Быстрое создание <nobr>интернет-ресурса</nobr>
+                    </li>
+                    <li>Удобный административный раздел</li>
+                    <li>Продуманная корзина</li>
+                    <li>Гибкость в&nbsp;оформлении заказов</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block store-block store-block-bitrix_crm">
+    <div class="wrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6">
+                <h2 class="heading-2 heading-underline section-title-js">
+                    <nobr>1С-Битрикс</nobr>: <nobr>Интернет-магазин</nobr> + CRM
+                </h2>
+                <p class="text text-lh-30 tn_dl_02">Используя комплексный, интегрированный продукт, в&nbsp;котором собрано все
+                    необходимое для продаж, вы&nbsp;экономите время и&nbsp;деньги. Роботизированная система берет на&nbsp;себя
+                    рутинные задачи и&nbsp;держит все под контролем. </p>
+                <p class="heading-4 tn_dl_04">Преимущества</p>
+                <ul class="list-check tn_dl_06">
+                    <li>Единая система работы с&nbsp;заказами</li>
+                    <li>Экономия времени за&nbsp;счет автоматизации</li>
+                    <li>Работа с&nbsp;заказами в&nbsp;мессенджерах</li>
+                    <li>Всегда актуальные данные</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/bitrix-store-crm.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block about-block background-purple">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12 col-lg-5 col-xl-7">
+                <div class="row">
+                    <h2 class="heading-2 heading-underline section-title-js">Почему мы: факты и&nbsp;цифры</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Сделайте рациональный выбор в пользу опытной команды разработчиков, которой можно доверить создание интернет-магазина и его эффективное развитие в дальнейшем.</p>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_04">
+                        <div class="icoblock-single-ico"> <span class="ico-portfolio"></span> </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">73</p>
+                            <p class="text">
+                                <nobr>интернет-магазина</nobr> были созданы нашей командой
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_04">
+                        <div class="icoblock-single-ico"> <span class="ico-smile"></span> </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">80</p>
+                            <p class="text">
+                                <nobr>интернет-магазинов</nobr> получили нашу поддержку и&nbsp;развитие
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_06">
+                        <div class="icoblock-single-ico"> <span class="ico-rock"></span> </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">89%</p>
+                            <p class="text">клиентов оценили сотрудничество как &laquo;отличное&raquo;</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_06">
+                        <div class="icoblock-single-ico"> <span class="ico-gramophone"></span> </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">12</p>
+                            <p class="text">профессионалов будут заниматься вашим проектом</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/aboutus.png' %}"> </div>
+			<div class="col-12 button-case tn_dl_08 tn_dr_05"> <a class="button-outline button-small" href="{% url 'Index:project' %}">Смотреть
+                    проекты</a> </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block store-block store-block-seo">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/seo.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Не&nbsp;только создадим, но&nbsp;и&nbsp;продвинем
+                </h2>
+                <p class="text text-lh-30 tn_dl_02">Мы&nbsp;можем присоединиться к&nbsp;продвижению на&nbsp;любом этапе
+                    развития <nobr>интернет-магазина</nobr>, в&nbsp;том числе сразу&nbsp;же после его старта. В&nbsp;любом
+                    случае мы&nbsp;учитываем фактор продвижения еще на&nbsp;этапе подготовки к&nbsp;разработке, потому что
+                    знаем, насколько это важно и&nbsp;что нужно, чтобы в&nbsp;магазин приходило достаточно покупателей. </p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block store-block store-block-perfomance">
+    <div class="wrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-7">
+                <h2 class="heading-2 heading-small heading-underline section-title-js">Обеспечим высокую производительность
+                    сайта </h2>
+                <p class="text text-lh-30 tn_dl_02">Ваш магазин должен выдерживать высокую нагрузку и&nbsp;загружать контент
+                    в&nbsp;течение пары секунд. Мы&nbsp;ускорим работу ресурса с&nbsp;помощью технологии &laquo;Композитный
+                    сайт&raquo;. Своевременно выявляя &laquo;узкие&raquo; места <nobr>интернет-магазина</nobr>, мы&nbsp;повысим
+                    его производительность до&nbsp;максимума, обеспечивая стабильность работы. </p>
+            </div>
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/perfomance.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block our-projects-block">
+    <div class="wrap">
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <h2 class="heading-2 heading-underline section-title-js">Наши клиенты</h2>
+                <p class="w-100 text text-lh-30 tn_dl_02">Мы работаем с крупнейшими российскими и международными компаниями: страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и другими.</p>
+            </div>
+            <div class="col-12 col-lg-7 row our-projects-slider transform-y-55 tn_dl_05 tn_dr_05">
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="our-project-logo-vbrr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr.svg' %}"> </div>
+                        <div class="our-project-logo-moskonditer"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}"> </div>
+                        <div class="our-project-logo-gchpinfo"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/gchpinfo.svg' %}"> </div>
+                        <div class="our-project-logo-vseinstrumenti"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vseinstrumenti.svg' %}"> </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="our-project-logo-ruspetrol"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/ruspetrol.svg' %}"> </div>
+                        <div class="our-project-logo-osram"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/osram.svg' %}"> </div>
+                        <div class="our-project-logo-kalibr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/kalibr.svg' %}"> </div>
+                        <div class="our-project-logo-peresvet"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/peresvet.svg' %}"> </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="our-project-logo-clavel"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/clavel.svg' %}"> </div>
+                        <div class="our-project-logo-met"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}"> </div>
+                        <div class="our-project-logo-mirdetstva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdetstva.svg' %}"> </div>
+                        <div class="our-project-logo-mirdereva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdereva.svg' %}"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 button-case tn_dl_04 tn_dr_05"> <a class="button-blue button-small js-form-have-project" href="">Стать
+                    клиентом</a> </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block footer-form">
+    <div class="wrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img"><img alt="" width="" height=""
+                                                                                                         src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+            </div>
+            <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Есть проект?<br>Напишите нам</h3>
+
+
+
+<form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/shop/">
+    <input type="hidden" name="g_recaptcha_response" value="">
+    <input type="hidden" name="WEB_FORM_ID" value="3">
+    <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+    <div class="input-wrap">
+        <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+        <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+        <span class="input-alert">Укажите ваше имя</span>
+    </div>
+    <div class="input-wrap">
+        <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+        <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+        <span class="input-alert">Укажите телефон</span>
+    </div>
+    <div class="input-wrap">
+        <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+        <label for="form_text_18">Email</label>
+        <span class="input-alert">Укажите Email</span>
+    </div>
+    <div class="input-wrap">
+        <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+        <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+        <span class="input-alert">Напишите сообщение</span>
+    </div>
+    <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+        <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+        <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+    </p>
+    <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+</form>            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

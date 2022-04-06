@@ -1,0 +1,332 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}work-page{% endblock %}
+
+{% block content %}
+    <section class="heading">
+        <div class="wrap">
+            <ul class="breadcrumbs" itemprop="http://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="{% url 'Index:company-about' %}" title="Компания" itemprop="item">
+                        <span itemprop="name">Компания</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Отзывы</span>
+                    <meta itemprop="position" content="3" />
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="animate-block-first custom-header-block">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="heading-1 heading-underline section-title-js">Отзывы</h1>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Мы работаем с крупнейшими российскими и международными компаниями: с
+                        крупнейшими страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами,
+                        eСommerce, СМИ и другими.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="animate-block-first review-block" id="bx_3218110189_31">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="{% static '/upload/iblock/ff8/ff8c70f0d0f870a51c7e6f60030274a0.svg' %}">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">АО «ВБРР» Шапка В. М.</p>
+                            <p class="review-block-title-submain">Начальник управления корпоративных коммуникаций и рекламы АО «ВБРР»                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            За время нашего сотрудничества был выполнен обширный план работ на корпоративном сайте Банка «ВБРР» &#40;АО&#41;. Хотим отметить, что сотрудники компании ООО «Интернет-системы» всегда работают оперативно, качественно и внимательно прислушиваются к требованиям Заказчика.<br />
+                            <br />
+                            Задачи выполнены качественно, быстро и на высоком профессиональном уровне. Выражаем признательность и благодарность.                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/fb1/fb1fa8df2c82cdb64f5b4f7a251b4c15.png' %}">
+                            <img src="{% static '/upload/iblock/fb1/fb1fa8df2c82cdb64f5b4f7a251b4c15.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://vbrr.ru" rel="nofollow" target="_blank">vbrr.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block review-block" id="bx_3218110189_32">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="{% static '/upload/iblock/c61/c613c2a18477977812794746d6125516.svg' %}">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">Кузнецова Полина</p>
+                            <p class="review-block-title-submain">Директор по развитию                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            За качественную и оперативную работу по развитию подсистемы сайта. Специалисты смогли выполнить все требования, поставленные перед ними. Благодаря профессионализму сотрудников и внимательному отношению к каждой детали работа получилась по-настоящему качественной. Хотим отметить гибкий подход к ценообразованию и оперативность реагирования на любое пожелание или предложение. Компания работает четко и слаженно, так что мы остались довольны полученным результатом. Желаем «Интернет Системам» процветания, дальнейших успехов и надеемся на сотрудничество в будущем.                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/07f/07f47ef2dc06370697fd75e852b239d7.png' %}">
+                            <img src="{% static '/upload/iblock/07f/07f47ef2dc06370697fd75e852b239d7.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://vseinstrumenti.ru" rel="nofollow" target="_blank">vseinstrumenti.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block review-block" id="bx_3218110189_33">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="{% static '/upload/iblock/2c5/2c51972b9a7085273598fe2ccde01045.png' %}">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">ООО «Нано- Финанс» Ли С. В.</p>
+                            <p class="review-block-title-submain">Генеральный директор                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            За время совместной работы ООО «Интернет Системы» проявило себя как высокопрофессиональная компания с наличием квалифицированных кадров, оперативно и качественно решающая поставленные задачи. Кроме того, ООО «Интернет Системы» была оказана неоценимая помощь при реализации проекта по приему платежей. Отличительной особенностью коллектива ООО «Интернет Системы» является внимание к задачам партнера, индивидуальный подход и глубокая проработка вопросов на протяжении всего срока реализации проекта, от постановки задачи до ее исполнения.                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/4f9/4f942bb5f69be59636c87d10f1fc442d.png' %}">
+                            <img src="{% static '/upload/iblock/4f9/4f942bb5f69be59636c87d10f1fc442d.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://nanofin.ru" rel="nofollow" target="_blank">nanofin.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block review-block" id="bx_3218110189_34">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="{% static '/upload/iblock/53d/53ddd31d708cfce53b6a3cee9d6480d1.png' %}">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">ООО «Современный дом» Кирмасов М. Ф.</p>
+                            <p class="review-block-title-submain">Генеральный директор                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            Созданием сайта для нашей компании ООО «Современный Дом» занималась Ваша компания «Интернет Системы». Выражаем огромную благодарность компании «Интернет Системы» за проявленный профессионализм, креативность и оперативность в создании нашего сайта. За теплые партнерские отношения и отзывчивость отдельное спасибо Вам — руководителю компании — Болясову Юрию Олеговичу. Мы очень довольны нашим сотрудничеством. С полной ответственностью рекомендуем компанию «Интернет Системы» всем, кто заинтересован в услугах создания и продвижения интернет-проектов. Профессиональный и новаторский подход к созданию сайта, а также оперативное реагирование на вопросы и пожелания — вот что отличает работу данной компании- разработчика. Желаем Вам успеха и процветания!                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/b07/b07522f07bdb314f56f8d3e8613fd6d3.png' %}">
+                            <img src="{% static '/upload/iblock/b07/b07522f07bdb314f56f8d3e8613fd6d3.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://sov-dom.ru" rel="nofollow" target="_blank">sov-dom.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block review-block" id="bx_3218110189_35">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="{% static '/upload/iblock/ac4/ac4fbe4764e931d39daf98c2432f38de.svg' %}">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">ООО «Строим Дом» Шаповалов В. Е.</p>
+                            <p class="review-block-title-submain">Генеральный директор                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            Строительная фирма ООО «СтроимДом» выражает благодарность компании «Интернет Системы» за качественную и эффективную работу по раскрутке сайта. Все работы были выполнены на высшем уровне и в строго оговоренные сроки.<br />
+                            <br />
+                            Благодарим компанию «Интернет Системы» за продуктивное сотрудничество.                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/9c8/9c8d64dfaa05026d079b575e60562845.png' %}">
+                            <img src="{% static '/upload/iblock/9c8/9c8d64dfaa05026d079b575e60562845.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://stroimdom.com" rel="nofollow" target="_blank">stroimdom.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block review-block" id="bx_3218110189_36">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="{% static '/upload/iblock/4db/4db31440054773b5af4a1c37df09be9e.png' %}">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">ООО «Ластик и Промокашка» Терехов О. П.</p>
+                            <p class="review-block-title-submain">Генеральный директор                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            Для технической поддержки нашего интернет-магазина www.tverkanctovary.ru мы выбрали компанию «Интернет системы» и не пожалели - более ответственных специалистов, наверное, не найти.<br />
+                            <br />
+                            Благодарим вас за проделанную работу, ответственность и внимательность.                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/5f6/5f6a0dcb6a1c441703cd57375f44c2be.png' %}">
+                            <img src="{% static '/upload/iblock/5f6/5f6a0dcb6a1c441703cd57375f44c2be.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://tverkanctovary.ru" rel="nofollow" target="_blank">tverkanctovary.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block review-block" id="bx_3218110189_37">
+        <div class="widewrap section-title-js">
+            <div class="row transform-y-55 tn_dr_05">
+                <div class="col-12 ">
+                    <div class="review-block-logo-title">
+                        <div class="review-block-logo">
+
+                            <img src="">
+                        </div>
+                        <div class="review-block-title">
+                            <p class="review-block-title-main">ООО «Бэль фьоро» Устименко С.Л.</p>
+                            <p class="review-block-title-submain">                                </p>
+                        </div>
+                    </div>
+                    <div class="review-block-content">
+                        <p class="text text-lh-30">
+                            Уважаемый коллектив компании «Интернет Системы», хочу выразить признательность за создание сайта свадебного салона «Каприз». Приятно работать с профессионалами, которые не только качественно и оперативно выполняют свою работу, но также внимательны и отзывчивы к нам, Клиентам.<br />
+                            <br />
+                            Помимо этого сотрудники компании «Интернет Системы» обладают такими важными для нас качествами, как креативность, ответственность и нацеленность на результат, в связи с чем мы рассчитываем на продолжение нашего успешного сотрудничества в будущем.                            </p>
+                    </div>
+                    <div class="review-block-img">
+                        <a class="image-zoom-hover" href="{% static '/upload/iblock/3e5/3e59b907c0392ba0440f895dd5053f30.png' %}">
+                            <img src="{% static '/upload/iblock/3e5/3e59b907c0392ba0440f895dd5053f30.png' %}">
+                        </a>
+                        <a class="review-block-link" href="https://" rel="nofollow" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="animate-block our-projects-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <h2 class="heading-2 heading-underline section-title-js">Наши клиенты</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Мы работаем с крупнейшими российскими и международными компаниями: страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и другими.</p>
+                </div>
+                <div class="col-12 col-lg-7 row our-projects-slider transform-y-55 tn_dl_05 tn_dr_05">
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-vbrr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr.svg' %}"> </div>
+                            <div class="our-project-logo-moskonditer"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}"> </div>
+                            <div class="our-project-logo-gchpinfo"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/gchpinfo.svg' %}"> </div>
+                            <div class="our-project-logo-vseinstrumenti"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vseinstrumenti.svg' %}"> </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-ruspetrol"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/ruspetrol.svg' %}"> </div>
+                            <div class="our-project-logo-osram"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/osram.svg' %}"> </div>
+                            <div class="our-project-logo-kalibr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/kalibr.svg' %}"> </div>
+                            <div class="our-project-logo-peresvet"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/peresvet.svg' %}"> </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-clavel"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/clavel.svg' %}"> </div>
+                            <div class="our-project-logo-met"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}"> </div>
+                            <div class="our-project-logo-mirdetstva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdetstva.svg' %}"> </div>
+                            <div class="our-project-logo-mirdereva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdereva.svg' %}"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 button-case tn_dl_04 tn_dr_05"> <a class="button-blue button-small js-form-have-project" href="">Стать
+                    клиентом</a> </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block footer-form">
+        <div class="wrap">
+            <div class="row align-items-start">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img">
+                    <img alt="" width="" height="" src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+                </div>
+                <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                    <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Быстрая связь</h3>
+                    <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/company/review/">
+                        <input type="hidden" name="g_recaptcha_response" value="">
+                        <input type="hidden" name="WEB_FORM_ID" value="3">
+                        <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                        <div class="input-wrap">
+                            <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                            <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите ваше имя</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                            <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите телефон</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                            <label for="form_text_18">Email</label>
+                            <span class="input-alert">Укажите Email</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                            <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                            <span class="input-alert">Напишите сообщение</span>
+                        </div>
+                        <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                            <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a></span>
+                            <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                        </p>
+                        <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

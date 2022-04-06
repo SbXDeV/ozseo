@@ -1,0 +1,12 @@
+#bx-panel [class*="button"]{
+    transform: none;
+    opacity: 1;
+}
+#bx_admin_form input {
+height: auto;
+appearance: auto;
+-webkit-appearance: auto;
+}
+.grecaptcha-badge {
+    visibility: hidden !important;
+}

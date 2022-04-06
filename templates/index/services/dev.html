@@ -1,0 +1,469 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}create-page{% endblock %}
+
+{% block content %}
+<section class="animate-block-first main-banner header-color-js hc_js_2">
+    <div class="widewrap">
+        <ul class="breadcrumbs" itemprop="https://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                    <span itemprop="name">Главная</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name">Разработка сайтов</span>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ul>
+        <div class="row">
+        <div class="col-12 col-lg-9">
+            <h1 class="heading-1 tn_dl_02">Создание сайтов</h1>
+            <p class="subheading-price tn_dl_04">от&nbsp;350&nbsp;000 &#8381;</p>
+            <ul class="list-dotted tn_dl_06">
+                <li>Разрабатываем сайты под ключ</li>
+                <li>Работаем с&nbsp;любым форматом, от&nbsp;лендинга до&nbsp;портала</li>
+                <li>Поддерживаем вас после запуска сайта</li>
+            </ul>
+            <div class="banner-float-create">
+                <span class="banner-image"></span>
+            </div>
+            <div class="button-case tn_dl_08 tn_dr_05">
+                <a href="#" class="button-blue js-form-have-project">Расcчитать стоимость проекта</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-difficulty header-color-js">
+    <div class="widewrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-7 col-xl-7">
+                <h2 class="heading-2 heading-underline section-title-js">Сайты любого формата, тематики, сложности</h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Наших компетенций и&nbsp;опыта достаточно, чтобы создать
+                    сайт любой сложности&nbsp;&mdash; от&nbsp;&laquo;визитки&raquo; до&nbsp;отраслевого портала.
+                    Вы&nbsp;получаете актуальный ресурс с&nbsp;продуманным юзабилити, современным дизайном и&nbsp;функционалом,
+                    эффективно решающим ваши задачи.</p>
+                <p class="heading-4 tn_dl_04">Разрабатываем</p>
+                <ul class="list-check list-col-2 tn_dl_06">
+                    <li>Лендинги</li>
+                    <li>Личные кабинеты</li>
+                    <li>Корпоративные сайты</li>
+                    <li>Сервисы и&nbsp;каталоги</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/all-difficulty.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block block-icoblock create-block-tasks block-custom">
+    <div class="thickwrap">
+        <div class="row">
+            <div class="col-12 block-icoblock-text">
+                <h3 class="heading-2 heading-underline section-title-js">Вдумчивое отношение к&nbsp;вашим задачам</h3>
+                <p class="text text-lh-30 tn_dl_02">Создание сайта начинается с&nbsp;первой минуты нашего общения. Ваш сайт
+                    будет всесторонне продуман, потому что в&nbsp;начале взаимодействия мы&nbsp;выясним и&nbsp;четко выстроим
+                    весь спектр ваших <nobr>бизнес-задач</nobr>. </p>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                <div class="icoblock-single-ico"> <span class="ico-user"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Услышим вас</p>
+                    <p class="text">Каждая <nobr>бизнес-ситуация</nobr> индивидуальна. Расскажите нам о&nbsp;ней больше:
+                        о&nbsp;ваших планах и&nbsp;проблемах, о&nbsp;противоречиях и&nbsp;сомнениях, которые у&nbsp;вас есть.
+                        Посмотрев на&nbsp;ситуацию с&nbsp;разных сторон, мы&nbsp;получим объемное видение будущего сайта.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                <div class="icoblock-single-ico"> <span class="ico-cycle"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Проанализируем ТЗ</p>
+                    <p class="text">Вам может показаться, что техническое задание достаточно подробно. Но&nbsp;чтобы оно стало
+                        исчерпывающим, над ним должны поработать те, кто имеет многолетний опыт создания сайтов. Мы&nbsp;уточним
+                        важные нюансы ваших пожеланий.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-ico"> <span class="ico-center"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Предложим разные решения</p>
+                    <p class="text">В&nbsp;процессе диалога и&nbsp;вы, и&nbsp;мы&nbsp;поймем более четко, какие задачи стоят
+                        перед сайтом. Мы&nbsp;познакомим вас с&nbsp;оптимальными, современными решениями этих задач, чтобы
+                        в&nbsp;итоге создать улучшенную, более полную и&nbsp;грамотную версию ТЗ.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-text">
+                    <p class="text blue-bold">Планируете заказать создание сайта? Уже сейчас мы можем подсказать вам важные моменты, которые разработчики ТЗ часто оставляют без внимания. Свяжитесь с нами, чтобы сэкономить свое время и сделать процесс подготовки ТЗ продуктивнее.</p> <a href="#"
+                                                                                                                                                                                                                                                                                              class="button-blue button-small js-form-have-project">Задать вопрос</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-specialization">
+    <div class="thickwrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6 subpadding">
+                <h3 class="heading-2 heading-underline section-title-js">Специализируемся на&nbsp;Drupal и&nbsp;Битрикс</h3>
+                <p class="text text-lh-30 tn_dl_02">Мы&nbsp;работаем только с&nbsp;двумя CMS, но&nbsp;зато знаем о&nbsp;них все, следим
+                    за&nbsp;самым актуальным в&nbsp;мире по&nbsp;этой теме, делаем работу безупречно. </p> <img alt="" width="" height=""
+                                                                                                                class="c-plus-bitrix-logo transform-y-55 tn_dl_04 tn_dr_05" src="/local/templates/inetsys/img/specialization-img.png">
+            </div>
+            <div class="col-12 col-lg-6 image-block-before">
+                <div class="specialization-img-block"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/specialization-img2.png' %}">
+                    <div class="w-100 text-specialization-bitrix">
+                        <div class="sepcialization-bitrix-btn prnt-active-btn transform-y-55 tn_dl_08 tn_dr_05"><span
+                                class="why-btn">Почему Битрикс</span><span class="ico-plus"></span></div>
+                        <p class="blue-bold text-fs-18">Почему Битрикс</p>
+                        <p>Беспроигрышный вариант, &laquo;заточенный&raquo; под российский рынок. Все новейшие обновления
+                            происходят в&nbsp;этом направлении. Безопасная, устойчивая, практичная.</p>
+                    </div>
+                    <div class="w-100 text-specialization-drupal">
+                        <div class="sepcialization-drupal-btn prnt-active-btn transform-y-55 tn_dl_10 tn_dr_05"><span
+                                class="ico-plus"></span><span class="why-btn">Почему Drupal</span></div>
+                        <p class="blue-bold text-fs-18">Почему Drupal</p>
+                        <p>Масштабируемая и&nbsp;гибкая система, с&nbsp;которой ваш бизнес никогда &laquo;не&nbsp;упрется
+                            в&nbsp;потолок&raquo;. Идеально для стремительно растущего бизнеса. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block block-custom create-block-crm">
+    <div class="thickwrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/CRM.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Интегрируем сайт с&nbsp;CRM</h2>
+                <p class="text text-lh-30 tn_dl_02">Если ваш бизнес развивается в&nbsp;духе современных трендов
+                    и&nbsp;масштабируется, связка CRM с&nbsp;сайтом является не&nbsp;просто желательной,
+                    но&nbsp;и&nbsp;необходимой. Это позволит оптимизировать <nobr>бизнес-процессы</nobr> и&nbsp;за&nbsp;счёт
+                    этого усилить ваши конкурентные преимущества.</p>
+                <p class="heading-4 tn_dl_04">Преимущества внедрения CRM</p>
+                <ul class="list-check tn_dl_06">
+                    <li>Интегрирует сервисы компании</li>
+                    <li>Объединяет все каналы коммуникации</li>
+                    <li>Сохраняет историю работы с&nbsp;клиентом</li>
+                    <li>Делает аналитику понятной и&nbsp;наглядной</li>
+                    <li>Наводит порядок в&nbsp;файлах и&nbsp;документах</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block advantages-block background-blue text-white">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 heading-underline text-white section-title-js">Наши преимущества</h2>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_02">
+                <div class="icoblock-single-ico"> <span class="ico-graph-outline"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3 tn">17 лет опыта разработки сайтов</p>
+                    <p class="text text-lh-30">Наша команда давно и&nbsp;плодотворно занимается разработкой сайтов.
+                        Мы&nbsp;в&nbsp;курсе всего, что происходит в&nbsp;этой сфере, и&nbsp;предлагаем вам самые актуальные,
+                        современные решения.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_02">
+                <div class="icoblock-single-ico"> <span class="ico-message"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Выстроенный проектный менеджмент</p>
+                    <p class="text text-lh-30">Говорим на&nbsp;одном языке с&nbsp;вами. Мы&nbsp;понимаем ваши потребности
+                        и&nbsp;умеем объяснить вам специфику работы. Прозрачность, слаженность действий обеспечат эффективную
+                        реализацию проекта. </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                <div class="icoblock-single-ico"> <span class="ico-like"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Индивидуальный подход</p>
+                    <p class="text text-lh-30">Мы&nbsp;осознаем, что ваша <nobr>бизнес-ситуация</nobr> не&nbsp;похожа
+                        на&nbsp;другие и&nbsp;она меняется во&nbsp;времени. Вы&nbsp;можете быть уверены, что мы&nbsp;найдем
+                        те&nbsp;решения, которые будут оптимальны именно для вас, что будут учтены важные нюансы, что задачи будут
+                        решаться не&nbsp;только оперативно, но&nbsp;и&nbsp;гибко. </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                <div class="icoblock-single-ico"> <span class="ico-shield"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Сильный сплав компетенций</p>
+                    <p class="text text-lh-30">В&nbsp;нашей команде&nbsp;&mdash; опытные менеджеры и&nbsp;разработчики высокого
+                        уровня. Есть все специалисты, которые могут понадобиться при разработке и&nbsp;поддержке вашего сайта.
+                        Мы&nbsp;сможем решить под ключ задачу любого уровня сложности.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block block-icoblock create-block-icoblock">
+    <div class="thickwrap">
+        <div class="row">
+            <div class="col-12 block-icoblock-text">
+                <h2 class="heading-2 heading-underline section-title-js">Продуманный интерфейс и&nbsp;клёвый дизайн </h2>
+                <p class="w-100 text text-lh-30 tn_dl_02">Процесс изготовления дизайна сайта в&nbsp;нашей студии состоит из&nbsp;четко
+                    регламентированных этапов&nbsp;&mdash; это позволяет нам почти гарантированно попасть в&nbsp;ваши ожидания,
+                    а&nbsp;зачастую превзойти их.</p>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                <div class="icoblock-single-ico"> <span class="ico-bell"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Обсуждаем проект</p>
+                    <p class="text">Мы&nbsp;систематически применяем брейнштормы и&nbsp;креативные методики, аккуратно собираем
+                        образы и&nbsp;строим визуальный бриф. </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                <div class="icoblock-single-ico"> <span class="ico-image"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Скетчи</p>
+                    <p class="text">Мы&nbsp;готовим скетчи и&nbsp;прототипы и&nbsp;вовлекаем заказчиков на&nbsp;самых ранних
+                        этапах.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-ico"> <span class="ico-idea"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Креатив</p>
+                    <p class="text">Мы&nbsp;придумываем фишки и&nbsp;готовы обосновать каждый элемент.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-ico"> <span class="ico-graph-smoth"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Тестирование</p>
+                    <p class="text">У&nbsp;нас построена многоступенчатая процедура тестирования макетов на&nbsp;живых людях
+                        до&nbsp;демонстрации макета вам. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-stages">
+    <div class="widewrap">
+        <div class="row">
+            <div class=" col-12">
+                <h2 class="heading-2 heading-underline section-title-js">Этапы разработки сайта</h2>
+                <p class="text text-lh-30 tn_dl_02">Отработанный на&nbsp;сотнях проектов порядок работ сделает реализацию
+                    вашего проекта предсказуемой. У&nbsp;него будут четкие сроки и&nbsp;точная стоимость создания сайта.</p>
+                <span class="create-stages-img transform-y-55 tn_dl_04 tn_dr_05"></span>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                <div class="icoblock-single-ico"> <span class="ico-clock"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Четкие сроки</p>
+                    <p class="text">В&nbsp;соответствии с&nbsp;графиком работ</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                <div class="icoblock-single-ico"> <span class="ico-payment"></span></div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Точная стоимость</p>
+                    <p class="text">Зафиксирована в&nbsp;договоре создания сайта</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-prototiping block-custom">
+    <div class="thickwrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/prototyping.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Прототипирование и&nbsp;дизайн</h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Сайт получит дизайн&nbsp;&mdash; современный, креативный,
+                    грамотный с&nbsp;точки зрения психологии вашего потребителя, созданный для решения конкретных <nobr>
+                        бизнес-задач</nobr>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-layers">
+    <div class="thickwrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Верстка сайта</h2>
+                <p class="text text-lh-30 tn_dl_02">Дизайн получит верстку, которая будет адаптирована под разные разрешения
+                    экрана и&nbsp;браузеры. Вы&nbsp;сможете зайти с&nbsp;разных электронных устройств на&nbsp;тестовую версию
+                    сайта и&nbsp;убедиться, что в&nbsp;любом виде сайт выглядит превосходно. </p>
+            </div>
+            <div class="col-12 col-lg-6 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/site-layers.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-realization block-custom">
+    <div class="thickwrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/realization.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Программная реализация</h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Сила команды&nbsp;&mdash; опытные программисты высокого уровня.
+                    Вашим сайтом будут заниматься профессионалы, чья квалификация позволит эффективно решить любые, даже сложные
+                    задачи в&nbsp;сжатые сроки. </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block create-block create-block-support">
+    <div class="thickwrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Наполнение и&nbsp;<nobr>контент-поддержка</nobr>
+                </h2>
+                <p class="text text-lh-30 tn_dl_02">Вы&nbsp;сможете заказать создание сайта с&nbsp;уникальным контентом,
+                    текстами, продуманными с&nbsp;точки зрения психологии вашего целевого посетителя, оптимизированными под
+                    ключевые <nobr>seo-запросы</nobr>. Мы&nbsp;обеспечим регулярное информационное обновление сайта
+                    профессиональными статьями, новостями, постами в&nbsp;корпоративном блоге. </p>
+            </div>
+            <div class="col-12 col-lg-6 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/megafon.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block about-block background-purple">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12 col-lg-5 col-xl-7">
+                <div class="row">
+                    <h2 class="heading-2 heading-underline section-title-js">Факты о&nbsp;нас</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Более 10 лет мы&nbsp;работаем в&nbsp;сфере создания
+                        и&nbsp;сопровождения сайтов, неизменно предлагая своим клиентам самые актуальные решения.</p>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_04">
+                        <div class="icoblock-single-ico"> <span class="ico-portfolio"></span></div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">200+</p>
+                            <p class="text">Сайтов, созданных &laquo;под ключ&raquo;</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_04">
+                        <div class="icoblock-single-ico"> <span class="ico-smile"></span></div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">30</p>
+                            <p class="text">Разных <nobr>бизнес-тематик</nobr>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_06">
+                        <div class="icoblock-single-ico"> <span class="ico-rock"></span> </div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">25+</p>
+                            <p class="text">постоянных клиентов</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-6 icoblock-single tn_dl_06">
+                        <div class="icoblock-single-ico"> <span class="ico-gramophone"></span></div>
+                        <div class="icoblock-single-text">
+                            <p class="heading-number">80+</p>
+                            <p class="text">Сайтов на&nbsp;поддержке и&nbsp;продвижении</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/aboutus.png' %}"> </div>
+            <div class="col-12 button-case tn_dl_08 tn_dr_05"> <a class="button-outline button-small" href="/projects/">Смотреть
+                проекты</a> </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block our-projects-block">
+    <div class="wrap">
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <h2 class="heading-2 heading-underline section-title-js">Наши клиенты</h2>
+                <p class="w-100 text text-lh-30 tn_dl_02">Мы работаем с крупнейшими российскими и международными компаниями: страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и другими.</p>
+            </div>
+            <div class="col-12 col-lg-7 row our-projects-slider transform-y-55 tn_dl_05 tn_dr_05">
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="our-project-logo-vbrr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr.svg' %}"> </div>
+                        <div class="our-project-logo-moskonditer"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}"> </div>
+                        <div class="our-project-logo-gchpinfo"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/gchpinfo.svg' %}"> </div>
+                        <div class="our-project-logo-vseinstrumenti"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vseinstrumenti.svg' %}"> </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="our-project-logo-ruspetrol"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/ruspetrol.svg' %}"> </div>
+                        <div class="our-project-logo-osram"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/osram.svg' %}"> </div>
+                        <div class="our-project-logo-kalibr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/kalibr.svg' %}"> </div>
+                        <div class="our-project-logo-peresvet"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/peresvet.svg' %}"> </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="our-project-logo-clavel"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/clavel.svg' %}"> </div>
+                        <div class="our-project-logo-met"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}"> </div>
+                        <div class="our-project-logo-mirdetstva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdetstva.svg' %}"> </div>
+                        <div class="our-project-logo-mirdereva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdereva.svg' %}"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 button-case tn_dl_04 tn_dr_05"> <a class="button-blue button-small js-form-have-project" href="">Стать
+                клиентом</a> </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block footer-form">
+    <div class="wrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img"><img alt="" width="" height=""
+                                                                                                         src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+            </div>
+            <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Есть проект?<br>Напишите нам</h3>
+
+
+
+                <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/development/">
+                    <input type="hidden" name="g_recaptcha_response" value="">
+                    <input type="hidden" name="WEB_FORM_ID" value="3">
+                    <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                    <div class="input-wrap">
+                        <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                        <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите ваше имя</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                        <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите телефон</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                        <label for="form_text_18">Email</label>
+                        <span class="input-alert">Укажите Email</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                        <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                        <span class="input-alert">Напишите сообщение</span>
+                    </div>
+                    <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                        <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                        <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                    </p>
+                    <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                </form>            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

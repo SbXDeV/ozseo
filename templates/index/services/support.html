@@ -1,0 +1,843 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}support-page{% endblock %}
+{% block content %}
+    <section class="animate-block-first main-banner header-color-js hc_js_2">
+        <div class="widewrap">
+            <ul class="breadcrumbs" itemprop="https://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Поддержка 24/7</span>
+                    <meta itemprop="position" content="2" />
+                </li></ul>            <div class="row">
+            <div class="col-12">
+                <h1 class="heading-1 tn_dl_02">Поддержка сайтов                    </h1>
+                <p class="subheading-price text-blue tn_dl_04">1 600 ₽ / чаc</p>
+                <p class="text text-fs-18 tn_dl_06">Подключим программистов, дизайнеров или верстальщиков, всё
+                    исправим и поддержим.</p>
+                <div class="banner-float-support">
+                    <span class="banner-image"></span>
+                </div>
+                <div class="button-case tn_dl_08 tn_dr_05"><a href="#" class="button-blue js-form-have-project">Начать поддержку
+                    сайта</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="animate-block support-block support-block-complex header-color-js">
+        <div class="widewrap">
+            <div class="row block-image-right">
+                <div class="col-12 col-lg-6">
+                    <h2 class="heading-2 heading-underline section-title-js">Мы предлагаем комплексную поддержку сайта
+                    </h2>
+                    <p class="text text-lh-30 tn_dl_02">У нас в штате работают специалисты: менеджеры,
+                        программисты, дизайнеры, интернет-маркетологи. Слаженная работа наших профессионалов - гарантия
+                        вашего успеха. Мы знаем, как улучшить ваш ресурс, привлечь целевую аудиторию и сделать
+                        интернет-проект прибыльным и эффективным.</p>
+                </div>
+                <div class="col-12 col-lg-6 image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/calendar-time.png' %}">
+                    <div class="float-circles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block support-block support-block-clients">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="heading-3 section-title-js fw-500">Больше 150&nbsp;клиентов доверяют нам свои&nbsp;сайты
+                </h3>
+            </div>
+            <div class="col-12 our-clients-wide-slider transform-y-55 tn_dr_05 tn_dl_04">
+                <div class="clients-wide-vbrr">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/clients/vbrr.png' %}">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr2.svg' %}">
+                        <p class="heading-4">Федеральный банк «ВБРР»</p>
+                        <p class="text">Федеральный сайт банка <span class="text-blue">ТОП 15</span> банков России
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-osram">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/clients/osram.png' %}">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/osram.svg' %}">
+                        <p class="heading-4">OSRAM GmbH</p>
+                        <p class="text">Ведущий в мире производитель светотехнической продукции
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-peresvet">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/clients/peresvet.png' %}">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/peresvet.svg' %}">
+                        <p class="heading-4">Банк «Пересвет»</p>
+                        <p class="text"><span class="text-blue">ТОП 30</span> крупнейших российских банков
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-moskonditer">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/clients/moskonditer.png' %}">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}">
+                        <p class="heading-4">Банк «Пересвет»</p>
+                        <p class="text"><span class="text-blue">ТОП 30</span> крупнейших российских банков
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-met">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/clients/met.png' %}">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}">
+                        <p class="heading-4">Торгово-производственная компания "МЕТ"</p>
+                        <p class="text">Один из крупнейших интернет-магазинов медицинской техники.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-galika">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/galika.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/galika.svg">
+                        <p class="heading-4">GALIKA AG</p>
+                        <p class="text">Швейцарская компания по поставкам оборудования для металлообработки.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-rosinfra">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/rosinfra.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/rosinfra.svg">
+                        <p class="heading-4">"РосИнфра"</p>
+                        <p class="text">Глобальная платформа поддержки инфраструктурных объектов, инициирована торговой палатой РФ.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-gazprom">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/gazprom.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/gazprom.svg">
+                        <p class="heading-4">"Газпромнефть"</p>
+                        <p class="text">Официальный дилер с высоким уровнем сервиса и сопутствующих IT-решений в сегменте топливных карт.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-kalibr">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/kalibr.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/kalibr.svg">
+                        <p class="heading-4">"Калибр"</p>
+                        <p class="text">Крупнейший частный технопарк.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-ruspetrol">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/ruspetrol.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/ruspetrol.svg">
+                        <p class="heading-4">"Руспетрол"</p>
+                        <p class="text">Топливная компания входит в число ведущих российских операторов систем безналичных расчетов на топливо.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-clavel">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/clavel.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/clavel.svg">
+                        <p class="heading-4">"CLAVEL"</p>
+                        <p class="text">Ведущий европейский представитель строительиных материалов.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-wide-mir">
+                    <div class="our-clients-wide-img-block">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/clients/mir.png">
+                    </div>
+                    <div class="our-clients-wide-description">
+                        <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/mir.svg">
+                        <p class="heading-4">"Мир детства"</p>
+                        <p class="text">Торгово-производственная компания товаров для детей.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="animate-block price-block support-block support-block-price background-blue">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-2 heading-underline text-white section-title-js">Тарифы
+                    </h2>
+                </div>
+                <div class="d-none d-md-block col-md-5 col-lg-4 col-xl-3 price-block-text text-white">
+                    <p class="text text-fs-18">Включено часов</p>
+                    <p class="text text-fs-18">Стоимость часа сверх абонентской платы</p>
+                    <p class="text text-fs-18">Скорость ответа менеджера</p>
+                    <p class="text text-fs-18">Рекомендации по развитию сайта</p>
+                    <p class="text text-fs-18">Стоимость абонентской платы (рублей в месяц)</p>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 col-xl-9 row price-block-slider">
+                    <div class="col-12 col-xl-4">
+                        <div class="price-table-1 transform-y-55 tn_dr_05 tn_dl_04">
+                            <h4 class="heading-3_5">Рабочий</h4>
+                            <p class="price-block-table-list"><span class="table-val-name">Включено </span>5 часов</p>
+                            <p class="price-block-table-list"><span class="table-val-name">Стоимость часа сверх
+                                    абонентской платы </span>2 000 ₽
+                            </p>
+                            <p class="price-block-table-list"><span class="table-val-name">Скорость ответа менеджера
+</span>В течение дня</p>
+                            <p class="price-block-table-list"><span class="table-val-name">Рекомендации по развитию
+                                    сайта </span>Нет</p>
+                            <p class="price-block-table-list price-block-table-price"><span
+                                    class="table-val-name">Абонентская плата </span>10 000 ₽</p>
+                            <a class="button-blue price_block_choose" href="#page_center_form"
+                               data-tarif="11">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                        <div class="price-table-2 transform-y-55 tn_dr_05 tn_dl_06">
+                            <h4 class="heading-3_5">Optima</h4>
+                            <p class="price-block-table-list"><span class="table-val-name">Включено </span>20 часов</p>
+                            <p class="price-block-table-list"><span class="table-val-name">Стоимость часа сверх
+                                    абонентской платы </span>1 800 ₽
+                            </p>
+                            <p class="price-block-table-list"><span class="table-val-name">Скорость ответа менеджера
+</span>До 1 часа</p>
+                            <p class="price-block-table-list"><span class="table-val-name">Рекомендации по развитию
+                                    сайта </span>Да</p>
+                            <p class="price-block-table-list price-block-table-price"><span
+                                    class="table-val-name">Абонентская плата </span>36 000 ₽</p>
+                            <a class="button-blue price_block_choose" href="#page_center_form"
+                               data-tarif="12">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                        <div class="price-table-3 transform-y-55 tn_dr_05 tn_dl_08">
+                            <h4 class="heading-3_5">VIP</h4>
+                            <p class="price-block-table-list"><span class="table-val-name">Включено </span>60 часов</p>
+                            <p class="price-block-table-list"><span class="table-val-name">Стоимость часа сверх
+                                    абонентской платы </span>1 600 ₽
+                            </p>
+                            <p class="price-block-table-list"><span class="table-val-name">Скорость ответа менеджера
+</span>До 15 минут</p>
+                            <p class="price-block-table-list"><span class="table-val-name">Рекомендации по развитию
+                                    сайта </span>Да</p>
+                            <p class="price-block-table-list price-block-table-price"><span
+                                    class="table-val-name">Абонентская плата </span>96 000 ₽</p>
+                            <a class="button-blue price_block_choose" href="#page_center_form"
+                               data-tarif="13">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-xl-12 price-block-bottom-text transform-y-55 tn_dr_05 tn_dl_10">
+                    <p class="remark text-lh-30 text-white text-fs-18"><span>Кроме типовых тарифов у нас есть гибкая
+                            система заявки
+                            часов.</span> </br>Напишите нужное вам количество часов, и вы узнаете стоимость и условия.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block block-icoblock support-block support-block-price-icoblock">
+        <div class="thickwrap">
+            <div class="row">
+                <div class="col-12 block-icoblock-text">
+                    <h2 class="heading-3_5 fw-500 section-title-js">Во все тарифы включено:
+                    </h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Согласовываем конкретные требования к первому этапу,
+                        определяем его точную стоимость и сроки.
+                        По мере выполнения работ формируем требования к новым этапам и уточняем их стоимость.</p>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-schedule"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Услуги персонального менеджера</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-pouche"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Работа программистов, дизайнера, верстальщика</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-box"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Восстановление сайта
+                            из&nbsp;резервной копии</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-crm"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Оперативное
+                            реагирование на&nbsp;заявку</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-graph-smoth"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Антивирусная защита
+                            сайта</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-graph-smoth"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Контроль работоспособности сайта</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="animate-block support-block support-block-form background-blue" id="page_center_form">
+        <div class="wrap">
+            <div class="row align-items-start">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before"><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/footer-form-mail.png">
+                </div>
+                <div class="col-12 col-md-12 col-xl-7 form-support">
+                    <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Начать поддержку прямо
+                        сейчас</h3>
+
+                    <form id="tarif" class="tarif-form transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_4" action="/support/" method="POST" enctype="multipart/form-data">
+                        <input type="hidden" name="form_hidden_20" id="form_hidden_20" value="https://www.inetsys.ru/support/">
+                        <input type="hidden" name="g_recaptcha_response" value="">
+                        <input type="hidden" name="WEB_FORM_ID" value="4">
+                        <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                        <div class="input-wrap">
+                            <input name="form_text_8" id="form_text_8" type="text" class="input-text required" placeholder="Ваше имя">
+                            <label for="form_text_8">Ваше имя <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите ваше имя</span>
+                        </div>
+
+                        <div class="input-wrap">
+                            <input name="form_text_9" id="form_text_9" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                            <label for="form_text_9">Телефон <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите телефон</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_10" id="form_text_10" type="email" class="input-text  required" placeholder="E-mail">
+                            <label for="form_text_10">E-mail <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите электронную почту</span>
+
+                        </div>
+
+                        <div class="input-wrap">
+                            <select class="inputselect" name="form_dropdown_SIMPLE_QUESTION_473" id="form_dropdown_SIMPLE_QUESTION_473" style="display: none;"><option value="11">Рабочий</option><option value="12">Optima</option><option value="13">VIP</option><option value="14">Индивидуальный</option></select>
+                            <div class="nice-select inputselect" tabindex="0">
+                                <span class="current">Тариф: Рабочий</span>
+                                <ul class="list">
+                                    <li data-value="11" class="option selected focus">Тариф: Рабочий</li>
+                                    <li data-value="12" class="option">Тариф: Optima</li>
+                                    <li data-value="13" class="option">Тариф: VIP</li>
+                                    <li data-value="14" class="option">Тариф: Индивидуальный</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="input-wrap input-wrap-wide">
+                            <input name="form_text_15" id="form_text_15" type="text" class="input-text  required" placeholder="Сообщение">
+                            <label for="form_text_15">Сообщение <span class="red-star">*</span></label>
+                            <span class="input-alert">Напишите сообщение</span>
+                        </div>
+
+                        <p class="text-consent"><input class="styled-checkbox required" type="checkbox" value="1" name="Tarifch0" id="Tarifch0">
+                            <label for="Tarifch0"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                        </p>
+                        <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="animate-block support-block support-block-rework support-bittrix-block-rework">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12 col-lg-10 col-xl-7">
+                    <h2 class="heading-2 heading-underline section-title-js">Доработка сайта</h2>
+                    <p class="text text-lh-30 tn_dl_02">Мы модернизируем, дорабатываем и развиваем как крупные сервисы,
+                        так и небольшие решения для бизнеса. Наш опыт позволяет нам присоединиться на любом этапе
+                        разработки продукта, в том числе и после его запуска.</p>
+                </div>
+                <div class="col-12 subblock">
+                    <div class="row subpadding">
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_1"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Написание новых
+                                    модулей и&nbsp;компонентов </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_2"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Ускорение сайта </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_3"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Перенос сайта на&nbsp;систему управления </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_4"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Доработка чужих
+                                    модулей и&nbsp;дополнений </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_5"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Автоматическое
+                                    наполнение сайта
+                                    информацией, парсинг данных</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_6"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Интеграция сайта с&nbsp;системами и&nbsp;сервисами</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block office-team-block support-block">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12 col-lg-12">
+                <h2 class="heading-2 heading-underline section-title-js">Работы по вашему сайту может выполнять
+                    целая команда из 20 человек в офисе:</h2>
+                <p class="text text-lh-30 tn_dl_02">3.	Мы создали отлаженно работающую систему, гарантирующую вам предсказуемость результата и полную прозрачность действий.</p>
+            </div>
+        </div>
+    </div>
+    <div class="widewrap2">
+        <div class="row office-team-block-grid radius-block transform-y-55 tn_dr_05 tn_dl_04">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-design">
+                <div><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/designer.png"></div>
+                <p>Дизайнеры и иллюстраторы
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-layer">
+                <div><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/layer.png"></div>
+                <p>Верстальщики
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-progr">
+                <div><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/programist.png"></div>
+                <p>Программисты
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-seo">
+                <div><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/seo.png"></div>
+                <p>Оптимизаторы
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-cwriter">
+                <div><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/cwriter.png"></div>
+                <p>Копирайтеры и контент менеджеры
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-sysadmin">
+                <div><img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/sysadmin.png"></div>
+                <p>Сисадмины</p>
+            </div>
+        </div>
+    </div>
+    <div class="widewrap">
+        <div class="row office-team-block-after">
+            <div class="col-12">
+                <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/team/manager.png" class="transform-y-55 tn_dr_05 tn_dl_06">
+                <p class="text text-lh-30 tn_dl_08">Персональный менеджер курирует все вопросы, следит за
+                    выполнением работи держит вас в курсе.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block support-block support-block-stages scroll-here">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 heading-underline section-title-js">Только по&nbsp;стандартам качества!</h2>
+                <p class="text text-lh-30 tn_dl_02">Распределённая система контроля версий благодаря удобству и&nbsp;гибкости является наиболее предпочтительным форматом работы, который доступен только высококвалифицированным программистам профессиональных <nobr>IT-команд</nobr>.
+                    В&nbsp;своей работе над сайтами мы&nbsp;принципиально используем систему контроля версий GIT, в&nbsp;то&nbsp;время как большинство подрядчиков продолжают работать по&nbsp;упрощённой схеме без контроля версий.
+                </p>
+            </div>
+
+        </div>
+        <div class="row support-block-stages-compare-title">
+            <div class="col-12 support-block-stages-compare-header">
+                <h3 class="heading-3 active">Схема с&nbsp;использованием GIT</h3>
+                <h3 class="heading-3">Упрощенная схема</h3>
+                <div class="compare-table-toggle">
+                    <span class="compare-table-toggle-single active">Так работаем мы</span>
+                    <span class="compare-table-toggle-single">Так работают другие</span>
+                </div>
+
+            </div>
+            <div class="col-6 support-block-stages-compare-header-lg">
+                <h3 class="heading-3">Схема с&nbsp;использованием GIT</h3>
+                <span class="compare-table-toggle-single-lg">Так работаем мы</span>
+            </div>
+            <div class="col-6 support-block-stages-compare-header-lg">
+                <h3 class="heading-3">Упрощенная <br>схема</h3>
+                <span class="compare-table-toggle-single-lg">Так работают другие</span>
+            </div>
+
+        </div>
+        <div class="row support-block-stages-compare-table">
+            <div class="col-6 col-lg-6 support-block-stages-compare-we support-block-stages-compare-single"
+                 data-compare_table="line1">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-triangle"></span></div>
+                        <div class="table-compare-single-title">Разработчики работают каждый на&nbsp;своей версии сайта</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Каждый только свои задачи по проекту и не мешая другим участникам команды без риска
+                            «затирки» кода с сохранением всех изменений. Скорость работы над сайтом высокая при любом количестве
+                            разработчиков.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-other support-block-stages-compare-single"
+                 data-compare_table="line1">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-triangle-circle"></span></div>
+                        <div class="table-compare-single-title">Все разработчики работают на&nbsp;одной версии сайта</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Вносятся несовместимые изменения, мешая друг другу и замедляя выполнение задач. Высок риск
+                            затирки исходного кода и возникновения других ошибок с необходимостью их дальнейшего исправления. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-we support-block-stages-compare-single"
+                 data-compare_table="line2">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-graph-dots"></span></div>
+                        <div class="table-compare-single-title">Планомерное и&nbsp;независимое внесение изменений на&nbsp;боевой сайт</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Результаты каждой задачи можно вносить по мере ее исполнения и закрытия без риска ее
+                            выполнения дважды. В случае ошибок можно откатиться до работоспособного кода с минимальными потерями.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-other support-block-stages-compare-single"
+                 data-compare_table="line2">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-graph-double"></span></div>
+                        <div class="table-compare-single-title">Отсутствие согласованности внесения задач</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">При выполнении коротких и длинных задач разработчики вынуждены ожидать окончания работы всей
+                            команды и только потом переносить все изменения на боевой сайт.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-we support-block-stages-compare-single"
+                 data-compare_table="line3">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-gear"></span></div>
+                        <div class="table-compare-single-title">Технологические паузы не&nbsp;влияют на&nbsp;работоспособность сайта</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Реальные пользователи не видят промежуточных и непринятых изменений на боевом сайте, так как
+                            они вносятся на тестовый сайт. В случае непредвиденных ситуаций риски для заказчика минимальные.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-other support-block-stages-compare-single"
+                 data-compare_table="line3">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-gear-cross"></span></div>
+                        <div class="table-compare-single-title">Изменения заливаются напрямую на&nbsp;сайт</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Пользователи могут увидеть непредусмотренные режимы и «поломки» сайта. Это ставит под угрозу
+                            продажи, а заказчик оказывается заложником неприятной ситуации.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-we support-block-stages-compare-single"
+                 data-compare_table="line4">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-server-2"></span></div>
+                        <div class="table-compare-single-title">Приемка выполняется на&nbsp;тестовом сервере</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Сервер является полным зеркалом боевого сайта. Это гарантирует, что изменения будут
+                            производить такой же эффект на боевом сайте, что и на тестовой версии.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-other support-block-stages-compare-single"
+                 data-compare_table="line4">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-bug"></span></div>
+                        <div class="table-compare-single-title">Все ошибки отображаются на&nbsp;боевом сайте</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Потребуется корректировка принятых на технологическом сайте изменений. Из-за различия
+                            окружения та же самая принятая функция может вызвать сбой боевого сайта.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-6 support-block-stages-compare-we support-block-stages-compare-single"
+                 data-compare_table="line5">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-smile"></span></div>
+                        <div class="table-compare-single-title">Заказчик не&nbsp;погружается в&nbsp;тонкости разработки сайта</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Заказчик концентрируя внимание только на проверке и приемке пользовательского результата</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 support-block-stages-compare-other support-block-stages-compare-single"
+                 data-compare_table="line5">
+                <div class="table-compare-single">
+                    <div class="table-compare-single-ico-title">
+                        <div class="table-compare-single-ico"><span class="ico-dislike"></span></div>
+                        <div class="table-compare-single-title">Все процессы выполняются на&nbsp;одном технологическом сайте</div>
+                        <div class="table-compare-single-showmore"><span><span>Подробнее</span></span></div>
+                    </div>
+                    <div class="table-compare-single-accordion-content">
+                        <p class="text">Разработка, тестирование, верстка, программирование выполняются на одном технологическом
+                            сайте,а задачи взаимосвязаны между собой. Это не дает возможности полноценной приемки задач.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block support-block support-block-tickets">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 heading-underline section-title-js">Заявочная система</h2>
+                <p class="text text-lh-30 tn_dl_02">Для выполнения работы используется система учета затраченного
+                    времени. В ней зарегистрированные клиенты ставят и принимают задачи, а также ведутся
+                    комментарии. В конце месяца выделенный на проект менеджер готовит отчет по выполненным задачам.
+                </p>
+            </div>
+
+            <div class="col-12">
+                <span class="support-block-stages-2 transform-y-55 tn_dr_05 tn_dl_04"></span>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block support-block support-block-integration">
+    <div class="widewrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6 col-xl-7">
+                <h2 class="heading-2 heading-underline section-title-js">Интеграция с&nbsp;продуктами 1С</h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Интеграция сайта с 1С поможет свести рутинный ручной
+                    труд к минимуму, а значит, позволит оптимизировать расходы на персонал и повысить прибыль.</p>
+                <ul class="list-check list-col-3 tn_dl_06">
+                    <li>1С.Бухгалтерия</li>
+                    <li>1С.Аренда</li>
+                    <li>1С.Предприятие</li>
+                    <li>1С.УНФ</li>
+                    <li>1С.СКУД</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 image-block-before">
+                <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/integration-1c.png">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block support-block support-block-bitrix">
+    <div class="thickwrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before">
+                <img alt="" width="" height=""  src="/static/local/templates/inetsys/img/bitrix.png">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Ваш сайт на&nbsp;1C Битрикс?</h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Мы поддерживаем любые сайты на этой CMS. Просто
+                    выберите тарифный план и оформите заявку.
+                </p>
+                <a href="/support-bitrix/" class="button-blue">Поддержка сайтов на 1С Битрикс</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="animate-block our-projects-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <h2 class="heading-2 heading-underline section-title-js">Наши клиенты</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Мы работаем с крупнейшими российскими и международными компаниями: страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и другими.</p>
+                </div>
+                <div class="col-12 col-lg-7 row our-projects-slider transform-y-55 tn_dl_05 tn_dr_05">
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-vbrr"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/vbrr.svg"> </div>
+                            <div class="our-project-logo-moskonditer"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/moskonditer.svg"> </div>
+                            <div class="our-project-logo-gchpinfo"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/gchpinfo.svg"> </div>
+                            <div class="our-project-logo-vseinstrumenti"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/vseinstrumenti.svg"> </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-ruspetrol"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/ruspetrol.svg"> </div>
+                            <div class="our-project-logo-osram"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/osram.svg"> </div>
+                            <div class="our-project-logo-kalibr"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/kalibr.svg"> </div>
+                            <div class="our-project-logo-peresvet"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/peresvet.svg"> </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-clavel"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/clavel.svg"> </div>
+                            <div class="our-project-logo-met"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/met.svg"> </div>
+                            <div class="our-project-logo-mirdetstva"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/mirdetstva.svg"> </div>
+                            <div class="our-project-logo-mirdereva"> <img loading="lazy" alt="" width="" height=""  src="/static/local/templates/inetsys/img/logos/mirdereva.svg"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 button-case tn_dl_04 tn_dr_05"> <a class="button-blue button-small js-form-have-project" href="">Стать
+                    клиентом</a> </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block footer-form">
+        <div class="wrap">
+            <div class="row align-items-start">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img"><img alt="" width="" height=""
+                                                                                                             src="/static/local/templates/inetsys/img/footer-form-mail.png">
+                </div>
+                <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                    <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Есть проект?<br>Напишите нам</h3>
+
+
+
+                    <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/support/">
+                        <input type="hidden" name="g_recaptcha_response" value="">
+                        <input type="hidden" name="WEB_FORM_ID" value="3">
+                        <input type="hidden" name="sessid" id="sessid_3" value="07471865df1bca654cb950bbffa5caa7" />
+                        <div class="input-wrap">
+                            <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                            <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите ваше имя</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                            <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите телефон</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                            <label for="form_text_18">Email</label>
+                            <span class="input-alert">Укажите Email</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                            <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                            <span class="input-alert">Напишите сообщение</span>
+                        </div>
+                        <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                            <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                            <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                        </p>
+                        <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                    </form>            </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

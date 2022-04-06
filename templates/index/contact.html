@@ -1,0 +1,122 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}contacts-page background-purple{% endblock %}
+{% block content %}
+
+<section class="heading">
+    <div class="wrap">
+        <ul class="breadcrumbs" itemprop="https://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                    <span itemprop="name">Главная</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <span itemprop="name">Контакты</span>
+                <meta itemprop="position" content="2" />
+            </li></ul>            <h1 class="heading-1 transform-y-55 anim_jump-title-in an_dl_02">Контакты</h1>
+    </div>
+</section>
+
+
+<section class="animate-block contacts-block contacts-block-moscow" id="moscow">
+    <div class="widewrap" id="bx_3218110189_25">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-3 contacts-block-img image-block-before section-title-js">
+                <img src="{% static '/upload/iblock/853/853dc0cd582a4b808ea379e43270c671.png' %}" alt="Москва" width="" height="">
+            </div>
+            <div class="col-12 col-md-7 col-lg-3 contacts-block-info transform-y-55 tn_dr_05 tn_dl_06" itemscope itemtype="https://schema.org/Organization">
+                <p class="d-none" itemprop="name">Интернет-системы</p>
+                <p class="heading-3">
+                    Москва                </p>
+                <div class="contacts-adres" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <p class="d-none" itemprop="addressLocality">Москва</p>
+                    <span itemprop="streetAddress">ул. Смольная, д 24а, офис&nbsp;1811</span>
+                </div>
+                <a class="contacts-phone" href="tel:'+7 (495) 724-90-65'" itemprop="telephone">+7 (495) 724-90-65</a>
+                <p class="contacts-hours">
+                    Пн - пт. 9:00 - 19:00                </p>
+                <a class="contacts-mail" href="mailto:sales@inetsys.ru" itemprop="email">sales@inetsys.ru</a>
+                <a href="#/" class="contacts-map arrow-button" data-region="tver" >На большую карту</a>
+            </div>
+            <div id="map25" class="col-12 col-lg-6 contacts-block-map">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="animate-block contacts-block contacts-block-tver" id="tver">
+    <div class="widewrap" id="bx_3218110189_26">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-3 contacts-block-img image-block-before section-title-js">
+                <img src="{% static '/upload/iblock/80c/80c9d8568001ae5a334bdd60633f22d1.png' %}" alt="Тверь" width="" height="">
+            </div>
+            <div class="col-12 col-md-7 col-lg-3 contacts-block-info transform-y-55 tn_dr_05 tn_dl_06" itemscope itemtype="https://schema.org/Organization">
+                <p class="d-none" itemprop="name">Интернет-системы</p>
+                <p class="heading-3">
+                    Тверь                </p>
+                <div class="contacts-adres" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <p class="d-none" itemprop="addressLocality">Тверь</p>
+                    <span itemprop="streetAddress">пр-т Победы, д.3, офис&nbsp;313</span>
+                </div>
+                <a class="contacts-phone" href="tel:'+7 (4822) 34-55-73'" itemprop="telephone">+7 (4822) 34-55-73</a>
+                <p class="contacts-hours">
+                    Пн - пт. 9:00 - 19:00                </p>
+                <a class="contacts-mail" href="mailto:sales@inetsys.ru" itemprop="email">sales@inetsys.ru</a>                 <a href="#" class="contacts-map arrow-button" data-region="tver" >На большую карту</a>
+            </div>
+            <div id="map26" class="col-12 col-lg-6 contacts-block-map">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="animate-block footer-form">
+    <div class="wrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img">
+                <img alt="" width="" height="" src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+            </div>
+            <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Быстрая связь</h3>
+
+
+
+                <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/contacts/">
+                    <input type="hidden" name="g_recaptcha_response" value="">
+                    <input type="hidden" name="WEB_FORM_ID" value="3">
+                    <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                    <div class="input-wrap">
+                        <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                        <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите ваше имя</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                        <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите телефон</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                        <label for="form_text_18">Email</label>
+                        <span class="input-alert">Укажите Email</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                        <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                        <span class="input-alert">Напишите сообщение</span>
+                    </div>
+                    <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                        <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a></span>
+                        <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                    </p>
+                    <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

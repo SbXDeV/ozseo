@@ -1,0 +1,385 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+{% block name-page %}complex-page{% endblock %}
+{% block content %}
+    <section class="animate-block-first main-banner header-color-js hc_js_2">
+        <div class="widewrap">
+            <ul class="breadcrumbs" itemprop="http://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Сложные проекты</span>
+                    <meta itemprop="position" content="2" />
+                </li></ul>      <div class="row">
+            <div class="col-12">
+                <h1 class="heading-1 tn_dl_02">Сложные проекты</h1>
+                <p class="text tn_dl_04">Разрабатываем и&nbsp;развиваем <nobr>интернет-ресурсы</nobr>, требующие опыта решения
+                    нестандартных задач: </p>
+                <ul class="list-dotted tn_dl_06">
+                    <li>Высоконагруженные сайты</li>
+                    <li>Сервисы</li>
+                    <li>Информационные порталы</li>
+                    <li>CRM и&nbsp;ERP&nbsp;&mdash; системы</li>
+                </ul>
+                <div class="banner-float-complex"> <span class="banner-image"></span> </div>
+                <div class="button-case tn_dl_08 tn_dr_05"><a href="#" class="button-blue js-form-have-project">Расcчитать стоимость проекта</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="animate-block complex-block block-icoblock complex-block-icoblock header-color-js">
+        <div class="thickwrap">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-2 heading-underline section-title-js">Является&nbsp;ли ваш проект сложным? </h2>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 icoblock-single tn_dl_04">
+                            <div class="icoblock-single-ico"> <span class="ico-grid"></span> </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Да, если проект масштабный</p>
+                                <p class="text">Проект с&nbsp;развитой инфраструктурой и&nbsp;у&nbsp;него много функций?
+                                    Он&nbsp;предсказуемо потребует значительного количества времени на&nbsp;разработку и&nbsp;будет
+                                    трудозатратным. Мы&nbsp;поможем вам реализовать его через последовательное решение понятных для вас
+                                    задач, предложим оптимальные в&nbsp;вашем случае варианты. </p>
+                            </div>
+                        </div>
+                        <div class="col-12 icoblock-single tn_dl_06">
+                            <div class="icoblock-single-ico"> <span class="ico-energy"></span> </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Да, если требования нестандартны</p>
+                                <p class="text">Создаете уникальный ресурс, не&nbsp;имеющий аналогов в&nbsp;Интернете? Придется выйти
+                                    за&nbsp;пределы шаблонных решений. Создадим сайт, который полностью адаптирован под ваш продукт
+                                    и&nbsp;его аудиторию, структуру и&nbsp;задачи вашего бизнеса. Сможем связать проект
+                                    с&nbsp;нестандартным программным обеспечением и&nbsp;привычными для пользователя сервисами. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico"> <span class="ico-infinity"></span> </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Да, если проект имеет любой уровень неопределенности </p>
+                        <p class="text">Запускаете проект, который потребует в процессе корректировки и доработки рассмотрения разных вариантов реализации идеи и может со временем перерасти во  что-то большее? Мы заложим в проект перспективную для его развития архитектуру, которую вам будет удобно и просто масштабировать и поддерживать, предложим широкий спектр решений, выстроим работу оперативно и гибко.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block complex-block complex-block-progressive background-purple">
+    <div class="widewrap">
+        <h2 class="heading-3 fw-500 text-center section-title-js"> Minimal Viable Product(MVP) </h2>
+        <div class="row">
+            <div class="col-12 row progressive-jpg-block">
+                <div class="col-12 col-md-4 transform-y-55 tn_dr_05 tn_dl_02">
+                    <div class="arrow-stage-box"></div> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/MVP1.png' %}">
+                </div>
+                <div class="col-12 col-md-4 transform-y-55 tn_dr_05 tn_dl_04">
+                    <div class="arrow-stage-box"></div> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/MVP2.pn' %}g">
+                </div>
+                <div class="col-12 col-md-4 transform-y-55 tn_dr_05 tn_dl_06"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/MVP3.png' %}"> </div>
+            </div>
+            <div class="col-12 transform-y-55 tn_dr_05 tn_dl_08">
+                <p class="text text-lh-30">Minimal Viable Product (минимально жизнеспособный продукт)&nbsp;&mdash; тестовая
+                    версия товара, услуги или сервиса с&nbsp;минимальным набором функций (иногда даже одной), которая несет
+                    ценность для конечного потребителя. MVP создают для тестирования гипотез и&nbsp;проверки жизнеспособности
+                    задуманного продукта, насколько он&nbsp;будет ценным и&nbsp;востребованным на&nbsp;рынке. Результаты
+                    тестирования минимально жизнеспособного продукта и&nbsp;обратная связь от&nbsp;целевой аудитории помогают
+                    понять, стоит&nbsp;ли развивать проект дальше, какие изменения следует внести в&nbsp;стратегию, а&nbsp;что
+                    оставить в&nbsp;первоначальном виде. </p>
+                <p class="text text-lh-30">Полезность разработки MVP доказывают примеры крупных на&nbsp;данный момент
+                    компаний. Например, Даниэль Эк&nbsp;и&nbsp;Мартин Лорентсон в&nbsp;2006 году запустили небольшой сервис
+                    с&nbsp;одной функцией&nbsp;&mdash; потоковая передача музыки. Сегодня их&nbsp;продукт&nbsp;&mdash;
+                    Spotify&nbsp;&mdash; оценивается в&nbsp;$21&nbsp;миллиард, сотрудничает с&nbsp;крупными звукозаписывающими
+                    студиями и&nbsp;имеет 50&nbsp;миллионов человек активной аудитории.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block advantages-block background-blue text-white">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 heading-underline text-white section-title-js">Почему мы?</h2>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_02">
+                <div class="icoblock-single-ico"> <span class="ico-graph-outline"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3 tn">Следим за&nbsp;трендами</p>
+                    <p class="text text-lh-30">Используем передовые технологии и&nbsp;учитываем тренды, чтобы
+                        вы&nbsp;соответствовали современным реалиям.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_02">
+                <div class="icoblock-single-ico"> <span class="ico-message"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Работаем по&nbsp;максимуму</p>
+                    <p class="text text-lh-30">Готовы предоставить лучшие кадры, включиться в&nbsp;трудоемкий проект, выполнить
+                        большой объем работ.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                <div class="icoblock-single-ico"> <span class="ico-like"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Решаем любые задачи</p>
+                    <p class="text text-lh-30">Обеспечиваем высокий уровень проектного менеджмента, позволяющий планово
+                        и&nbsp;технично решать все задачи.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                <div class="icoblock-single-ico"> <span class="ico-shield"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Общаемся открыто и&nbsp;просто</p>
+                    <p class="text text-lh-30">Говорим с&nbsp;вами на&nbsp;понятном языке, даже когда объясняем сложные вещи,
+                        стараемся быть максимально прозрачными.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                <div class="icoblock-single-ico"> <span class="ico-contrast"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Адаптируемся под требования</p>
+                    <p class="text text-lh-30">Предлагаем тот формат сотрудничества, который соответствует вашему стилю бизнеса,
+                        гибко и&nbsp;оперативно решаем все возникающие вопросы.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                <div class="icoblock-single-ico"> <span class="ico-contrast"></span> </div>
+                <div class="icoblock-single-text">
+                    <p class="heading-3">Работаем на&nbsp;перспективу</p>
+                    <p class="text text-lh-30">Стройте самые смелые планы. Мы&nbsp;поднимем ваш проект на&nbsp;любую
+                        высоту&nbsp;&mdash; для этого у&nbsp;нас достаточно инструментов и&nbsp;компетенций.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block complex-block block-custom complex-block-technology">
+    <div class="thickwrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/technology.png' %}">
+                <div class="float-circles"></div>
+            </div>
+            <div class="col-12 col-lg-7 subpadding">
+                <h2 class="heading-2 heading-underline section-title-js">Технологии</h2>
+                <p class="text text-lh-30 tn_dl_02">Используем передовой стек технологий, среди которых найдется наилучшее
+                    решение вашей задачи.</p>
+                <div class="row tech-block-ico">
+                    <div class="col-3 transform-y-55 tn_dl_04 tn_dr_05">
+                        <div class="tech-ico-html"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/html5.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_05 tn_dr_05">
+                        <div class="tech-ico-drupal"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/drupal.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_06 tn_dr_05">
+                        <div class="tech-ico-1c"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/1c.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_07 tn_dr_05">
+                        <div class="tech-ico-mysql"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/mysql.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_08 tn_dr_05">
+                        <div class="tech-ico-js"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/js.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_09 tn_dr_05">
+                        <div class="tech-ico-php"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/php.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_10 tn_dr_05">
+                        <div class="tech-ico-git"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/complex/git.svg' %}"></div>
+                    </div>
+                    <div class="col-3 transform-y-55 tn_dl_11 tn_dr_05">
+                        <div class="tech-ico-other"><span>и&nbsp;другие</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block complex-block complex-block-stages">
+    <div class="widewrap">
+        <div class="row">
+            <div class="animate-block col-12 col-lg-10 col-xl-7">
+                <h2 class="heading-2 heading-underline section-title-js">Оптимальный подход к&nbsp;ведению проекта</h2>
+                <p class="text text-lh-30 tn_dl_02">Ваш бизнес развивается в&nbsp;информационной среде, где постоянно
+                    происходят перемены. Мы&nbsp;предлагаем гибкие подходы к&nbsp;разработке, которые помогут вам создать
+                    полностью жизнеспособный проект: востребованный и&nbsp;актуальный. </p>
+            </div>
+            <div class="animate-block col-12 subblock complex-block-iterations">
+                <div class="row block-image-right">
+                    <div class="col-12 col-lg-7 subpadding">
+                        <h3 class="fw-500 heading-3 heading-3_5 section-title-js">Итерационный подход</h3>
+                        <p class="text text-lh-30 tn_dl_02">Поэтапное достижение цели помогает ставить корректные задачи.
+                            Реализация части функционала сайта делает понятной требования к&nbsp;следующему участку работы, его
+                            трудоемкость, стоимость, сроки. </p>
+                        <p class="heading-4 tn_dl_04">Плюсы подхода</p>
+                        <ul class="list-check tn_dl_06">
+                            <li>Предсказуемый результат</li>
+                            <li>Больший контроль над работой</li>
+                            <li>Снижение объема проектной документации</li>
+                            <li>Минимум исправлений</li>
+                            <li>Более надежный продукт</li>
+                        </ul>
+                        <div class="button-case tn_dl_08 tn_dr_05"><span class="popup-button"
+                                                                         data-popup_toggle="complex-stages"><span class="button-circle ico-plus"></span><span
+                                class="button-text" data-base_text="Подробнее">Подробнее</span></span></div>
+                    </div>
+                    <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/iterations.png' %}">
+                        <div class="float-circles"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 popup-block" data-popup_block="complex-stages">
+                <div class="subwrap background-purple scroll-here">
+                    <div class="popup_header">
+                        <p class="heading-3">Разбиваем проект на&nbsp;этапы</p> <span class="popup-close"><span
+                            class="button-text">Закрыть</span><span class="button-circle ico-plus"></span></span>
+                    </div>
+                    <div class="popup_scroll">
+                        <p class="text text-lh-30">Есть стратегическое понимание, чем закончится проект. Заключаем договор
+                            и&nbsp;определяем цену за&nbsp;этап.</p> <span class="popup-img-stages1"></span>
+                        <p class="text text-lh-30">Согласовываем конкретные требования к&nbsp;этапу, определяем его точную
+                            стоимость и&nbsp;сроки. По&nbsp;мере выполнения работ формируем требования к&nbsp;новым этапам
+                            и&nbsp;уточняем их&nbsp;стоимость.</p><span class="popup-img-stages2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="animate-block col-12 subblock complex-block-time">
+                <div class="row block-image-right">
+                    <div class="col-12 col-lg-7 subpadding">
+                        <h3 class="fw-500 heading-3 heading-3_5 section-title-js">Time & matrial</h3>
+                        <p class="text text-lh-30 tn_dl_02">Оплата производится не&nbsp;за&nbsp;плановый объем работы,
+                            а&nbsp;по&nbsp;факту, за&nbsp;потраченные на&nbsp;разработку <nobr>человеко-часы</nobr>. Этот подход
+                            позволяет незамедлительно приступить к&nbsp;проекту, в&nbsp;котором изначально не&nbsp;понятен полный
+                            объем работ, и&nbsp;запустить его максимально быстро. </p>
+                        <p class="heading-4 tn_dl_04">Плюсы подхода</p>
+                        <ul class="list-check tn_dl_06">
+                            <li>Тестирование функционала на&nbsp;начальных этапах</li>
+                            <li>Своевременная корректировка проекта</li>
+                            <li>Запуск проекта быстрее конкурентов</li>
+                            <li>Меньший объем согласовательных процедур</li>
+                            <li>Максимальная справедливость оплаты</li>
+                        </ul>
+                        <div class="button-case tn_dl_08 tn_dr_05"><span class="popup-button"
+                                                                         data-popup_toggle="complex-time"><span class="button-circle ico-plus"></span><span class="button-text"
+                                                                                                                                                            data-base_text="Подробнее">Подробнее</span></span></div>
+                    </div>
+                    <div class="col-12 col-lg-5 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/graphs.png' %}">
+                        <div class="float-circles"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 popup-block" data-popup_block="complex-time">
+                <div class="subwrap background-purple scroll-here">
+                    <div class="popup_header">
+                        <p class="heading-3">Гибкий формат работы</p> <span class="popup-close"><span
+                            class="button-text">Закрыть</span><span class="button-circle ico-plus"></span></span>
+                    </div>
+                    <div class="popup_scroll" style="height:100%">
+                        <p class="text text-lh-30">Формат подходит для нестандартных сервисов и&nbsp;стартапов. Мы&nbsp;применяем
+                            гибкие методики разработки ПО. Оплата&nbsp;&mdash; ежемесечно по&nbsp;количеству фактически затраченых
+                            часов.</p> <span class="popup-img-time"></span>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                            <div class="icoblock-single-ico"> <span class="ico-clock"></span> </div>
+                            <div class="icoblock-single-text">
+                                <p class="text text-lh-30">Каждый месяц: определяем объем работ, формируем вилочную оценку
+                                    по&nbsp;задачам, предоставляем отчет о&nbsp;проделанной работе.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_05">
+                            <div class="icoblock-single-ico"> <span class="ico-graph-smoth"></span> </div>
+                            <div class="icoblock-single-text">
+                                <p class="text text-lh-30">Каждую неделю: вместе с&nbsp;клиентоманализируем проделанную работу
+                                    и&nbsp;составляем план на&nbsp;следующую неделю.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_07">
+                            <div class="icoblock-single-ico"> <span class="ico-levels"></span> </div>
+                            <div class="icoblock-single-text">
+                                <p class="text text-lh-30">Набором задач и&nbsp;приоритетами управляет клиент&nbsp;&mdash; работаем
+                                    только над приоритетными и&nbsp;актуальными задачами.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_07">
+                            <div class="icoblock-single-ico"> <span class="ico-cycle2"></span> </div>
+                            <div class="icoblock-single-text">
+                                <p class="text text-lh-30">Внесение изменений и&nbsp;реализация новых задач&nbsp;&mdash; без
+                                    ограничений.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block complex-block complex-block-team">
+    <div class="widewrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6">
+                <h2 class="heading-2 heading-underline section-title-js">Сильная команда для серьезных задач</h2>
+                <p class="text text-lh-30 tn_dl_02">Сложный проект потребует индивидуального подхода к&nbsp;формированию
+                    команды. Мы&nbsp;проанализируем особенности проекта, его сильные и&nbsp;слабые стороны, задачи и&nbsp;вектор
+                    его развития, чтобы укомплектовать команду специалистами с&nbsp;необходимым для проекта опытом
+                    и&nbsp;компетенциями. Как правило, в&nbsp;сложном проекте задействованы 40% <nobr>веб-разработчиков</nobr>
+                    квалификации senior, 40% уровня middle, 20% уровня junior. С&nbsp;мощной командой вы&nbsp;сможете спокойно
+                    и&nbsp;продуктивно создать и&nbsp;развивать свой <nobr>веб-ресурс</nobr>, какие&nbsp;бы задачи
+                    ни&nbsp;встали перед вашим бизнесом в&nbsp;будущем.</p>
+            </div>
+            <div class="col-12 col-lg-6 image-block-before"> <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/pc-time.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block footer-form">
+        <div class="wrap">
+            <div class="row align-items-start">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img"><img alt="" width="" height=""
+                                                                                                             src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+                </div>
+                <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                    <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Есть проект?<br>Напишите нам</h3>
+
+
+
+                    <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/complex/">
+                        <input type="hidden" name="g_recaptcha_response" value="">
+                        <input type="hidden" name="WEB_FORM_ID" value="3">
+                        <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                        <div class="input-wrap">
+                            <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                            <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите ваше имя</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                            <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                            <span class="input-alert">Укажите телефон</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                            <label for="form_text_18">Email</label>
+                            <span class="input-alert">Укажите Email</span>
+                        </div>
+                        <div class="input-wrap">
+                            <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                            <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                            <span class="input-alert">Напишите сообщение</span>
+                        </div>
+                        <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                            <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                            <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                        </p>
+                        <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                    </form>            </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

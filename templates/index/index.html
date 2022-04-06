@@ -1,692 +1,827 @@
+{% extends 'Template/index.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>Заказать Landing Page, Разработка Лендинг пейдж от Профессионалов Уникальный Дизайн Гарантия Конверсии</title>
-	<meta name="keywords" content="Заказать Landing Page, Лендинг пейдж заказать, Лендинг пейдж в Москве, Разработка Лендинг пейдж" />
-	<meta name="description" content="Заказать продающий Landing Page с гарантией конверсии. Лендинг Пейдж Идеальный Инструмент Повысить Вашу Прибыль. Беслптаная консультация звоните!" />
-	<!--<meta name="viewport" content="width=device-width; initial-scale=1.0">-->
-    <link href="{% static 'css/fonts.css' %}" rel="stylesheet">
-	<link href="{% static 'css/style.css' %}" rel="stylesheet">
-	<link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
-	<link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
-   	<!--[if lt IE 9]><script src="{% static 'js/html5.js' %}"></script><![endif]-->
-    <script src="{% static 'js/jquery.1.9.0.min.js' %}"></script>
-    <script src="{% static 'js/jquery.maskedinput.min.js' %}"></script>
-	<script src="{% static 'js/jcarousellite_1.0.1.min.js' %}"></script>
-	<!--fancybox-->
-	<script type="text/javascript" src="{% static 'js/fancybox/jquery.mousewheel-3.0.6.pack.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/fancybox/jquery.fancybox.pack.js?v=2.1.5' %}"></script>
-	<script type="text/javascript" src="{% static 'js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5' %}"></script>
-	<script type="text/javascript" src="{% static 'js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6' %}"></script>
-	<link href="{% static 'js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5' %}" type="text/css" media="screen" rel="stylesheet">
-	<link href="{% static 'js/fancybox/jquery.fancybox.css?v=2.1.5' %}" type="text/css" media="screen" rel="stylesheet">
-	<!--/fancybox-->
-    <script src="{% static 'js/main.js' %}"></script>
-</head>
-
-<body class="cssanimations">
-	<div class="shadow"></div>
-	<div class="popup__sc">
-		<div class="popup2 no_fx">
-			<div class="popup__el">
-				<div class="popup-close fx"></div>
-				<div class="popup-control fx l"></div>
-				<div class="popup-control fx r"></div>
-				<div class="popup-name fx">Презентационный сайт Lognetix для Китая</div>
-				<div id="work-img">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<header class="header">
-		<div class="content-block">
-			<div class="phone">
-				8 (962) 972-78-02<br>
-				<button class="btn-call mbtn-call" type="button">ЗАКАЗАТЬ ЗВОНОК</button>
-			</div>
-			<div class="logo">OZSEO.RU</div>
-			<div class="desc">Новая высота<br>Вашего бизнеса!</div>
-		</div>
-		<div class="menu">
-			<ul>
-				<li><a href="#plus">преимущества</a></li>
-				<li><a href="#portfolio">наши работы</a></li>
-				<li><a href="#team">команда</a></li>
-				<li><a href="#responds">Отзывы</a></li>
-			</ul>
-		</div>
-	</header><!-- .header-->
-<div id="top" class="wrapper">
-	<main class="main-block">
-		<div class="content-block">
-			<h1>Закажите Landing Page от профессионалов</h1>
-			<div class="offer">Профессиональная разработка лендинга от 30 000 руб.</div>
-			<div class="offer2">реклама + лендинг за 14 дней - высокая конверсия, рост продаж, горячие клиенты</div>
-			<a class="brief mbtn-brief" href="{% static 'briflanding.doc' %}"><span>Бриф</span> скачать</a>
-		</div>
-	</main><!-- .content -->
-
-	<section class="clients-section">
-		<div class="content-block">
-			<h2 class="hl">Среди наших клиентов:</h2>
-			<div id="sLogo" class="slider">
-			<ul>
-				<li><div class="i"><img src="{% static 'images/clients.jpg' %}" alt=""></div></li>
-				<li><div class="i"><img src="{% static 'images/clients2.jpg' %}" alt=""></div></li>
-				<li><div class="i"><img src="{% static 'images/clients3.jpg' %}" alt=""></div></li>
-			</ul>
-			</div>
-			<div class="sl-arrow"></div>
-			<div class="sr-arrow"></div>
-		</div>
-	</section>
-
-<section id="adding-animate" class="adding-section scroll-animate">
-		<div class="content-block">
-			<h2 class="hl">Посадочная страница Лендинг Пейдж иделально подходит для:</h2>
-			<div class="item animation">
-				<img src="{% static 'images/fpic-1.jpg' %}" alt="">
-				Розничной<br>и оптовой<br>торговли
-				<div class="more"><a class="btn noselect mbtn" href="#">Подробнее...</a></div>
-			</div>
-			<div class="item animation">
-				<img src="{% static 'images/fpic-2.jpg' %}" alt="">
-				Сфера услуг
-				<div class="more"><a class="btn noselect mbtn" href="#">Подробнее...</a></div>
-			</div>
-			<div class="item animation">
-				<img src="{% static 'images/fpic-3.jpg' %}" alt="">
-				Для<br>производителей
-				<div class="more"><a class="btn noselect mbtn" href="#">Подробнее...</a></div>
-			</div>
-			<div class="item animation">
-				<img src="{% static 'images/fpic-4.jpg' %}" alt="">
-				Уникального<br>или<br>дорогого товара
-				<div class="more"><a class="btn noselect mbtn" href="#">Подробнее...</a></div>
-			</div>
-			<div class="item last animation">
-				<img src="{% static 'images/fpic-5.jpg' %}" alt="">
-				Для<br>Обучающих<br>программ
-				<div class="more"><a class="btn noselect mbtn" href="#">Подробнее...</a></div>
-			</div>
-		</div>
-	</section>
-
-	<section class="adv-section">
-		<div class="content-block">
-			<div class="arrow-btn">
-				<button class="btn-order mbtn-order" type="button"><span>Заказать сайт</span></button><button class="btn-present mbtn-present" type="button"><span>Презентация</span></button>
-			</div>
-			Мы настраиваем «старт» кампании через те ресурсы, которыми пользуется ваш стратегический клиент:
-			<img class="a-ico" src="{% static 'images/adv-ico.png' %}" alt="">
-			<h2 class="hl">Контекстная реклама с гарантированным результатом</h2>
-			<div class="cpc">
-				“Ozseo” обеспечивает профессиональное медиапланирование и действительно результативное продвижение.<br><br>
-				Мы эффективно оптимизируем рекламную кампанию в Google Adwords и Яндекс.Директ любой сложности.<br><br>
-				Благодаря накопленному опыту успешной работы с посадочными страницами мы обеспечим максимальную эффективность раскрутки Ваших Landing Page.<br><br>
-				Сотрудничать с “Ozseo” не только комфортно, но и выгодно!
-			</div>
-		</div>
-	</section>
-	
-	<section id="step-animate" class="step-section scroll-animate">
-		<div class="content-block">
-			<h2 class="hl">Как мы превращаем клики в клиентов</h2>
-			<div class="item r animation">
-				<div class="desc"><span class="num g">1</span>Клиент ищет товар/услугу<br>в Яндексе</div>
-				<img src="{% static 'images/step-1.png' %}" alt="">
-			</div>
-			<div class="item r animation">
-				<div class="desc"><span class="num r">2</span>Мы обращаем внимание<br>клиента на вашу рекламу</div>
-				<img src="{% static 'images/step-2.png' %}" alt="">
-			</div>
-			<div class="item last b animation">
-				<div class="desc"><span class="num r">3</span>Отправляем клиента на сайт<br>Landing Page (страница захвата)</div>
-				<img src="{% static 'images/step-3.jpg' %}" alt="">
-			</div>
-			<div class="item animation">
-				<div class="desc"><span class="num b">6</span>Вы продаете товар или услугу<br>и зарабатываете свои деньги</div>
-				<img src="{% static 'images/step-6.jpg' %}" alt="">
-			</div>
-			<div class="item l animation">
-				<div class="desc"><span class="num b">5</span>Вы обрабатываете заявку<br>звонок или электронную почту</div>
-				<img src="{% static 'images/step-5.png' %}" alt="">
-			</div>
-			<div class="item last l animation">
-				<div class="desc"><span class="num r">4</span>Вызываем желание клиента<br>обратиться за услугой</div>
-				<img src="{% static 'images/step-4.jpg' %}" alt="">
-			</div>
-			<div class="desc2">
-				<span class="num g">1</span> — делает Ваш клиент,
-				<span class="num r">2</span> <span class="num r">3</span> <span class="num r">4</span> — делаем мы,
-				<span class="num b">5</span> <span class="num b">6</span> — делаете вы!
-			</div>
-			<div class="arrow-btn">
-				<button class="btn-present mbtn-order" type="button"><span>Заказать!</span></button>
-				<img src="{% static 'images/robot.jpg' %}" alt="">
-			</div>
-		</div>
-	</section>
-	
-		<section id="portfolio" class="portfolio-section">
-		<div class="content-block">
-			<h2><a class="wtab active" href="#landing">Лендинг пейдж</a>  / <a class="wtab" href="#site">Веб Сайты</a></h2>
-			<div id="landing" class="tab active">
-                {% for row in work %}
-				<a href="{{ row.image_slug.url }}" rel="p" class="item">
-					<img src="{{ row.image.url }}" alt="{{ row.title }} {{ row.desk }}">
-					<div class="desc"><span>{{ row.title }}</span>{{ row.desk }}</div>
-				</a>
-                {% endfor %}
-			</div>
-			<div id="site" class="tab">
-				<a href="{% static '' %}images/works/acer.png" rel="p" class="item">
-					<img src="{% static '' %}images/works/acer_mini.jpg" alt="Интернет магазин для acer Becompact">
-					<div class="desc"><span>Интернет Магазин</span>Разработка дизайна Acer Becompact</div>
-				</a>
-				<a href="{% static '' %}images/works/samsung.png" rel="p" class="item">
-					<img src="{% static '' %}images/works/samsung_mini.jpg" alt="Интернет Магазин для samsung">
-					<div class="desc"><span>Интернет Магазин</span>Разработка дизайна Samsung Becompact</div>
-				</a>
-				<a href="{% static '' %}images/works/mitro.jpg" rel="p" class="item">
-					<img src="{% static '' %}images/works/mitro_mini.jpg" alt="Московский Институт Телевидения и Радиовещания Останкино МИТРО ">
-					<div class="desc"><span>МИТРО</span>Разработка веб сайта</div>
-				</a>
-			</div>
-			<div class="arrow-btn">
-				<button class="mbtn" type="button"><span>Получить такой же качественный Landing page</span></button>
-			</div>
-		</div>
-	</section>
-	
-		<section class="analiz-section">
-		<div class="content-block">
-			<h2>ОСТАВЬТЕ ЗАЯВКУ НА БЕСПЛАТНЫЙ<br>МАРКЕТИНГОВЫЙ АНАЛИЗ ВАШЕГО БИЗНЕСА</h2>
-			Чтобы убедиться в том, что мы действительно сможем увеличить вам продажи, нам необходимо<br>
-			провести анализ вашего рынка, после которого мы сможем точно сказать, какая именно<br>
-			маркетинговая стратегия позволит вам опередить всех ваших конкурентов!
-			<form class="sform">
-				<input type="hidden" name="subject" value="ОСТАВЬТЕ ЗАЯВКУ НА БЕСПЛАТНЫЙ МАРКЕТИНГОВЫЙ АНАЛИЗ ВАШЕГО БИЗНЕСА">
-				<input type="hidden" name="name" value="none">
-				<label><input type="text" name="email" placeholder="ВВЕДИТЕ ВАШ EMAIL:"></label>
-				<label><input type="text" name="phone" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН:"></label>
-				<button type="submit">рассчитать СВОЮ ПРИБЫЛЬ!</button>
-			</form>
-		</div>
-	</section>
-
-	<section id="team" class="team-section">
-		<div class="content-block">
-			<div class="item"><img src="{% static '' %}images/team-1.jpg" alt="">Александр Ознобишин<u>Веб-дизайн/Юзабилити</u></div>
-			<div class="item"><img src="{% static '' %}images/team-2.jpg" alt="">Владимир Логинов<u>Контекстная реклама SMM</u></div>
-			<div class="item last"><img src="{% static '' %}images/team-3.jpg" alt="">Николай Мельников<u>Верстка/Програмированние</u></div>
-		</div>
-	</section>
-
-	<section class="about-section">
-		<div class="content-block">
-			<h2 class="hl">Веб-студия «OZSEO»</h2>
-			<span>Обращаясь в нашу студию, вы можете быть уверены в профессиональном медиапланировании и проведении эффективных рекламных кампаний в Интернете. Мы разработаем для вас посадочные страницы и проведем рекламные кампании на самых популярных интернет-ресурсах (Яндекс, Вконтакте, Google и так далее).</span><br><br>
-			Помните, что привлечь целевую аудиторию, увеличить объем продаж и узнаваемость вашего бренда – это не значит завоевать массовую любовь потребителей.<br><br>
-			Наша веб-студия обладает огромным опытом в разработке сайтов и посадочных страниц, что позволит вашей компании стать самой популярной среди пользователей услуг.
-			<div class="r"><span>«Наша миссия — Новая высота вашего бизнеса!»</span></div>
-		</div>
-	</section>
-	
-
-	<section id="responds" class="responds-section">
-		<div class="content-block">
-			<div class="item v">
-				<h2>Видео отзывы</h2>
-				<iframe width="440" height="280" src="https://www.youtube.com/embed/IOYlPNOgjZg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-				<iframe width="440" height="280" src="https://www.youtube.com/embed/xjeMCj9O0hs?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="item">
-				<div class="pic"><img src="{% static '' %}images/respond.jpg" alt="">Михаил<br>Яковунец<br>ИП Яковунец<br>Summer-sales</div>
-				<div class="desc">
-					<div class="details">
-						<div class="site"><noindex><a href="http://summer-sales.ru" target="_blank" rel="nofollow">Summer-sales.ru</a></noindex></div>
-						<div class="name">Продажа Ray Ban Way WAYFARER</div>
-						<div class="order">2390 заявок в месяц</div>
-					</div>
-				С Александром нас свел случай, мы долго искали креативного и современного дизайнера, способного не только выполнять проекты строго по ТЗ, но и вносить современные тенденции и маркетинговые ходы в наши проекты. Что наша команда и увидела, когда мы получили свой первый проект.
-<br><br>
-Сотрудничество мы ведем почти пол года, за это время, Александр открылся нам как понимающий, старательный и отвественный человек, умеющий работать в стрессовых ситуациях.
-				</div>
-			</div>
-			<div class="item">
-				<div class="pic"><img src="{% static '' %}images/kretov.png" alt="">Леонид<br>Кретов<br>ООО "Техцентр Мичуринский"<br>autoservice54.ru</div>
-				<div class="desc">
-					<div class="details">
-						<div class="site"><noindex><a href="http://autoservice54.ru" target="_blank" rel="nofollow">autoservice54.ru</a></noindex></div>
-						<div class="name">Техцентр Мичуринский</div>
-						<div class="order">75 заявок в месяц</div>
-					</div>
-				Работаем с ozseo не первый год и с огромным удовольствием решили заказать Landing Page для нашего техцентра, были приятно удивлены результатами и новым клиентам.<br><br>
-За 3 месяца работы новой посадочной страницы нашего техцентра мы увеличили поток клиентов на ремонт автомобилей в наш сервис в 2 раза. ps. Пришлось заказывать дополнительный подъемник и оборудовать новую зону для слесарных работ, а так же за это время мы купили новую покрасочную камеру и собираемся заказать дополнительный лендинг для новой услуги. Отдельное спасибо Александру, который понимает, как работать с клиентами, видит ситуацию в целом и всегда поддержит в трудную минуту.
-				</div>
-			</div>
-	</section>
-	
-	
-	
-	<section class="table-section">
-		<div class="content-block">
-			<table class="tb-price">
-			<tbody>
-				<tr>
-					<td><h3>Настройка (создание)</h3></td>
-					<td><h3>«Тестовый»</h3><span><a class="mbtn" href="#">Заказать услугу</a></span></td>
-					<td><h3>«Новичок»</h3><span><a class="mbtn" href="#">Заказать услугу</a></span></td>
-					<td><h3>«Стандарт»</h3><span><a class="mbtn" href="#">Заказать услугу</a></span></td>
-				</tr>
-				<tr>
-					<th></th>
-					<th>Бюджет &plusmn; 20 000 руб.</th>
-					<th>Бюджет &plusmn; 50 000 руб.</th>
-					<th>Бюджет &plusmn; 150 000 руб.</th>
-				</tr>
-				<tr>
-					<td>Кол-во ключевых запросов / объявлений<br /><span>составление рекламных объявлений, 1 запроc = 1 объявление</span></td>
-					<td><h3 class="cpc ya">&plusmn;  300</h3></td>
-					<td><h3 class="cpc ya">&plusmn;  500</h3></td>
-					<td><h3 class="cpc yagoo">&plusmn;  1500</h3></td>
-				</tr>
-				<tr>
-					<td>Конкурентный анализ<br /><span>детальный анализ поисковой выдачи и контекстной рекламы</span></td>
-					<td><img src="{% static '' %}images/yes-100.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Подбор минус-слов<br /><span>ручной подбор и тщательная настройка минус-слов</span></td>
-					<td><img src="{% static '' %}images/yes-100.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Прогноз бюджета и трафика<br /><span>прогноз CTR, конверсии и рекламного бюджета</span></td>
-					<td><img src="{% static '' %}images/yes-100.png" alt="" /></td>
-					<td><img src="{% static '' %}images//yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images//yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Методолгия ODC<br /><span>использование методолгии ODC (Offer – Deadline – Call-to-Action)</span></td>
-					<td><img src="{% static '' %}images/yes-100.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Маркеровка UTM<br /><span>UTM (Urchin Tracking Module) маркеровка ссылок</span></td>
-					<td><img src="{% static '' %}images/yes-100.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Рекламная стратегия<br /><span>формирование собственной уникальной стратегии</span></td>
-					<td></td>
-					<td><img src="{% static '' %}images/yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Гарантийное обслуживание<br /><span>бесплатное сопровождение кампании 10 дней</span></td>
-					<td></td>
-					<td><img src="{% static '' %}images/yes-80.png" alt="" /></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Веб-аналитика<br /><span>настройка веб-аналитики Яндекс.Метрика / Google.Analytics</span></td>
-					<td></td>
-					<td></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Партнёрские сети<br /><span>настройка показов в партнёрских сетях РСЯ / КМС Google</span></td>
-					<td></td>
-					<td></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td>Ремаркетинг<br /><span>настройка механизмов ретаргетинга / ремаркетинга</span></td>
-					<td></td>
-					<td></td>
-					<td><img src="{% static '' %}images/yes-60.png" alt="" /></td>
-				</tr>
-				<tr>
-					<td><span>Единоразовая оплата</span></td>
-					<td><h3>9990 руб.</h3><span><a class="mbtn" href="#">Заказать услугу</a></span></td>
-					<td><h3>14990 руб.</h3><span><a class="mbtn" href="#">Заказать услугу</a></span></td>
-					<td><h3>34990 руб.</h3><span><a class="mbtn" href="#">Заказать услугу</a></span></td>
-				</tr>
-			</tbody>
-			</table>
-			<div class="info">Гарантия высокого CTR при минимальной стоимости за клик!<br>Стоимость приведена без учета <a href="#">клиентской скидки.</a></div>
-		</div>
-	</section>
-	
-	<section class="result-section">
-		<div class="content-block">
-			<h3>Продажа очки легенда RayBan 2140</h3>
-			<div class="result">Результаты за первые 15 дней после запуска лендинга:</div>
-			<div class="pic">
-				<img src="{% static '' %}images/result-1.jpg" alt="">
-				<span>Проект окупился за первые 5 дней после запуска</span>
-			</div>
-			<div class="desc">
-				<div class="pr"><div class="c">5.48%</div>Конверсия сайта<br>в заявку: <span>5.48%</span></div>
-				<div class="pr pr2"><div class="c">14.5%</div>Конверсия в<br>продажу: <span>14.5%</span></div>
-				<div class="b2">Количество звонков и заявок: <span>535</span><br>Средняя цена заявки: <span>342 руб.</span></div>
-				<div class="b3">Доход за первые 15 дней запуска: <span>187 250 руб.</span></div>
-				<button class="mbtn-order" type="button">рассчитать свою прибыль</button>
-			</div>
-		</div>
-	</section>
-	<section class="result-section">
-		<div class="content-block">
-			<h3>Техцентр Мичуринский - ремонт и обслуживание</h3>
-			<div class="result">Результаты за первые 30 дней после запуска лендинга:</div>
-			<div class="pic">
-				<img src="{% static '' %}images/result-2.jpg" alt="">
-				<span>Проект окупился за первые 7 дней после запуска</span>
-			</div>
-			<div class="desc">
-				<div class="pr"><div class="c">2.55%</div>Конверсия сайта<br>в заявку: <span>2.55%</span></div>
-				<div class="pr pr2"><div class="c">18.5%</div>Конверсия в<br>продажу: <span>47.5%</span></div>
-				<div class="b2">Количество звонков и заявок: <span>75</span><br>Средняя цена заявки: <span>142 руб.</span></div>
-				<div class="b3">Доход за первые 30 дней запуска: <span>349 000 руб.</span></div>
-				<button class="mbtn-order" type="button">рассчитать свою прибыль</button>
-			</div>
-		</div>
-	</section>
-	<section class="result-section">
-		<div class="content-block">
-			<h3>Продажа нижнего белья Calvin Klein</h3>
-			<div class="result">Результаты за первые 30 дней после запуска лендинга:</div>
-			<div class="pic">
-				<img src="{% static '' %}images/result-3.jpg" alt="">
-				<span>Проект окупился за первые 5 дней после запуска</span>
-			</div>
-			<div class="desc">
-				<div class="pr">
-				  <div class="c">9.77%</div>Конверсия сайта<br>
-				  в заявку: <span>9.77%</span></div>
-				<div class="pr pr2">
-				  <div class="c">21%</div>Конверсия в<br>
-				продажу: <span>21%</span></div>
-				<div class="b2">Количество звонков и заявок: <span>329</span><br>
-				Средняя цена заявки: <span>152 руб.</span></div>
-				<div class="b3">Доход за первые 30 дней запуска: <span>361 000 руб.</span></div>
-				<button class="mbtn-order" type="button">рассчитать свою прибыль</button>
-			</div>
-		</div>
-	</section>
-	
-	<section id="plus" class="how-work-section">
-		<div class="content-block">
-			<h2>КАК МЫ РАБОТАЕМ</h2>
-			<div class="bline bl-1">
-				Максимальная эффективность<br>
-				Чтобы гарантировать увеличение продаж, наши специалисты тщательно анализируют Ваш сегмент рынка. Затем на основе собранной информации мы разрабатываем наиболее оптимальную маркетинговую стратегию для эффективного развития Вашего бизнеса.<br><br>
-				Гарантия результата и предельное внимание к каждому аспекту<br>
-				Перед началом работ Вам необходимо ответить на ряд вопросов и заполнить небольшую анкету для полного понимания потребностей Ваших клиентов. Подобный подход к работе предоставляет специалистам компании “Ozseo” возможность полностью погрузиться в Ваш бизнес и обеспечить предельную эффективность рекламной кампании.<br><br>
-				Будьте лидерами с “Ozseo”!
-			</div>
-			<div class="steps">
-				<div class="n n1">Обращение к нам</div>
-				<div class="n n2">Аудит вашей ниши</div>
-				<div class="n n3">Разработка landing page</div>
-				<div class="n n4">Запуск в космос</div>
-				<div class="d d1">ВЫ ОБРАЩАЕТЕСЬ К НАМ<br>С ВАМИ СВЯЗЫВАЕТСЯ НАШ<br>СПЕЦИАЛИСТ</div>
-				<div class="d d2">МЫ анализируем вашу отрасль<br>бизнеса и сообщаем подход<br>и предварительный бюджет</div>
-				<div class="d d3">разрабатываем концпепцию<br>для маскимальной конверсии<br>продающий текст структуру<br>дизайн программирование</div>
-				<div class="d d4">Установка страницы захвата<br>на хостинг настройка форм<br>запуск рекламы</div>
-			</div>
-			<div class="bline r bl-2">
-				Разработка веб-дизайна<br>
-				Наша компания занимается созданием структуры и дизайна посадочной страницы, настройкой контекстных рекламных компаний, разработкой регламента скриптов продаж.<br><br>
-				Написание текстов<br>
-				Учитывая особенности разработанного маркетинга, наши специалисты пишут грамотные тексты с продающим уклоном, содержание которых задействовано на всех этапах системы продаж, а именно в рекламных кампаниях, на посадочных страницах, в скриптах продаж.
-			</div>
-			<div class="bline bl-3">
-				Оптимизация рекламной кампании<br>
-				После старта рекламной компании мы анализируем показатели и после этого проводим тестирование рекламных текстов, устраняем неэффективные ключевые слова и оставляем ключи, приносящие много заявок.<br><br>
-				Проведение анализа поведения пользователей<br>
-				Кроме тестирования различных вариантов страниц, мы отслеживаем поведение пользователей с помощью Вебвизора. Это дает возможность вносить конкретные изменения в сайт с учетом точных аналитических данных.
-			</div>
-			<div class="bline r bl-4">
-				На страницу захвата удобно заходить с мобильных устройств, что позволяет охватить максимальную аудиторию. Дизайн целевой страницы заказчика будет выполнен на профессиональном уровне, что поможет повысить уровень доверия у пользователей, которые наверняка пожелают оставить свои контактные данные. Для того чтобы пробиться через обилия рекламы, специалисты сделают лендинг пейдж клиента максимально уникальным и запоминающимся среди рекламных предложений других компаний.<br><br> 
-				Каждая страница захвата, которая создается у нас, является отдельной задачей, которая имеет конкретную целевую аудиторию. Мы следуем логике восприятия этой целевой аудитории и оптимально распределяем информацию, правильно ее подаем и расставляем нужные смысловые акценты.
-			</div>
-		</div>
-	</section>
-	
-	<section class="giftform-section">
-		<div class="content-block">
-			<div class="form-block">
-				<h3>Оставить заявку<br>и получите подарок</h3>
-				заполните форму заявки, и получите 3000 рублей<br>на рекламную кампанию Яндекс.Директ.
-				<form class="sform">
-					<input type="hidden" name="subject" value="Заполните форму заявки, и получите 3000 рублей на рекламную кампанию Яндекс.Директ.">
-					<label><span>Введите Ваше имя</span><input type="text" name="name" placeholder="Иван Иванов"></label>
-					<label><span>Введите ваш E-mail</span><input type="text" name="email" placeholder="email@email.com"></label>
-					<label><span>Введите ваш телефон</span><input type="text" name="phone" placeholder="+7 (499) 123-45-67"></label>
-					<button type="submit"><span>Получить подарок!</span></button>
-				</form>
-			</div>
-			<div class="desc">
-				<h2>ОСТАВЬ ЗАЯВКУ НА СОЗДАНИЕ<br>Landing Page с гарантией конверсии<br>
-				и получи <span>1</span>500 руб.<br>на рекламную кампанию <span>Я</span>ндекс Директ.</h2>
-				<div class="counter">
-					<h3>До конца акции осталось</h3>
-					<div class="num"><span class="day">00</span>Дней</div>
-					<div class="sep">:</div>
-					<div class="num"><span class="hour">17</span>Часов</div>
-					<div class="sep">:</div>
-					<div class="num"><span class="min">33</span>Минут</div>
-					<div class="sep">:</div>
-					<div class="num s"><span class="sec">55</span>Секунд</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<footer class="footer">
-		<div class="content-block">
-			<!--<div class="made"><a href="http://ozseo.ru/" target="_blank"><img src="images/ozseo.png" alt=""></a></div>-->
-			<div class="logo">OZSEO.RU</div>
-			<div class="phone">8 (962) <span>972-78-02</span><div class="skype">Skype: <a href="skype:pandaundead?add">ozseoru</a></div></div>
-			<div class="address">
-				<span>Адрес:</span>ПРОСПЕКТ-ВЕРНАДСКОГО ДОМ 10А.
-				<div class="social-btn">
-					<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
-					<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir" data-yashareTheme="counter"></div>
-				</div>
-			</div>
-		</div>
-	</footer><!-- .footer -->
-</div><!-- .wrapper -->
-
-<!-- modals -->
-<div class="popup_overlay"></div>
-<div class="popup" id="present-success">
-	<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-	<div class="popup_h1">Спасибо за оставленную заявку</div>
-	<div class="popup_h2">Теперь вы можете скачать презентацию</div>
-	<a href="ozseo.pdf"><div class="btn">Скачать</div></a>
-</div>
-<div class="popup" id="present">
-	<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-	<div class="popup_h1">Скачать<br>презентацию</div>
-	<div class="popup_h2">
-		Для того чтобы посмотреть презентацию,<br>
-		оставьте свой электронный адрес<br>
-		Введите ваш email.
-	</div>
-	<form class="spresent">
-		<input type="hidden" name="subject" value="Скачать презентацию">
-		<label class="phone required"><div class="desc">Введите Ваш email</div><input type="text" name="email" class="input_name" placeholder="email@email.com"></label><br>
-		<div class="button noselect btn sender">Скачать</div>
-	</form>
-	<!--<div class="descr">
-		или позвоните нам по телефону<br>
-		<span class="ya_phone">+7 (962) 972-78-02</span>
-	</div>-->
-</div>
-<div class="popup" id="brief-success">
-	<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-	<div class="popup_h1">Спасибо за оставленную заявку</div>
-	<div class="popup_h2">Теперь вы можете скачать бриф</div>
-	<a href="briflanding.doc"><div class="btn">Скачать</div></a>
-</div>
-<div class="popup" id="brief">
-	<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-	<div class="popup_h1">Скачать<br>бриф</div>
-	<div class="popup_h2">
-		Для того чтобы посмотреть бриф,<br>
-		оставьте свой электронный адрес<br>
-		Введите ваш email.
-	</div>
-	<form class="spresent fbrief">
-		<input type="hidden" name="subject" value="Скачать бриф">
-		<label class="phone required"><div class="desc">Введите Ваш email</div><input type="text" name="email" class="input_name" placeholder="email@email.com"></label><br>
-		<div class="button noselect btn sender">Скачать</div>
-	</form>
-</div>
-<div class="popup" id="thx">
-	<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-	<div class="popup_h1">Спасибо за оставленную заявку</div>
-	<div class="popup_h2">Наш менеджер свяжется с вами в ближайшее время</div>
-	<div class="btn" onClick="popup_out();">закрыть</div>
-</div>
-<div class="popup" id="callback">
-	<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-	<div class="popup_h1">Заказать<br>обратный звонок</div>
-	<div class="popup_h2">
-		Введите ваше имя и телефон.<br>
-		Специалист компании "OZSEO" свяжется с вами,<br>
-		чтобы ответить на ваши вопросы.
-	</div>
-	<form class="sform">
-		<input type="hidden" name="subject" value="Заказать звонок">
-		<input type="hidden" name="email" value="none@email.com">
-		<label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label><br>
-		<label class="phone required"><div class="desc">Введите Ваш телефон</div><input type="text" name="phone" class="input_name" placeholder="+7 (499) 123-45-67"></label><br>
-		<div class="button noselect btn sender">Заказать звонок</div>
-	</form>
-	<div class="descr">
-		или позвоните нам по телефону<br>
-		<span class="ya_phone">+7 (962) 972-78-02</span>
-	</div>
-</div>
-<div class="popup with_text" id="with_text1">
-	<div class="with_text_left">
-	<noindex>
-		<div class="h1">Геотаргетинг</div>
-		<div class="icons"></div>
-	</noindex>
-		<div class="text">
-			<p>Большинство пользователей заходят<br>
-		    на сайты с мобильных устройств.</p>
-			<p>С каждым днем в прогрессивной шкале растет<br>
-			  количество юзеров использующих планшеты<br>
-		    и смартфоны.</p>
-			<p>Именно поэтому адаптация под все виды<br>
-		    гаджетов — одна из важнейших задач.</p>
-			<p>Заполните форму справа, и наши специалисты<br>
-			  свяжутся с вами, чтобы рассказать о важности<br>
-		    оптимизации страниц под мобильные устройства</p>
-		</div>
-		<div class="descrs">
-			<span>Александр Ознобишин,</span><br>
-			руководитель отдела<br>
-			интернет рекламы "OZSEO"
-		</div>
-		<div class="arrow"></div>
-	</div>
-	<noindex>
-	<div class="with_text_right">
-		<div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-		<div class="popup_h1">Консультация<br>специалиста "OZSEO"</div>
-		<div class="popup_h2">
-			Введите ваше имя, e-mail и телефон.<br>
-			Специалист компании "OZSEO" свяжется<br>
-			с вами для консультации.
-		</div>
-		<form class="sform">
-			<input type="hidden" name="subject" value="Получить консультацию">
-			<label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label><br>
-			<label class="email required"><div class="desc">Введите Ваш E-mail</div><input type="text" name="email" class="input_email" placeholder="email@email.com"></label><br>
-			<label class="phone required"><div class="desc">Введите Ваш телефон</div><input type="text" name="phone" class="input_name" placeholder="+7 (499) 123-45-67"></label><br>
-			<div class="button noselect btn sender">Получить консультацию</div>
-		</form>
-		<div class="descr">
-			или позвоните нам по телефону<br>
-			<span class="ya_phone">+7 (962) 972-78-02</span>
-		</div>
-	</div>
-	</noindex>
-</div>
-
-<a href="#top" id="g1-back-to-top" class="g1--off">Наверх</a>
 
 
-<div class="callback-phone">
-	<div class="phone animation"></div>
-	<div class="border animation2"></div>
-	<div class="vc">
-		<div class="c">
-			<div class="phone_"></div>
-		</div>
-	</div>
-	<div class="tooltip">Хотите мы вам перезвоним?</div>
-</div>
+{% block name-page %}main-page{% endblock %}
+
+{% block content %}
+    <section class=" main-banner header-color-js hc_js_2">
+        <div class="header-content wrap">
+            <div class="header-content_info header-content_info-pk">
+                <div class="header-title">
+                    <h1 class="not-h1">Разработка и создание сайтов</h1>
+                </div>
+                <p class="header-subtitle">Веб-студия «Интернет Системы»</p>
+                <div class="header-tabs">
+                    <ul class="header-tabs_nav">
+                        <li class="header-tabs_nav-item active">
+                            ПОЧАСОВАЯ ОПЛАТА
+                        </li>
+                        <li class="header-tabs_nav-item">
+                            ОПЛАТА ЗА ПРОЕКТ
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-content_item active">
+                            <p class="header-price">1 600 ₽ / чаc</p>
+                        </div>
+                        <div class="tab-content_item">
+                            <p class="header-price">от 350 000 ₽ </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="header-text">
+                    Подключим программистов уровня Senior, дизайнеров или&nbsp;верстальщиков, все&nbsp;исправим и&nbsp;поддержим.
+                </p>
+
+                <a class="header-btn common-btn js-form-have-project">Расcчитать стоимость проекта</a>
+            </div>
+            <div class="header-img">
+                <img width="" height="" class="header-img_mein" src="{% static '/local/templates/inetsys/img/header-image.png' %}" alt="" />
+                <img alt="" width="" height=""  class="header-img_mein2" src="{% static '/local/templates/inetsys/img/header-image2.png' %}" style="display: none;" />
+                <img alt="" width="" height=""  class="teg paralax-img" src="{% static '/local/templates/inetsys/img/teg.png' %}" data-z="2" data-y="2" />
+                <img alt="" width="" height=""  class="hart paralax-img" src="{% static '/local/templates/inetsys/img/hart.png' %}" data-z="2" data-y="2" style="display: none;" />
+                <img alt="" width="" height=""  class="star paralax-img" src="{% static '/local/templates/inetsys/img/stars.png' %}" data-z="-1" data-y="1" />
+                <img alt="" width="" height=""  class="roket paralax-img" src="{% static '/local/templates/inetsys/img/roket.png' %}" data-z="3" data-y="2" />
+                <img alt="" width="" height=""  class="detail paralax-img" src="{% static '/local/templates/inetsys/img/detail.png' %}" data-z="-2" data-y="2" />
+                <img alt="" width="" height=""  class="wifi paralax-img" src="{% static '/local/templates/inetsys/img/wifi.png' %}" data-z="-2" data-y="2" style="display: none;" />
+                <img alt="" width="" height=""  class="planet paralax-img" src="{% static '/local/templates/inetsys/img/planet.png' %}" data-z="-1" data-y="1" />
+                <img alt="" width="" height=""  class="bubble paralax-img" src="{% static '/local/templates/inetsys/img/bubble.png' %}" data-z="-3" data-y="2" />
+                <img alt="" width="" height=""  class="header-img_mein-mb" src="{% static '/local/templates/inetsys/img/header-image-mb.png' %}"/>
+            </div>
+            <div class="header-content_info header-content_info-mb">
+                <p class="header-text">
+                    Подключим программистов, дизайнеров <br> или верстальщиков, все исправим <br> и поддержим.
+                </p>
+                <buttun class="header-btn common-btn js-form-have-project">Расcчитать стоимость проекта</buttun>
+            </div>
+        </div>
+    </section>
+    <section class="develop animate-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h2 class="develop-title section-title section-title-js heading-underline">
+                        Наши услуги
+                    </h2>
+                    <p class="develop-text section-text section-text-js">
+                        Наша веб-студия готова выполнить любой проект - от типового создания сайта до индивидуального высокотехнологичного <br>
+                        решения. Гарантируем комплексный подход к поиску лучшего решения вашей <br>
+                        бизнес-задачи.
+                    </p>
+                    <div class="develop-slider">
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/develop-site.png' %}" class="develop__item-img" />
+                                </div>
+
+                                <a href="/development/" class="develop__item-title">
+                                    Разработка сайта
+                                </a>
+                                <p class="develop__item-text">
+                                    Создание сайтов с уникальным дизайном под ваши цели
+                                </p>
+                                <a href="/development/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/develop-img2.png' %}" alt="" class="develop__item-img" />
+                                </div>
+
+                                <a href="/shop/" class="develop__item-title">
+                                    <nobr>Интернет-магазины</nobr>
+                                </a>
+                                <p class="develop__item-text">
+                                    Ресурсы с грамотным юзабилити и дизайном для высокой конверсии
+
+                                </p>
+                                <a href="/shop/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/develop-img3.png' %}" alt="" class="develop__item-img" />
+                                </div>
+
+                                <a href="/complex/" class="develop__item-title">
+                                    Сложные проекты
+                                </a>
+                                <p class="develop__item-text">
+                                    Создание веб-систем с решением нестандартных задач
+
+                                </p>
+                                <a href="/complex/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/develop-img4.png' %}" alt="" class="develop__item-img " />
+                                </div>
+
+                                <a href="/support/" class="develop__item-title">
+                                    Поддержка 24/7
+                                </a>
+                                <p class="develop__item-text">
+                                    Круглосуточная техническая поддержка сайтов для их бесперебойной работы
+
+                                </p>
+                                <a href="/support/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/seo.png' %}" alt="" class="develop__item-img " />
+                                </div>
+
+                                <a href="/seo/" class="develop__item-title">
+                                    Продвижение
+                                </a>
+                                <p class="develop__item-text">
+                                    Раскрутка сайтов в поисковых системах Яндекс и Google
+                                </p>
+                                <a href="/seo/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/develop-img5.png' %}" alt="" class="develop__item-img " />
+                                </div>
+
+                                <a href="/bitrix24/" class="develop__item-title">
+                                    Интеграция с Битрикс 24
+                                </a>
+                                <p class="develop__item-text">
+                                    Внедрение CRM Битрикс 24 для увеличения прибыли и прозрачности бизнеса
+
+                                </p>
+                                <a href="/bitrix24/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="develop-item">
+                                <div class="develop__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/develop-img1.png' %}" alt="" class="develop__item-img " />
+                                </div>
+
+                                <a href="/mobile/" class="develop__item-title">
+                                    Мобильная <br>разработка
+                                </a>
+                                <p class="develop__item-text">
+                                    Разработка и поддержка мобильных приложений и веб-сервисов для компании
+
+                                </p>
+                                <a href="/mobile/" class="develop__item-link arrow-button">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project animate-block">
+        <div class="">
+            <p class="wrap section-title projects-title section-title-js">
+                Новые проекты
+            </p>
+            <div class="row project-list">
+                <div class="project__item-wrap col-xl-12 project-banner-mosconditer">
+                    <div class="project-item">
+                        <div class="wrap">
+                            <div class="project__item-subtitle">
+                                Магазин кондитерского <br>
+                                объединения
+                            </div>
+                            <div class="project__item-title" style="color: #FAD77F;">
+                                «Москондитер»
+                            </div>
+                            <ul class="project__item-list">
+                                <li><span class="project__item-dots" style="background-color: #FAD77F;"></span> Интернет-магазин сладких
+                                    новогодних
+                                    <br> подарков
+                                </li>
+                                <li><span class="project__item-dots" style="background-color: #FAD77F;"></span> Интеграция с 1С</li>
+                                <li><span class="project__item-dots" style="background-color: #FAD77F;"></span> Индивидуальный дизайн
+                                </li>
+                                <li><span class="project__item-dots" style="background-color: #FAD77F;"></span> CMS Drupal</li>
+                            </ul>
+                            <a href="http://москондитер.рф" class="project__item-link" style="color: #FAD77F;" rel="nofollow">москондитер.рф</a>
+                            <a href="/projects/moskonditer/" target="_blank" class="project__item-btn">Подробнее</a>
+                            <button class="project-list-prev project-list-arrow ico-arrow-left" style="color: #fff;"
+                                    aria-label="Previous" type="button"></button>
+                            <button class="project-list-next project-list-arrow ico-arrow-right" style="color: #fff;"
+                                    aria-label="Next" type="button"></button>
+                        </div>
+                    </div>
+                </div><div class="project__item-wrap col-xl-12 project-banner-vbrr">
+                <div class="project-item">
+                    <div class="wrap">
+                        <div class="project__item-subtitle" style="color: #2C2C2C;">
+
+                            Сайт федерального отделения банка <br>
+                            ТОП 15 банков России
+                        </div>
+
+                        <div class="project__item-title" style="color: #2C2C2C;">
+                            ВББР
+                        </div>
+                        <p class="project__item-text" style="color: #2C2C2C;">Всероссийский банк развития регионов</p>
+                        <ul class="project__item-list">
+                            <li style="color: #2C2C2C;"><span class="project__item-dots"></span>
+                                Федеральный сайт крупнейшего банка</li>
+                            <li style="color: #2C2C2C;"><span class="project__item-dots"></span>
+                                Индивидуальный адаптивный дизайн</li>
+                            <li style="color: #2C2C2C;"><span class="project__item-dots"></span>
+                                Мультиязычность</li>
+
+                        </ul>
+
+                        <a href="http://vbrr.ru" class="project__item-link" style="color:#2C2C2C;" rel="nofollow">vbrr.ru</a>
+                        <a href="/projects/vbrr/" target="_blank" class="project__item-btn" style="color:#2C2C2C;border-color:#2C2C2C;">Подробнее</a>
+                        <button class="project-list-prev project-list-arrow ico-arrow-left" aria-label="Previous" type="button"
+                                style="border-color: #2C2C2C;color: #2C2C2C;"></button>
+                        <button class="project-list-next project-list-arrow ico-arrow-right" aria-label="Next" type="button"
+                                style="border-color: #2C2C2C; color: #2C2C2C;"></button>
+                    </div>
+                </div>
+            </div><div class="project__item-wrap col-xl-12 project-banner-kalibr">
+                <div class="project-item">
+                    <div class="wrap">
+                        <div class="project__item-subtitle">
+                            Корпоративный сайт <br>
+                            делового центра
+                        </div>
+                        <div class="project__item-title" style="color: #95A6FF;">
+                            «Калибр»
+                        </div>
+                        <ul class="project__item-list">
+                            <li><span class="project__item-dots" style="background-color: #95A6FF;"></span> Корпоративный сайт с
+                                каталогом <br>
+                                площадей</li>
+                            <li><span class="project__item-dots" style="background-color: #95A6FF;"></span> Индивидуальный
+                                адаптивный
+                                дизайн</li>
+                            <li><span class="project__item-dots" style="background-color: #95A6FF;"></span> Мультиязычность</li>
+                            <li><span class="project__item-dots" style="background-color: #95A6FF;"></span> CMS Drupal</li>
+                        </ul>
+
+                        <a href="http://kalibroao.ru" class="project__item-link" style="color: #95A6FF;" rel="nofollow">kalibroao.ru</a>
+                        <a href="/projects/kalibr/" target="_blank" class="project__item-btn">Подробнее</a>
+                        <button class="project-list-prev project-list-arrow ico-arrow-left" style="color: #fff;"
+                                aria-label="Previous" type="button"></button>
+                        <button class="project-list-next project-list-arrow ico-arrow-right" style="color: #fff;"
+                                aria-label="Next" type="button"></button>
+                    </div>
+                </div>
+            </div><div class="project__item-wrap col-xl-12 project-banner-met">
+                <div class="project-item">
+                    <div class="wrap">
+                        <div class="project__item-subtitle">
+                            Интернет-магазин поставщика <br>
+                            медицинского оборудования
+                        </div>
+                        <div class="project__item-title" style="color: #fff;">
+                            «MET»
+                        </div>
+                        <ul class="project__item-list">
+                            <li style="color: #2C2C2C;"><span class="project__item-dots" style="background-color: #fff;"></span>
+                                Индивидуальный адаптивный дизайн</li>
+                            <li style="color: #2C2C2C;"><span class="project__item-dots" style="background-color: #fff;"></span>
+                                Интеграция с Ultima ERP</li>
+                            <li style="color: #2C2C2C;"><span class="project__item-dots" style="background-color: #fff;"></span>
+                                Раздельные каталоги для розницы и опта</li>
+                            <li style="color: #2C2C2C;"><span class="project__item-dots" style="background-color: #fff;"></span> CMS
+                                1С Битрикс</li>
+                        </ul>
+
+                        <a href="http://met.ru" class="project__item-link" style="color: #fff;" rel="nofollow">met.ru</a>
+                        <a href="/projects/met/" target="_blank" class="project__item-btn">Подробнее</a>
+                        <button class="project-list-prev project-list-arrow ico-arrow-left" style="color: #fff;"
+                                aria-label="Previous" type="button"></button>
+                        <button class="project-list-next project-list-arrow ico-arrow-right" style="color: #fff;"
+                                aria-label="Next" type="button"></button>
+                    </div>
+                </div>
+            </div><div class="project__item-wrap col-xl-12 project-banner-stena">
+                <div class="project-item">
+                    <div class="wrap">
+                        <div class="project__item-subtitle">
+                            Интернет-магазин декоративных покрытий
+                        </div>
+                        <div class="project__item-title" style="color: #fff;">
+                            «Stena»
+                        </div>
+                        <ul class="project__item-list">
+                            <li><span class="project__item-dots" style="background-color: #52F7FE;"></span>
+                                Сметный калькулятор расхода материала</li>
+                            <li><span class="project__item-dots" style="background-color: #52F7FE;"></span>
+                                Визуализатор текстур</li>
+                            <li><span class="project__item-dots" style="background-color: #52F7FE;"></span>
+                                Дилерский кабинет с системой заказов <br> и оптимизации транспортных расходов</li>
+
+                        </ul>
+
+                        <a href="http://stena.ru" class="project__item-link" style="color: #52F7FE;" rel="nofollow">stena.ru</a>
+                        <a href="/projects/stena/" target="_blank" class="project__item-btn">Подробнее</a>
+                        <button class="project-list-prev project-list-arrow ico-arrow-left" style="color: #fff;"
+                                aria-label="Previous" type="button"></button>
+                        <button class="project-list-next project-list-arrow ico-arrow-right" style="color: #fff;"
+                                aria-label="Next" type="button"></button>
+                    </div>
+                </div>
+            </div>            </div>
+        </div>
+    </section>
+    <section class="animate-block header-color-js create-block-specialization">
+        <div class="thickwrap">
+            <div class="row block-image-right">
+                <div class="col-12 col-lg-6 subpadding">
+                    <h3 class="heading-2 heading-underline section-title-js">Создаем сайты на&nbsp;Drupal и&nbsp;Битрикс</h3>
+                    <p class="text text-lh-30 tn_dl_02">Мы работаем только с двумя CMS, но зато знаем о них все, следим за самым
+                        актуальным в мире по этой теме, делаем работу безупречно.
+                    </p>
+                    <img alt="" width="" height=""  class="c-plus-bitrix-logo transform-y-55 tn_dl_04 tn_dr_05" src="{% static '/local/templates/inetsys/img/specialization-img.png' %}">
+                </div>
+                <div class="col-12 col-lg-6 image-block-before">
+                    <div class="specialization-img-block">
+                        <img alt="" width="" height="" src="{% static '/local/templates/inetsys/img/specialization-img2.png' %}">
+                        <div class="w-100 text-specialization-bitrix">
+                            <div class="sepcialization-bitrix-btn prnt-active-btn transform-y-55 tn_dl_08 tn_dr_05"><span
+                                    class="why-btn">Почему Битрикс</span><span class="ico-plus"></span></div>
+                            <p class="blue-bold text-fs-18">Почему Битрикс</p>
+                            <p>Беспроигрышный вариант, «заточенный» под российский рынок. Все новейшие обновления происходят в этом
+                                направлении. Безопасная, устойчивая, практичная.</p>
+                        </div>
+                        <div class="w-100 text-specialization-drupal">
+                            <div class="sepcialization-drupal-btn prnt-active-btn transform-y-55 tn_dl_10 tn_dr_05"><span
+                                    class="ico-plus"></span><span class="why-btn">Почему Drupal</span></div>
+                            <p class="blue-bold text-fs-18">Почему Drupal</p>
+                            <p>Масштабируемая и гибкая система, с&nbsp;которой Ваш бизнес никогда «не упрется в потолок». Идеально для
+                                стремительно растущего бизнеса. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clients animate-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h3 class="clients-title heading-underline clients-title-mb section-title d-block d-xl-none">
+                        Больше 150 клиентов <br />
+                        доверяют нам свои сайты
+                    </h3>
+                </div>
+                <div class="col-xl-6 col">
+                    <p class="clients-title heading-underline clients-title-pk section-title section-title-js d-none d-xl-block">
+                        Больше 150 клиентов <br />
+                        доверяют нам свои сайты
+                    </p>
+                    <div class="clients-text section-text section-text-js">
+                        Мы&nbsp;работаем с&nbsp;крупнейшими российскими и&nbsp;международными страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и&nbsp;другими.
+                    </div>
+                    <a href="" class="clients-btn common-btn clients-btn-pk js-form-have-project">Стать клиентом</a>
+                </div>
+                <div class="col-xl-6 col clients-slider-wrap">
+                    <div class="clients-slider">
+                        <div class="clients-item-wrap">
+                            <div class="clients-item clients-item-first">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr.svg' %}" class="clients__item-img" />
+                                </div>
+                                <p class="clients__item-title">
+                                    ТОП 15 крупнейших российских банков
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clients-item-wrap">
+                            <div class="clients-item ">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}" class="clients__item-img " />
+                                </div>
+                                <p class="clients__item-title">
+                                    Крупнейший производитель сладких новогодних подарков
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clients-item-wrap">
+                            <div class="clients-item ">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/clavel.svg' %}" class="clients__item-img " />
+                                </div>
+                                <p class="clients__item-title">
+                                    Производитель широкой коллекции дизайнерских интерьерных покрытий
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clients-item-wrap">
+                            <div class="clients-item">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/ruspetrol.svg' %}" class="clients__item-img " />
+                                </div>
+                                <p class="clients__item-title">
+                                    Оптовый и&nbsp;розничный продавец нефтепродуктов
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clients-item-wrap">
+                            <div class="clients-item">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}" class="clients__item-img " />
+                                </div>
+                                <p class="clients__item-title">
+                                    Производитель специализированной медицинской мебели и&nbsp;оборудования
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clients-item-wrap">
+                            <div class="clients-item">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/kalibr.svg' %}" class="clients__item-img " />
+                                </div>
+                                <p class="clients__item-title">
+                                    Технопарк и коворкинг для&nbsp;развития инновационных технологий и&nbsp;решений
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clients-item-wrap">
+                            <div class="clients-item">
+                                <div class="clients__item-img-wrap">
+                                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vseinstrumenti.svg' %}" class="clients__item-img " />
+                                </div>
+                                <p class="clients__item-title">
+                                    Онлайн-гипермаркет товаров для&nbsp;дома, дачи, ремонта и&nbsp;строительства
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="" class="clients-btn common-btn clients-btn-mb">Стать клиентом</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="wrap">
+            <div class="row advantages-item animate-block">
+                <div class="col-lg-5 advantages-col-img image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/advantages-img1-2.png' %}" class="advantages-img"/>
+                    <div class="float-circles"></div>
+                </div>
+                <div class="col-lg-7 advantages-col-text">
+                    <h3 class=" section-title advantages-title section-title-js heading-underline">
+                        Мыслим вместе с&nbsp;Вами <br> категориями Целей
+                    </h3>
+                    <p class="section-text advantages-text section-text-js">
+                        Решение задач не гарантирует отсутствие старых и новых <br>
+                        проблем. Технологии быстро меняются, и то, что было сделано <br>
+                        строго в рамках задачи, уже завтра станет бессмысленным, <br>
+                        а задача, решенная «на коленке» «по-быстрому», поставит <br>
+                        функциональность сайта под угрозу.
+                    </p>
+                </div>
+            </div>
+            <div class="row advantages-item animate-block">
+                <div class="col-lg-6 advantages-col-text">
+                    <h3 class="section-title advantages-title section-title-js heading-underline">
+                        Наш подход - другой, <br>
+                        стратегический
+                    </h3>
+                    <p class="section-text advantages-text section-text-js">
+                        Мы приступаем к задаче только после того, как выясним, <br>
+                        для чего ее нужно решить. Глубоко погружаясь в цели, <br>
+                        мы выбираем оптимальные, всесторонне продуманные <br>
+                        решения и тем самым минимизируем риски клиента. <br>
+                        Это чуть дольше и менее выгодно для нас, но позволяет создать сайт или решить задачу наиболее эффективным способом, при этом
+                        сэкономив вам нервы и деньги.
+                    </p>
+                </div>
+                <div class="col-lg-6 advantages-col-img image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/advantages-img2-2.png' %}" class="advantages-img"/>
+                    <div class="float-circles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="transparent-price animate-block">
+        <div class="wrap">
+            <div class="row transparent-price__item">
+                <div class="col-lg-5 transparent-price_img image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/advantages-img3-2.png' %}" class="transparent-price__img" alt="" />
+                    <div class="float-circles"></div>
+                </div>
+
+                <div class="col-lg-7 transparent-price_info">
+                    <h3 class="section-title transparent-price__title section-title-js heading-underline">
+                        100% прозрачная <br>
+                        цена
+                    </h3>
 
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-var yaParams = {/*‡десь параметры визита*/};
-</script>
+                    <p class="transparent-price__text section-text section-text-js">
+                        Учет рабочего времени по каждой задаче ведется через специальный программный тайм-трекер. Мы не округляем время до часа, создаем условия, при которых программисту невыгодно растягивать сроки, <br>
+                        и максимально открыты для клиента. В результате вы всегда знаете, <br>
+                        за что платите, и не переплачиваете ни копейки.
+                    </p>
+                    <div class="transparent-price_item">
+                        <div class="transparent-price_item-img-wrap ico-clock single-ico">
+                        </div>
+                        <div class="transparent-price_item_info">
+                            <p class="transparent-price_item-title">Почасовая оплата</p>
+                            <p class="transparent-price_item-text">с точностью до секунды</p>
+                        </div>
+                    </div>
 
-<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter10849360 = new Ya.Metrika({id:10849360,
-                    webvisor:true,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    trackHash:true,params:window.yaParams||{ }});
-        } catch(e) { }
-    });
+                </div>
 
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+            </div>
+        </div>
+    </section>
+    <section class="animate-block office-team-block support-block">
+        <div class="widewrap">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <h2 class="heading-2 heading-underline section-title-js">Работы по&nbsp;поддержке и созданию сайтов будет выполнять команда из&nbsp;20 человек</h2>
+                    <p class="text text-lh-30 tn_dl_02">Мы создали отлаженно работающую систему, гарантирующую вам
+                        предсказуемость результата и&nbsp;полную прозрачность действий.</p>
+                </div>
+            </div>
+        </div>
+        <div class="widewrap2">
+            <div class="row office-team-block-grid radius-block transform-y-55 tn_dr_05 tn_dl_04">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-design">
+                    <div><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/designer.png' %}" class=""></div>
+                    <p>Дизайнеры и иллюстраторы
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-layer">
+                    <div><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/layer.png' %}" class=""></div>
+                    <p>Верстальщики
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-progr">
+                    <div><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/programist.png' %}" class=""></div>
+                    <p>Программисты
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-seo">
+                    <div><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/seo.png' %}" class=""></div>
+                    <p>Оптимизаторы
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-cwriter">
+                    <div><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/cwriter.png' %}" class=""></div>
+                    <p>Копирайтеры и контент-менеджеры
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-2 office-team-sysadmin">
+                    <div><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/sysadmin.png' %}" class=""></div>
+                    <p>Сисадмины</p>
+                </div>
+            </div>
+        </div>
+        <div class="widewrap">
+            <div class="row office-team-block-after">
+                <div class="col-12">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/team/manager.png' %}" class="transform-y-55 tn_dr_05 tn_dl_06 ">
+                    <p class="text text-lh-30 tn_dl_08">Персональный менеджер курирует все вопросы, следит за&nbsp;выполнением работ и&nbsp;держит вас в&nbsp;курсе.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tools animate-block">
+        <div class="wrap">
+            <div class="row">
 
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/10849360" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                <div class="col-xl-12">
+                    <p class="section-title tools-title section-title-js heading-underline">
+                        Инструменты <br>
 
-  ga('create', 'UA-21305436-4', 'auto');
-  ga('send', 'pageview');
+                        обеспечения качества
+                    </p>
+                    <div class=" tools__item-list">
+                        <div class="tools__item">
+                            <div class="tools__img-wrap ico-center single-ico">
+                            </div>
+                            <div class="tools__item-ifo">
+                                <p class="tools__item-title">
+                                    Централизация управления проектом
+                                </p>
+                            </div>
+                        </div>
 
-</script>
-</body>
-</html>
+                        <div class="tools__item">
+                            <div class="tools__img-wrap ico-gear single-ico">
+                            </div>
+                            <div class="tools__item-ifo ">
+                                <p class="tools__item-title">
+                                    Системы контроля версий
+                                    и&nbsp;качества кода
+                                </p>
+                                <p class="tools__item-text">
+                                    Git
+                                    для PHP стандарт оформления PSR
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tools__item">
+                            <div class="tools__img-wrap ico-tehnology single-ico">
+                            </div>
+                            <div class="tools__item-ifo">
+                                <p class="tools__item-title">
+                                    Современные инструменты
+                                    и&nbsp;технологии для front-end
+                                    и&nbsp;back-end
+                                </p>
+                                <p class="tools__item-text">
+                                    Bootstrap, БЭМ, Препроцессоры (SCSS, TypeScript),
+                                    сборщики Gulp/WebPack
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tools__item">
+                            <div class="tools__img-wrap ico-schedule single-ico">
+                            </div>
+                            <div class="tools__item-ifo">
+                                <p class="tools__item-title">
+                                    Развертывание
+                                    и&nbsp;использование окружений
+                                    для&nbsp;разработки
+                                    и &nbsp;тестирования
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="acceleration animate-block">
+        <div class="wrap">
+            <div class="row">
+
+                <div class="col-xl-6">
+                    <p class="section-title acceleration__title section-title-js">
+                        Что делать, чтобы <br>
+                        ваш сайт «летал»?
+                    </p>
+                    <p class="section-subtitle acceleration__subtitle">
+                        Закажите бесплатный аудит производительности сайта, <br />
+                        и ваши клиенты перестанут уходить к конкурентам.
+                    </p>
+                    <ul class="acceleration-list">
+                        <li>
+                            <span class="ico-details"></span>
+                            Проведем комплексную экспертизу
+                        </li>
+                        <li>
+                            <span class="ico-drawsdown"></span>
+                            Найдем причину медленной работы и сбоев
+                        </li>
+                        <li>
+                            <span class="ico-board"></span>
+                            Объясним, как именно решить проблему
+                        </li>
+                    </ul>
+
+                    <div class="acceleration__bottom">
+
+                        <div class="acceleration__atributes">
+                            <div class="acceleration__atributes-item">
+                                <div class="acceleration__atributes-icon-wrap ico-rub single-ico">
+                                </div>
+                                <div class="acceleration__atributes-item-info">
+                                    <p class="acceleration__atributes-item-title">Стоимость:</p>
+                                    <p class="acceleration__atributes-item-text">Бесплатно</p>
+                                </div>
+                            </div>
+                            <div class="acceleration__atributes-item">
+                                <div class="acceleration__atributes-icon-wrap ico-time single-ico">
+                                </div>
+                                <div class="acceleration__atributes-item-info">
+                                    <p class="acceleration__atributes-item-title">Сроки:</p>
+                                    <p class="acceleration__atributes-item-text">От 1 дня</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="acceleration__text">
+                            Результатом оказанных услуг является отчет (в электронной форме)
+                            <br />
+                            из 50 пунктов по вашему сайту.
+                        </p>
+                    </div>
+
+                </div>                <div class="col-xl-6 acceleration-form-wrap">
+
+                <form class="acceleration-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/">
+                    <input type="hidden" name="g_recaptcha_response" value="">
+                    <input type="hidden" name="WEB_FORM_ID" value="3">
+                    <input type="hidden" name="sessid" id="sessid_1" value="d7b6a3d32c2e1ae2303a22f7c328ad9c" />    <p class="acceleration-form-title">Оставить заявку</p>
+
+
+
+                    <div class="input-wrap">
+                        <input name="form_text_5" id="form_text_5" type="text" class="input-text inputtext required" placeholder="Ваше имя">
+                        <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите ваше имя</span>
+                    </div>
+
+                    <div class="input-wrap">
+                        <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                        <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите телефон</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                        <label for="form_text_18">Email </label>
+                        <span class="input-alert">Укажите Email</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                        <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                        <span class="input-alert">Напишите сообщение</span>
+                    </div>
+                    <p class="text-consent  text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                        <label for="ch1"></label> <span> Я согласен с условиями обработки <br> <a href="/privacy/"> персональных данных</a>
+              </span>
+                        <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                    </p>
+                    <button type="submit" name="web_form_submit" class="simple-btn web_form_submit" value="Отправить">Отправить</button>
+                </form>                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contacts animate-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-xl-12">
+                    <p class="section-title contacts__title section-title-js heading-underline">
+                        Контакты
+                    </p>
+                    <div class="contacts__item-list">
+
+
+                        <div class="contacts__item" id="bx_3218110189_25">
+                            <div class="contacts__item-wrap" style="background-image: url({% static 'local/templates/inetsys/img/contacts__img1-wrap.png' %});">
+                                <img alt="" width="" height=""  src="{% static '/upload/iblock/853/853dc0cd582a4b808ea379e43270c671.png' %}" alt="Москва" />
+                            </div>
+                            <div class="contacts__item-info">
+                                <p class="contacts__item-title">
+                                    Москва:
+                                </p>
+                                <div class="contacts__item-adres" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                    <p class="d-none" itemprop="addressLocality">Москва</p>
+                                    <span itemprop="streetAddress">ул. Смольная, д 24а, офис&nbsp;1811</span>
+                                </div>
+                                <a href="tel:+7 (495) 724-90-65" class="contacts__item-tel">
+                                    +7 (495) 724-90-65                </a>
+                                <p class="contacts__item-working-hours">
+                                    Пн - пт. 9:00 - 19:00                </p>
+                                <a href="/contacts/#moscow" class="contacts__item-link-map arrow-button">
+                                    Подробнее </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contacts__item" id="bx_3218110189_26">
+                            <div class="contacts__item-wrap" style="background-image: url({% static '/local/templates/inetsys/img/contacts__img1-wrap.png' %});">
+                                <img alt="" width="" height=""  src="{% static '/upload/iblock/80c/80c9d8568001ae5a334bdd60633f22d1.png' %}" alt="Тверь" />
+                            </div>
+                            <div class="contacts__item-info">
+                                <p class="contacts__item-title">
+                                    Тверь:
+                                </p>
+                                <div class="contacts__item-adres" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                    <p class="d-none" itemprop="addressLocality">Тверь</p>
+                                    <span itemprop="streetAddress">пр-т Победы, д.3, офис&nbsp;313</span>
+                                </div>
+                                <a href="tel:+7 (4822) 34-55-73" class="contacts__item-tel">
+                                    +7 (4822) 34-55-73                </a>
+                                <p class="contacts__item-working-hours">
+                                    Пн - пт. 9:00 - 19:00                </p>
+                                <a href="/contacts/#tver" class="contacts__item-link-map arrow-button">
+                                    Подробнее </a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

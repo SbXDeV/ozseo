@@ -1,0 +1,824 @@
+.bitrix24-page .main-banner .text {
+    max-width: 260px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.bitrix24-page .banner-float-support {
+    margin-left: -13px;
+    margin-top: -3px;
+}
+
+.bitrix24-page .banner-image {
+    background-image: url(../img/bitrix24-banner-full.png);
+    height: 306px;
+}
+
+.bitrix24-page .main-banner .button-case {
+    margin-top: -20px
+}
+
+.bitrix24-page *:not(.icoblock-single)+.icoblock-single {
+    padding-top: 32px;
+}
+
+.bitrix24-page .icoblock-single+.icoblock-single {
+    padding-top: 55px;
+}
+
+.bitrix24-block-intro {
+    margin-top: 30px
+}
+
+.bitrix24-block-price {
+    margin-top: 30px;
+}
+
+.bitrix24-page .price-columns .list-check {
+    min-height: 354px;
+}
+
+.bitrix24-page .price-columns.slick-slider {
+    padding-bottom: 50px
+}
+
+.bitrix24-block-result .image-block-before {
+    margin-top: 32px;
+    margin-bottom: 48px
+}
+
+.bitrix24-block-result .image-block-before img {
+    max-width: 270px;
+    margin-left: -20px;
+    margin-top: 10px
+}
+
+.bitrix24-block-result .image-block-before .float-circles:before {
+    top: calc(23% - 30px);
+    left: calc(89% - 30px);
+}
+
+.bitrix24-block-result .image-block-before .float-circles:after {
+    top: calc(93% - 20px);
+    left: calc(17% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.bitrix24-block-result .heading-3+.text {
+    padding-top: 15px
+}
+
+.bitrix24-block-integration .image-block-before {
+    margin-top: 32px;
+    margin-bottom: 48px
+}
+
+.bitrix24-block-integration .image-block-before img {
+    max-width: 328px;
+    margin-left: -20px;
+    margin-top: -22px;
+    z-index: 0;
+}
+
+.bitrix24-block-integration .image-block-before .float-circles:before {
+    top: calc(27% - 30px);
+    left: calc(5% - 30px);
+}
+
+.bitrix24-block-integration .image-block-before .float-circles:after {
+    top: calc(88% - 20px);
+    left: calc(84% - 20px);
+}
+
+.bitrix24-block-tasks .icoblock-single:first-child {
+    padding-top: 55px;
+}
+
+.bitrix24-block-tasks .icoblock-single .heading-3+.text {
+    padding-top: 15px;
+}
+
+.bitrix24-block-analytics .image-block-before {
+    margin-top: 34px;
+    margin-bottom: 48px
+}
+
+.bitrix24-block-analytics .image-block-before img {
+    max-width: 290px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.bitrix24-block-analytics .image-block-before .float-circles:before {
+    top: calc(64% - 30px);
+    left: calc(96% - 30px);
+}
+
+.bitrix24-block-analytics .image-block-before .float-circles:after {
+    left: calc(32% - 20px);
+}
+
+.bitrix24-subblock-iteration .image-block-before {
+    margin-top: 52px;
+    margin-bottom: 28px
+}
+
+.bitrix24-subblock-iteration .image-block-before img {
+    max-width: 253px;
+    margin-top: -23px
+}
+
+.bitrix24-subblock-iteration .image-block-before .float-circles:before {
+    top: calc(83% - 30px);
+    left: calc(16% - 30px);
+}
+
+.bitrix24-subblock-iteration .image-block-before .float-circles:after {
+    top: calc(4% - 20px);
+    left: calc(70% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+[class*="bitrix24-subblock-"] .heading-3 {
+    font-weight: 500
+}
+
+.bitrix24-subblock-automatization .image-block-before {
+    margin-top: 52px;
+    margin-bottom: 28px
+}
+
+.bitrix24-subblock-automatization .image-block-before .float-circles:before {
+    top: calc(88% - 30px);
+    left: calc(16% - 30px);
+}
+
+.bitrix24-subblock-automatization .image-block-before .float-circles:after {
+    top: calc(9% - 20px);
+    left: calc(78% - 20px);
+    width: 30px;
+    height: 30px;
+}
+
+.bitrix24-subblock-automatization .image-block-before img {
+    max-width: 290px;
+    margin-top: -3px;
+    margin-left: -20px
+}
+
+[class*="bitrix24-subblock-"] .button-case {
+    padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .bitrix24-page .main-banner .heading-1 {
+        max-width: 500px;
+        margin-bottom: 12px;
+    }
+
+    .bitrix24-page .main-banner .text {
+        font-size: 24px;
+        max-width: 340px;
+        line-height: 36px;
+        margin-bottom: 32px;
+    }
+
+    .bitrix24-page .banner-float-support {
+        margin-left: -40px;
+    }
+
+    .bitrix24-page .banner-image {
+        background-image: url(../img/bitrix24-banner-full-768.png);
+        height: 466px;
+    }
+
+    .bitrix24-page .main-banner .button-case {
+        margin-top: -40px;
+    }
+
+    .bitrix24-page *:not(.icoblock-single)+.icoblock-single {
+        padding-top: 35px;
+    }
+
+    .bitrix24-page .icoblock-single+.icoblock-single {
+        padding-top: 35px;
+    }
+
+    .bitrix24-block-stages .heading-2 {
+        font-size: 52px;
+    }
+
+    .bitrix24-block-stages .block-stages-grid-wrap {
+        margin-left: -40px;
+        margin-right: -40px;
+        max-width: calc(100% + 80px);
+    }
+
+    .bitrix24-block-stages .block-stages-grid [class*=stages-]:nth-child(4) {
+        margin-left: 17%;
+        padding-top: 80px;
+    }
+
+    .bitrix24-block-stages .block-stages-grid [class*=stages-]:nth-child(5) {
+        padding-top: 80px;
+    }
+
+    .bitrix24-page .price-columns .list-check {
+        min-height: 281px;
+    }
+
+    .bitrix24-page .price-columns.slick-slider {
+        padding-bottom: 35px;
+    }
+
+    .bitrix24-block-result .image-block-before {
+        margin-top: 32px;
+        margin-bottom: 42px;
+    }
+
+    .bitrix24-block-result .image-block-before img {
+        max-width: 392px;
+        margin-left: -41px;
+        margin-top: 17px;
+    }
+
+    .bitrix24-block-result .image-block-before .float-circles:before {
+        top: calc(15% - 30px);
+        left: calc(89% - 30px);
+    }
+
+    .bitrix24-block-result .image-block-before .float-circles:after {
+        top: calc(88% - 20px);
+        left: calc(20% - 20px);
+        width: 51px;
+        height: 51px;
+    }
+
+    .bitrix24-block-result *:not(.icoblock-single)+.icoblock-single {
+        padding-top: 70px;
+    }
+
+    .bitrix24-block-result .icoblock-single+.icoblock-single {
+        padding-top: 45px;
+    }
+
+    .bitrix24-block-result .heading-3+.text {
+        padding-top: 5px;
+    }
+
+    .bitrix24-block-integration .image-block-before {
+        margin-top: 32px;
+        margin-bottom: 48px
+    }
+
+    .bitrix24-block-integration .image-block-before img {
+        max-width: 457px;
+        margin-left: -22px;
+        margin-top: -26px;
+    }
+
+    .bitrix24-block-integration .image-block-before .float-circles:before {
+        top: calc(26% - 40px);
+        left: calc(6% - 40px);
+        width: 80px;
+        height: 80px;
+    }
+
+    .bitrix24-block-integration .image-block-before .float-circles:after {
+        top: calc(83% - 20px);
+        left: calc(86% - 20px);
+    }
+
+    .bitrix24-block-integration .text {
+        padding-bottom: 15px
+    }
+
+    .bitrix24-block-tasks .icoblock-single+.icoblock-single {
+        padding-top: 55px;
+    }
+
+    .bitrix24-block-tasks .icoblock-single .heading-3+.text {
+        padding-top: 5px;
+    }
+
+    .bitrix24-block-analytics .image-block-before {
+        margin-top: 34px;
+        margin-bottom: 41px;
+    }
+
+    .bitrix24-block-analytics .image-block-before img {
+        max-width: 383px;
+        margin-left: -15px;
+        margin-top: -25px;
+    }
+
+    .bitrix24-block-analytics .image-block-before .float-circles:before {
+        top: calc(89% - 30px);
+        left: calc(22% - 30px);
+    }
+
+    .bitrix24-block-analytics .image-block-before .float-circles:after {
+        left: calc(68% - 20px);
+        width: 51px;
+        height: 51px;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before {
+        margin-bottom: 48px
+    }
+
+    .bitrix24-subblock-iteration .image-block-before img {
+        max-width: 385px;
+        margin-top: 2px;
+        margin-left: -17px;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before .float-circles:after {
+        top: calc(5% - 20px);
+        left: calc(70% - 20px);
+        width: 40px;
+        height: 40px;
+    }
+
+    [class*="bitrix24-subblock-"] .heading-3 {
+        padding-bottom: 10px
+    }
+
+    [class*="bitrix24-subblock-"] .button-case {
+        padding-top: 50px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before {
+        margin-top: 102px;
+        margin-bottom: 48px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before img {
+        max-width: 400px;
+        margin-top: 6px;
+        margin-left: -9px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before .float-circles:before {
+        top: calc(84% - 30px);
+        left: calc(13% - 30px);
+    }
+
+    .bitrix24-subblock-automatization .image-block-before .float-circles:after {
+        top: calc(5% - 20px);
+        left: calc(71% - 20px);
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bitrix24-page .banner-float-support {
+        top: -85px;
+        right: -23%;
+    }
+
+    .bitrix24-page .banner-image {
+        background-image: url(../img/bitrix24-banner-full-1024.png);
+        height: 531px;
+    }
+
+    .bitrix24-page .main-banner ul.list-dotted {
+        max-width: 480px;
+        position: relative;
+        z-index: 1;
+        padding-top: 12px
+    }
+
+    .bitrix24-page .main-banner .button-case {
+        margin-top: 0px;
+    }
+
+    .bitrix24-block-intro .heading-2 {
+        font-size: 52px;
+        max-width: 400px
+    }
+
+    .bitrix24-block-intro .text {
+        padding-bottom: 70px
+    }
+
+    .bitrix24-page .icoblock-single+.icoblock-single+.icoblock-single {
+        padding-top: 15px;
+    }
+
+    .bitrix24-block-intro .icoblock-single:nth-child(3), .bitrix24-block-intro .icoblock-single:nth-child(5) {
+        padding-left: 65px;
+    }
+
+    .bitrix24-block-stages {
+        margin-top: 25px
+    }
+
+    .bitrix24-block-stages .block-stages-grid [class*=stages-]:nth-child(4) {
+        margin-left: 0;
+        padding-top: 70px;
+    }
+
+    .bitrix24-block-stages .block-stages-grid-wrap {
+        margin-left: -46px;
+        margin-right: -46px;
+        max-width: calc(100% + 92px);
+    }
+
+    .bitrix24-block-price .heading-2 {
+        font-size: 52px
+    }
+
+    .bitrix24-block-price {
+        margin-top: 80px;
+    }
+
+    .bitrix24-block-result {
+        margin-top: 90px
+    }
+
+    .bitrix24-block-result .heading-2 {
+        font-size: 52px
+    }
+
+    .bitrix24-block-result .image-block-before img {
+        margin-left: -41px;
+        margin-top: 17px;
+    }
+
+    .bitrix24-block-result .icoblock-single {
+        padding-right: 50px;
+    }
+
+    .bitrix24-block-result .icoblock-single+.icoblock-single {
+        padding-top: 70px;
+    }
+
+    .bitrix24-block-integration .heading-2 {
+        font-size: 52px;
+    }
+
+    .bitrix24-block-integration {
+        margin-top: 40px
+    }
+
+    .bitrix24-block-integration .image-block-before {
+        margin-top: -15px;
+        margin-bottom: 51px;
+    }
+
+    .bitrix24-block-integration .image-block-before img {
+        margin-left: -22px;
+        margin-top: -26px;
+    }
+
+    .bitrix24-block-tasks {
+        margin-top: 30px
+    }
+
+    .bitrix24-block-tasks .heading-2 {
+        font-size: 52px
+    }
+
+    .bitrix24-block-tasks .icoblock-single:first-child {
+        padding-top: 55px;
+    }
+
+    .bitrix24-block-tasks .row .row {
+        padding-top: 60px
+    }
+
+    .bitrix24-block-tasks .icoblock-single+.icoblock-single+.icoblock-single {
+        padding-top: 45px;
+    }
+
+    .bitrix24-block-analytics .heading-2 {
+        font-size: 52px;
+    }
+
+    .bitrix24-block-analytics .image-block-before {
+        margin-top: 0px;
+        margin-bottom: 41px;
+    }
+
+    .bitrix24-block-analytics-price {
+        margin-top: 25px
+    }
+
+    .bitrix24-block-analytics-price .heading-2 {
+        font-size: 52px;
+    }
+
+    .bitrix24-block-solutions .heading-2 {
+        font-size: 52px;
+    }
+
+    .bitrix24-block-solutions .text {
+        max-width: 700px
+    }
+
+    [class*="bitrix24-subblock-"] {
+        padding-top: 65px;
+        padding-bottom: 36px;
+    }
+
+    [class*="bitrix24-subblock-"] .text {
+        padding-top: 10px
+    }
+
+    [class*="bitrix24-subblock-"] .button-case {
+        padding-top: 65px;
+    }
+
+    [class*="bitrix24-subblock-"] .button-small {
+        margin: 0;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before img {
+        margin-left: 0px;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before .float-circles:before {
+        top: calc(81% - 30px);
+        left: calc(81% - 30px);
+    }
+
+    .bitrix24-subblock-iteration .image-block-before .float-circles:after {
+        top: calc(4% - 20px);
+        left: calc(28% - 20px);
+        width: 40px;
+        height: 40px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before .float-circles:before {
+        top: calc(84% - 30px);
+        left: calc(78% - 30px);
+    }
+
+    .bitrix24-subblock-automatization .image-block-before .float-circles:after {
+        top: calc(8% - 20px);
+        left: calc(22% - 20px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .bitrix24-page .main-banner .heading-1 {
+        margin-bottom: 37px;
+    }
+
+    .bitrix24-page .main-banner .text {
+        margin-bottom: 50px;
+    }
+
+    .bitrix24-page .main-banner .button-blue {
+        margin-top: 72px;
+    }
+
+    .bitrix24-page .banner-image {
+        background-image: url(../img/bitrix24-banner-full-1920.png);
+        height: 750px;
+    }
+
+    .bitrix24-page .banner-float-support {
+        right: -21.6%;
+    }
+
+    .bitrix24-block-intro .heading-2 {
+        max-width: 700px;
+    }
+
+    .bitrix24-block-intro .text {
+        padding-bottom: 40px;
+    }
+
+    .bitrix24-block-intro .icoblock-single:nth-child(3), .bitrix24-block-intro .icoblock-single:nth-child(5) {
+        padding-left: 30px;
+    }
+
+    .bitrix24-block-intro .icoblock-single-ico+.icoblock-single-text {
+        padding-right: 10%
+    }
+
+    .bitrix24-block-stages {
+        margin-top: 45px;
+    }
+
+    .bitrix24-block-stages .block-stages-grid-wrap [class*=stages-]>p {
+        max-width: 150px
+    }
+
+    .bitrix24-block-stages .block-stages-grid [class*=stages-]:nth-child(4) {
+        padding-top: 80px;
+    }
+
+    .bitrix24-block-price .widewrap {
+        padding-left: 95px
+    }
+
+    .bitrix24-block-price .heading-2+.text {
+        max-width: 700px
+    }
+
+    .bitrix24-block-result {
+        margin-top: 190px;
+    }
+
+    .bitrix24-block-result .image-block-before {
+        margin-top: -72px;
+    }
+
+    .bitrix24-block-result .image-block-before img {
+        margin-left: 3px;
+        margin-top: 27px;
+        max-width: 499px;
+    }
+
+    .bitrix24-block-result .image-block-before .float-circles:before {
+        top: calc(20% - 30px);
+        left: calc(92% - 30px);
+    }
+
+    .bitrix24-block-result .image-block-before .float-circles:after {
+        top: calc(54% - 25px);
+        left: calc(0% - 25px);
+    }
+
+    .bitrix24-block-result *:not(.icoblock-single)+.icoblock-single {
+        padding-top: 10px;
+    }
+
+    .bitrix24-block-result .icoblock-single+.icoblock-single {
+        padding-top: 10px;
+    }
+
+    .bitrix24-block-result .icoblock-single+.icoblock-single+.icoblock-single {
+        padding-top: 25px;
+    }
+
+    .bitrix24-block-integration .widewrap {
+        padding-top: 65px
+    }
+
+    .bitrix24-block-integration .icoblock-single .text {
+        padding-right: 50px
+    }
+
+    .bitrix24-block-integration .image-block-before img {
+        max-width: 588px;
+        margin-left: -12px;
+        margin-top: -36px;
+    }
+
+    .bitrix24-block-integration .image-block-before {
+        margin-bottom: 75px;
+    }
+
+    .bitrix24-block-integration .icoblock-single {
+        padding-top: 35px !important;
+    }
+
+    .bitrix24-block-tasks .row .row {
+        padding-left: 80px
+    }
+
+    .bitrix24-block-tasks .icoblock-single:first-child {
+        padding-top: 10px;
+    }
+
+    .bitrix24-block-tasks .icoblock-single+.icoblock-single {
+        padding-top: 10px;
+    }
+
+    .bitrix24-block-tasks .icoblock-single:nth-child(even) {
+        padding-left: 40px;
+    }
+
+    .bitrix24-block-tasks .icoblock-single .heading-3 {
+        font-size: 28px;
+        max-width: 370px;
+        padding-bottom: 15px
+    }
+
+    .bitrix24-block-integration .image-block-before .float-circles:before {
+        top: calc(26% - 50px);
+        left: calc(4% - 50px);
+        width: 99px;
+        height: 99px;
+    }
+
+    .bitrix24-block-analytics .image-block-before img {
+        max-width: 522px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .bitrix24-block-analytics .image-block-before .float-circles:before {
+        top: calc(96% - 30px);
+        left: calc(61% - 30px);
+    }
+
+    .bitrix24-block-analytics .image-block-before .float-circles:after {
+        left: calc(16% - 20px);
+        width: 40px;
+        height: 40px;
+    }
+
+    .bitrix24-block-analytics {
+        padding-bottom: 15px;
+    }
+
+    .bitrix24-block-analytics-price .widewrap {
+        padding-left: 100px;
+    }
+
+    .bitrix24-block-solutions .image-block-before {
+         margin-top: -60px 
+    }
+    .bitrix24-block-solutions .image-block-before img {
+        max-width: 587px;
+        width: 587px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .bitrix24-block-solutions .col-lg-7 {
+         padding-left:100px
+    }
+
+    .bitrix24-block-solutions .bitrix24-subblock-iteration {
+        -ms-flex-align: center!important;
+        align-items: center!important;
+        padding-top: 130px;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before img {
+        max-width: 525px;
+    }
+
+    .bitrix24-subblock-iteration .image-block-before .float-circles:before {
+        top: calc(72% - 30px);
+        left: calc(89% - 30px);
+    }
+
+    .bitrix24-subblock-iteration .image-block-before .float-circles:after {
+        top: calc(4% - 20px);
+        left: calc(28% - 20px);
+        width: 40px;
+        height: 40px;
+    }
+
+    .bitrix24-block-solutions .bitrix24-subblock-automatization {
+        -ms-flex-align: center!important;
+        align-items: center!important;
+        padding-top: 110px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before img {
+        max-width: 528px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before .float-circles:before {
+        top: calc(88% - 50px);
+        left: calc(81% - 50px);
+        width: 99px;
+        height: 99px;
+    }
+
+    .bitrix24-subblock-automatization .image-block-before .float-circles:after {
+        top: calc(6% - 20px);
+        left: calc(8% - 20px);
+        width: 51px;
+        height: 51px;
+    }
+
+
+    .bitrix24-block-solutions {
+        padding-bottom: 100px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 340px) {
+    .bitrix24-page .icoblock-single .heading-3 {
+        font-size: 20px;
+    }
+}
+.bitrix24-block-intro {
+    margin-top: 0;
+}

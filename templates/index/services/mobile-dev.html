@@ -1,0 +1,495 @@
+{% extends 'Template/index.html' %}
+{% load static %}
+
+{% block name-page %}mobile-page{% endblock %}
+{% block content %}
+    <section class="animate-block-first main-banner header-color-js hc_js_2">
+        <div class="widewrap">
+            <ul class="breadcrumbs" itemprop="https://schema.org/breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="{% url 'Index:index' %}" title="Главная" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Мобильная разработка</span>
+                    <meta itemprop="position" content="2" />
+                </li></ul>      <div class="row">
+            <div class="col-12 col-lg-9">
+                <h1 class="heading-1 tn_dl_02">Мобильная разработка          </h1>
+                <p class="text text-fs-18 tn_dl_04 tn_dr_05">Снимем с вас все заботы по дизайну, разработке и поддержке
+                    мобильных приложений</p>
+                <p class="subheading-price tn_dl_06 text-blue">от 300 000 ₽</p>
+                <ul class="list-dotted tn_dl_08">
+                    <li>Для iOS, Android и Windows</li>
+                    <li>От 1 месяца</li>
+                </ul>
+                <div class="banner-float-store">
+                    <span class="banner-image"></span>
+                </div>
+                <div class="button-case tn_dl_10 tn_dr_05"><a href="#" class="button-blue js-form-have-project">Заказать приложение</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="animate-block mobile-block mobile-block-forpeople header-color-js">
+        <div class="widewrap">
+            <div class="row align-items-start">
+                <div class="col-12 col-lg-6 image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/mobile-forpeople.png' %}">
+                    <div class="float-circles"></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="heading-2 heading-underline section-title-js">Создаем технологии для&nbsp;людей</h2>
+                    <ul class="list-dotted tn_dl_08">
+                        <li>Разрабатываем и поддерживаем мобильные приложения</li>
+                        <li>Автоматизируем и выводим бизнес в мобильную среду</li>
+                        <li>Выручаем из беды проекты, которым не повезло</li>
+                    </ul>
+                    <br>
+                    <p class="text text-lh-30 tn_dl_02">Штатная команда из 20 специалистов создаст проект и продумает стратегию
+                        его поэтапного развития: бизнес-аналитика, проектирование интерфейса, создание ТЗ, дизайн сайта и
+                        приложений, разработка, тестирование и поддержка. </p>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-schedule"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Создание анимационного дизайна</p>
+                        <p class="text">Рисуем дизайн с учетом тенденций UX/UI и создаем анимацию для максимально комфортного
+                            восприятия интерфейса</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-pouche"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Разработка серверной части</p>
+                        <p class="text">Создаем комплекс решений для оперативного взаимодействия баз данных и программного
+                            обеспечения</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-box"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Маркетинговая аналитика проекта</p>
+                        <p class="text">Пишем серверную логику, работаем с базами данных и большими объемами информации</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-crm"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Маркетиноговая аналитика проекта</p>
+                        <p class="text">Анализируем конкурентов и рынок, выявляем целевую аудиторию и продумываем стратегии
+                            продвижения
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_10">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-graph-smoth"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Вывод на&nbsp;рынок</p>
+                        <p class="text">Предлагаем маркетинг, позиционирование, анализ и выведение на рынок с продвижением по
+                            проверенным каналам </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_10">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-tehnology"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Поддержка мобильных приложений</p>
+                        <p class="text">Гарантируем экспертную и комплексную поддержку проектов на всех стадиях их развития
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block mobile-block mobile-block-advantages">
+    <div class="widewrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6">
+                <h2 class="heading-2 heading-underline section-title-js">Преимущества мобильных приложений</h2>
+                <p class="text text-lh-30 tn_dl_02">Увеличение доли рынка, улучшение сервиса и повышение лояльности, продажи,
+                    снижение расходов за счет внедрения инструментов самообслуживания, автоматизация и оптимизация процессов –
+                    эти и другие задачи бизнеса мы успешно решаем с помощью мобильных приложений.
+                </p>
+            </div>
+            <div class="col-12 col-lg-6 image-block-before">
+                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/mobile-kalibr.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 col-xl-4 image-header-text-block transform-y-55 tn_dl_04 tn_dr_05">
+                <div class="image-header-text-block-img"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/no-internet.png' %}"></div>
+                <div class="image-header-text-block-text">
+                    <p class="heading-4">Работа без&nbsp;интернета</p>
+                    <p class="text">Данные можно хранить автономно в приложении и работать без интернета</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4 image-header-text-block transform-y-55 tn_dl_04 tn_dr_05">
+                <div class="image-header-text-block-img"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/mobile.png' %}"></div>
+                <div class="image-header-text-block-text">
+                    <p class="heading-4">Мобильность</p>
+                    <p class="text">Ваши клиенты пользуются смартфонами. Мы реализуем лишь связь с вашими клиентами.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4 image-header-text-block transform-y-55 tn_dl_04 tn_dr_05">
+                <div class="image-header-text-block-img"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/payment.png' %}"></div>
+                <div class="image-header-text-block-text">
+                    <p class="heading-4">Оплата</p>
+                    <p class="text">При отсутствии карты или наличных всегда можно оплатить покупки через мобильное приложение в
+                        телефоне.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4 image-header-text-block transform-y-55 tn_dl_06 tn_dr_05">
+                <div class="image-header-text-block-img"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/push.png' %}"></div>
+                <div class="image-header-text-block-text">
+                    <p class="heading-4">Push - уведомления</p>
+                    <p class="text">Push-уведомления – самый простой способ быстрой и надежной связи с пользователями.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4 image-header-text-block transform-y-55 tn_dl_06 tn_dr_05">
+                <div class="image-header-text-block-img"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/viral-effect.png' %}"></div>
+                <div class="image-header-text-block-text">
+                    <p class="heading-4">Виральный эффект</p>
+                    <p class="text">Пользователь сам расскажет о вас друзьям и коллегам и будет размещать посты в социальных
+                        сетях. </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4 image-header-text-block transform-y-55 tn_dl_06 tn_dr_05">
+                <div class="image-header-text-block-img"><img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/gamepad.png' %}"></div>
+                <div class="image-header-text-block-text">
+                    <p class="heading-4">Игрофикация</p>
+                    <p class="text">Верный способ удержать и вовлечь пользователя и превратить конверсию в целевое действие.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block mobile-block mobile-block-technologies">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 heading-underline section-title-js">Наши технологии</h2>
+                <p class="text text-lh-30 text-fs-18 tn_dl_02">Мы разрабатываем нативные мобильные приложения на React Native
+                    – это удобно, экономично, быстро и универсально. Подбираем технологию под специфику каждого проекта.</p>
+            </div>
+            <div class="col-12 col-lg-6 mobile-block-technologies-subblock transform-y-55 tn_dl_04 tn_dr_05">
+                <p class="heading-4">Мобильные технологии</p>
+                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/technologies-mobile.png' %}">
+                <p class="text">IOS, Android</p>
+            </div>
+            <div class="col-12 col-lg-6 mobile-block-technologies-subblock transform-y-55 tn_dl_06 tn_dr_05">
+                <p class="heading-4">Технологии и фреймворки</p>
+                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/technologies-frameworks.png' %}">
+                <p class="text">Yii2, Symphony 2, jQuery, AngularJS, React JS, Backbone, NodeJS, Java, Swift, Python и др.
+                </p>
+            </div>
+            <div class="col-12 col-lg-6 mobile-block-technologies-subblock transform-y-55 tn_dl_08 tn_dr_05">
+                <p class="heading-4">Проектирование и дизайн</p>
+                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/technologies-design.png' %}">
+                <p class="text">Figma, XD, InVision, Photoshop, After Effects </p>
+            </div>
+            <div class="col-12 col-lg-6 mobile-block-technologies-subblock transform-y-55 tn_dl_10 tn_dr_05">
+                <p class="heading-4">Интеграции</p>
+                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/technologies-integration.png' %}">
+                <p class="text">1С, Dropbox, VK, Facebook, Instagram, Twitter, Odnoklassniki, Bitrix24 и др. </p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block mobile-block mobile-block-stages">
+    <div class="widewrap">
+        <div class="row block-image-right">
+            <div class="col-12 col-lg-6">
+                <h2 class="heading-2 heading-underline section-title-js">Этапы разработки</h2>
+                <p class="text text-lh-30 tn_dl_02">Каждый проект разрабатывается в несколько этапов: вы рассказываете о
+                    концепции приложения, а мы дополняем ее необходимыми элементами и согласовываем с вами. Это важно для того,
+                    чтобы убедиться: мы говорим на одном языке и одинаково представляем конечный результат. Мы не боимся
+                    внедрять новые технологии в проекте, если это позволит ему стать конкурентоспособным.
+                </p>
+            </div>
+            <div class="col-12 col-lg-6 image-block-before">
+                <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/testirovanie.png' %}">
+                <div class="float-circles"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 transform-y-55 tn_dl_06 tn_dr_05">
+                <div class="background-purple color-block">
+                    <p class="heading-4">Разбиваем проект на&nbsp;этапы</p>
+                    <p class="text text-lh-30">Есть стратегическое понимание, чем закончится проект. Заключаем договор и
+                        определяем цену за этап.</p>
+                    <span class="mobile-img-stages"></span>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_1"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Оценка проекта</p>
+                                <p class="text">Обсуждаем идею, подбираем технологии, платформы, пути реализации с учетом
+                                    стратегических и тактических задач клиента. Согласуем срок и бюджет разработки.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_2"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Прототипирование и&nbsp;дизайн</p>
+                                <p class="text">Подготавливаем прототипы приложения с визуальной спецификацией. Прорабатывается UI/UX,
+                                    создаются макеты главных и внутренних экранов, иконка и экран загрузки. Разрабатываем интерфейс по
+                                    гайдлайнам Apple, Google.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_3"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Верстка и&nbsp;программирование</p>
+                                <p class="text">Разрабатывается функциональная часть приложения на основе утвержденных дизайнов.
+                                    Заранее проектируется архитектура, рассчитанная на высокую нагрузку и отказоустойчивость. </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_4"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Тестирование</p>
+                                <p class="text">Приложение тестируется и проверяется на предмет соответствия ТЗ с установкой на
+                                    тестовые устройства. Проводятся тесты по чек-листам с устранением и исправлением проблем и ошибок.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                            <div class="icoblock-single-ico">
+                                <span class="number_ico_5"></span>
+                            </div>
+                            <div class="icoblock-single-text">
+                                <p class="heading-3">Релиз</p>
+                                <p class="text">После готовности протестированная версия приложения публикуется в магазинах AppStore и
+                                    Google Play. Процесс приемки занимает от суток до недели. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block mobile-block mobile-block-projects">
+    <div class="widewrap">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-2 section-title-js">Проекты</h2>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-projects-slider full-width-slider transform-y-55 tn_dl_04 tn_dr_05">
+        <div class="full-width-slider-single slider-smart-resident">
+            <div class="widewrap">
+                <p class="slider-up-header">Мобильное приложение</p>
+                <p class="heading-2">«Калибр»</p>
+                <p class="slider-sub-header">мобильное приложение мероприятий</p>
+                <ul class="list-dotted">
+                    <li>Удобный интерфейс</li>
+                    <li>Индивидуальный адаптивный дизайн</li>
+                    <li>Мультиязычность</li>
+                </ul>
+                <div class="projects-store">
+                    <a href="#"><img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/google-play.png' %}"></a>
+                    <a href="#"><img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/block-img/apple-store.png' %}"></a>
+                </div>
+                <div class="full-width-slider-more">
+                    <a href="" class="button-outline">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="animate-block mobile-block mobile-block-marketing">
+        <div class="widewrap">
+            <div class="row align-items-start block-image-right">
+                <div class="col-12 col-lg-6 image-block-before">
+                    <img alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/roket-planet.png' %}">
+                    <div class="float-circles"></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="heading-2 heading-underline section-title-js">Поддержка и&nbsp;продвижение</h2>
+                    <p class="text text-lh-30 tn_dl_02">После публикации работа над мобильным приложением не заканчивается, а
+                        только начинается. Со временем может потребоваться добавление новых функций, изменение существующих фич,
+                        исправление ошибок или уязвимостей. Все эти работы наша компания выполнит на любом этапе развития мобильного
+                        приложения. Возьмем на себя работу хелп-деска по обработке замечаний и отзывов пользователей приложения и
+                        выстроим квалифицированный диалог с ними. </p>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-schedule"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Поддержка по&nbsp;заявкам заказчика</p>
+                        <p class="text">Оперативно реагируем на заявки заказчиков, реализуя новые пожелания в приложении и отвечая
+                            на поступающие вопросы. Постоянное совершенствование и улучшение мобильного приложения – залог его успеха
+                            на фоне конкурентов.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_04">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-pouche"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Поддержка по&nbsp;отзывам в&nbsp;маркетах</p>
+                        <p class="text">Полноценный диалог с пользователями, их отзывами, советами и предложениями позволяет
+                            обнаружить пропущенные дефекты и скорректировать план развития продукта, а главное – показать, что мнение
+                            аудитории о сервисе действительно важно. </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-box"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Аналитика приложения</p>
+                        <p class="text">Проводим комплексный анализ мобильного приложения для отслеживания интересов пользователей,
+                            количества новых и активных клиентов и оценки их вовлеченности. Придумываем, как увеличить конверсию и
+                            популярность сервиса среди пользователей.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_06">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-box"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Продвижение приложения</p>
+                        <p class="text">Продумываем способы вывода мобильных приложений в ТОП App Store и Google Play и
+                            разрабатываем стратегию монетизации с обеспечением PR-поддержки по маркетинговым каналам (СМИ, SMM).</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-crm"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">План развития проекта</p>
+                        <p class="text">Составляем план-график выхода обновлений приложения, в которых будут учтены ошибки в
+                            использовании и внедрены новые функциональные возможности. Своевременные изменения продукта – залог
+                            достижения бизнесом поставленных задач.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 icoblock-single tn_dl_08">
+                    <div class="icoblock-single-ico">
+                        <span class="ico-box"></span>
+                    </div>
+                    <div class="icoblock-single-text">
+                        <p class="heading-3">Работа с&nbsp;репутацией</p>
+                        <p class="text">Контакт с аудиторией, клиентоориентированность, разработка обновлений с учетом пожеланий
+                            клиентов, постоянная работа с положительными и отрицательными отзывами – все это мы контролируем для
+                            поддержки хорошей репутации вашего мобильного приложения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block our-projects-block">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <h2 class="heading-2 heading-underline section-title-js">Наши клиенты</h2>
+                    <p class="w-100 text text-lh-30 tn_dl_02">Мы работаем с крупнейшими российскими и международными компаниями: страховыми компаниями, банками, ритейл, автомобильными брендами, государственными проектами, eСommerce, СМИ и другими.</p>
+                </div>
+                <div class="col-12 col-lg-7 row our-projects-slider transform-y-55 tn_dl_05 tn_dr_05">
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-vbrr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vbrr.svg' %}"> </div>
+                            <div class="our-project-logo-moskonditer"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/moskonditer.svg' %}"> </div>
+                            <div class="our-project-logo-gchpinfo"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/gchpinfo.svg' %}"> </div>
+                            <div class="our-project-logo-vseinstrumenti"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/vseinstrumenti.svg' %}"> </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-ruspetrol"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/ruspetrol.svg' %}"> </div>
+                            <div class="our-project-logo-osram"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/osram.svg' %}"> </div>
+                            <div class="our-project-logo-kalibr"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/kalibr.svg' %}"> </div>
+                            <div class="our-project-logo-peresvet"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/peresvet.svg' %}"> </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row">
+                            <div class="our-project-logo-clavel"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/clavel.svg' %}"> </div>
+                            <div class="our-project-logo-met"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/met.svg' %}"> </div>
+                            <div class="our-project-logo-mirdetstva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdetstva.svg' %}"> </div>
+                            <div class="our-project-logo-mirdereva"> <img loading="lazy" alt="" width="" height=""  src="{% static '/local/templates/inetsys/img/logos/mirdereva.svg' %}"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 button-case tn_dl_04 tn_dr_05"> <a class="button-blue button-small js-form-have-project" href="">Стать
+                    клиентом</a> </div>
+            </div>
+        </div>
+    </section>
+    <section class="animate-block footer-form">
+    <div class="wrap">
+        <div class="row align-items-start">
+            <div class="col-12 col-md-5 col-lg-4 col-xl-5 image-block-before footer-form-block-img"><img alt="" width="" height=""
+                                                                                                         src="{% static '/local/templates/inetsys/img/footer-form-mail.png' %}">
+            </div>
+            <div class="col-12 col-md-12 col-xl-7 footer-form-block-text">
+                <h3 class="w-100 heading-2 heading-underline text-white section-title-js">Есть проект?<br>Напишите нам</h3>
+
+
+
+                <form id="bottom-form" class="footer-have-project transform-y-55 tn_dr_05 tn_dl_04 base-form" name="SIMPLE_FORM_3" action="/form-get/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="hidden" name="form_hidden_16" id="form_hidden_16" value="https://www.inetsys.ru/mobile/">
+                    <input type="hidden" name="g_recaptcha_response" value="">
+                    <input type="hidden" name="WEB_FORM_ID" value="3">
+                    <input type="hidden" name="sessid" id="sessid_1" value="07471865df1bca654cb950bbffa5caa7" />
+                    <div class="input-wrap">
+                        <input name="form_text_5" id="form_text_5" type="text" class="input-text required" placeholder="Ваше имя">
+                        <label for="form_text_5">Ваше имя <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите ваше имя</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_6" id="form_text_6" type="text" class="input-text phone-validate required" placeholder="Телефон">
+                        <label for="form_text_6">Телефон <span class="red-star">*</span></label>
+                        <span class="input-alert">Укажите телефон</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_18" id="form_text_18" type="text" class="input-text" placeholder="Email">
+                        <label for="form_text_18">Email</label>
+                        <span class="input-alert">Укажите Email</span>
+                    </div>
+                    <div class="input-wrap">
+                        <input name="form_text_7" id="form_text_7" type="text" class="input-text required" placeholder="Сообщение">
+                        <label for="form_text_7">Сообщение <span class="red-star">*</span></label>
+                        <span class="input-alert">Напишите сообщение</span>
+                    </div>
+                    <p class="text-consent text-consent-checkbox"><input class="styled-checkbox required" type="checkbox" value="1" name="ch1" id="ch1">
+                        <label for="ch1"></label> <span> Я согласен с условиями обработки <a href="/privacy/"> персональных данных</a>
+              </span>
+                        <span class="input-alert input-alert-checkbox">Согласитесь с условиями</span>
+                    </p>
+                    <button type="submit" name="web_form_submit" class="simple-btn" value="Отправить">Отправить</button>
+                </form>            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
